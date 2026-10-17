@@ -1,0 +1,55 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import { FaFacebook, FaYoutube, FaInstagram} from 'react-icons/fa'
+
+const footer = () => {
+  return (
+    <footer className='max-w-6xl mx-auto'>
+        <div className='py-6 grid grid-cols-1 md:grid-cols-4 gap-5 px-6'>
+          <div className='max-w-100 col-span-1'>
+            <Link className='' href={'/'}>
+            {/* <Image className="w-40 h-18.75" width={140} height={70} src='/images/logos/logo.webp' alt="study in lithuania centre" /> */}
+            <h4 className="text-md lg:text-lg font-aino text-primary font-semibold">Finland Higher<br /> Education Center</h4>
+            </Link>
+            <p className='mt-3'>Study​‍​‌‍​‍‌ in Finland at low cost while obtaining a globally recognized education in Europe, Receive guidance from professionals for university admissions as well as student ​‍​‌‍​‍‌visa.</p>
+            <div className='flex gap-5 mt-3'>
+              <span className=''>Follow us on</span>
+              <ul className='flex gap-3'>
+                <li><Link href={'https://www.facebook.com/Indoeuropean.in'} target='_blank'><FaFacebook className="size-6 text-primary hover:scale-110 duration-300 ease-in-out" /></Link></li>
+                <li><Link href={'https://www.instagram.com/indo_european'} target='_blank'><FaInstagram className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
+                <li><Link href={'https://www.youtube.com/IEESIndoEuropean'} target='_blank'><FaYoutube className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-span-3 grid grid-cols-1 md:grid-cols-3 mt-5'>
+          <div className='lg:ms-16'>
+            <h3 className='font-aino text-base md:text-lg text-primary'>Home</h3>
+            <ul className='mt-3 space-y-3'>
+                <li className='text-md md:text-base hover:underline'><Link href={'/finland'}>Finland</Link></li>
+                <li className='text-md md:text-base hover:underline'><Link href={'/study'}>Study</Link></li>
+                <li className='text-md md:text-base hover:underline'><Link href={'/living'}>Living</Link></li>
+                <li className='text-md md:text-base hover:underline'><Link href={'/student-ambassadors'}>Student Ambassador</Link></li>
+            </ul>
+          </div>
+          <div className=''>
+            <h3 className='font-aino text-lg md:text-xl text-primary'>Resources</h3>
+           <ul className='mt-3 space-y-3'>
+            <li className='text-md md:text-base hover:underline'><Link href={'/blogs'}>Blogs</Link></li>
+            <li className='text-md md:text-base hover:underline'><Link href={'/gallery'}>Gallery</Link></li>
+            <li className='text-md md:text-base hover:underline'><Link href={'/faq'}>FAQ</Link></li>
+           </ul>
+          </div>
+          <div className=''>
+            <h3 className='font-aino text-lg md:text-xl text-primary'>Contact</h3>
+           <ul className='mt-3 space-y-3'>
+            <li className='text-md md:text-base hover:underline'><Link href={'/about'}>About Us</Link></li>
+            <li className='text-md md:text-base hover:underline'><Link href={'/contact'}>Contact Us</Link></li>
+           </ul>
+          </div>
+          </div>
+        </div>
+    </footer>
+  )
+}
+
+export default footer

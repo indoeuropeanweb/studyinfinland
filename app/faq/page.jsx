@@ -1,0 +1,283 @@
+import Breadcrumb from '../components/Breadcrumb';
+import FAQ from '../components/FAQ';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
+
+export const metadata = {
+  title: "Lithuania Study Consultants: Top FAQs for Indian Students",
+  description: "Looking for trusted Study in Lithuania Consultants? Find answers to admission, visa, scholarships, tuition fees, eligibility, and student life in Lithuania.",
+  keywords: [
+      "Study in Lithuania Consultants",
+      "Study in Lithuania Consultant India",
+      "Study in Lithuania FAQ",
+      "Study in Lithuania Admission",
+      "Lithuania Student Visa",
+      "Study in Lithuania for Indian Students",
+      "Lithuania Universities",
+      "Lithuania Scholarship",
+      "Study Abroad Consultants",
+      "Lithuania Education Consultants"
+  ],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/faq"
+  },
+    robots: {
+    index: true,
+    follow: true,
+  },
+   openGraph: {
+    type: "website",
+    title:
+      "Lithuania Study Consultants: Top FAQs for Indian Students",
+    description:
+      "Get answers to common questions about studying and living in Lithuania.",
+    url: "https://www.studyinlithuania.in/faq/",
+    siteName: "Study in Lithuania Centre",
+    images: [
+      {
+        url:
+          "https://www.studyinlithuania.in/images/logos/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Study in Lithuania FAQ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Lithuania Study Consultants: Top FAQs for Indian Students",
+    description:
+      "Get answers to common questions about studying and living in Lithuania.",
+    images: [
+      "https://www.studyinlithuania.in/images/logos/logo.png",
+    ],
+  },
+}
+
+const page = () => {
+
+const faqData = [
+  {
+    "id": 1,
+    "question": "1. Is Lithuania good for Indian students?",
+    "answer": "Yes, Lithuania is becoming a popular destination for Indian students because of its affordable education, globally recognized universities, safe environment, and English-taught programs."
+  },
+  {
+    "id": 2,
+    "question": "2. What is the cost of studying in Lithuania?",
+    "answer": "The cost of studying in Lithuania is relatively affordable compared to many other European countries. Tuition fees and living expenses depend on the university, city, and course."
+  },
+  {
+    "id": 3,
+    "question": "3. Can Indian students study in Lithuania?",
+    "answer": "Yes, Indian students can study in Lithuania by applying to recognized universities and obtaining a Lithuanian student visa."
+  },
+  {
+    "id": 4,
+    "question": "4. Is IELTS required for Lithuania?",
+    "answer": "Many universities in Lithuania accept IELTS scores, but some institutions may also accept other English proficiency proofs depending on the course requirements."
+  },
+  {
+    "id": 5,
+    "question": "5. What are the top universities in Lithuania?",
+    "answer": "Some popular universities in Lithuania include universities located in Vilnius and Kaunas that offer Indianly recognized degrees."
+  },
+  {
+    "id": 6,
+    "question": "6. Is Lithuania part of the Schengen Area?",
+    "answer": "Yes, Lithuania is a member of the Schengen Area, which allows students to travel across many European countries."
+  },
+  {
+    "id": 7,
+    "question": "7. Can students work while studying in Lithuania?",
+    "answer": "Indian students in Lithuania are generally allowed to work part-time during their studies according to visa regulations."
+  },
+  {
+    "id": 8,
+    "question": "8. What is the average living cost in Lithuania?",
+    "answer": "Living costs in Lithuania are considered budget-friendly for students and usually include accommodation, food, transport, and personal expenses."
+  },
+  {
+    "id": 9,
+    "question": "9. Are English-taught programs available in Lithuania?",
+    "answer": "Yes, many universities in Lithuania offer bachelor's and master's programs in English for Indian students."
+  },
+  {
+    "id": 10,
+    "question": "10. Is Lithuania safe for Indian students?",
+    "answer": "Lithuania is considered one of the safer European countries with a peaceful and student-friendly environment."
+  },
+  {
+    "id": 11,
+    "question": "11. How long does the Lithuania student visa process take?",
+    "answer": "The Lithuania student visa process may take several weeks depending on the application and document verification process."
+  },
+  {
+    "id": 12,
+    "question": "12. What are the admission requirements for Lithuanian universities?",
+    "answer": "Admission requirements usually include academic documents, passport, application form, English proficiency proof, and other university-specific requirements."
+  },
+  {
+    "id": 13,
+    "question": "13. Which courses are popular in Lithuania?",
+    "answer": "Business, IT, engineering, medicine, management, and data science are among the popular courses in Lithuania."
+  },
+  {
+    "id": 14,
+    "question": "14. Can students stay in Lithuania after graduation?",
+    "answer": "Many graduates explore job opportunities and post-study options in Lithuania and other European countries after completing their studies."
+  },
+  {
+    "id": 15,
+    "question": "15. Is Lithuania affordable compared to other European countries?",
+    "answer": "Yes, Lithuania is often considered more affordable than many Western European study destinations."
+  },
+  {
+    "id": 16,
+    "question": "16. What is the climate like in Lithuania?",
+    "answer": "Lithuania experiences four seasons with mild summers and cold winters."
+  },
+  {
+    "id": 17,
+    "question": "17. Is accommodation available for Indian students in Lithuania?",
+    "answer": "Yes, universities usually provide hostel facilities, and private accommodation options are also available."
+  },
+  {
+    "id": 18,
+    "question": "18. Do universities in Lithuania provide scholarships?",
+    "answer": "Some Lithuanian universities and government programs offer scholarships for Indian students based on eligibility."
+  },
+  {
+    "id": 19,
+    "question": "19. Why do students choose Lithuania for higher education?",
+    "answer": "Students choose Lithuania because of quality education, affordable costs, Indian exposure, and European career opportunities."
+  },
+  {
+    "id": 20,
+    "question": "20. Is Lithuania a good place to live for students?",
+    "answer": "Yes, Lithuania offers a peaceful lifestyle, modern facilities, clean surroundings, and a comfortable environment for students."
+  }
+]
+
+ const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.studyinlithuania.in/",
+        "name": "Study in Lithuania Centre",
+        "url": "https://www.studyinlithuania.in/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.studyinlithuania.in/images/logos/logo.png"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id":
+          "https://www.studyinlithuania.in/",
+        "url":
+          "https://www.studyinlithuania.in/faq/",
+        "name":
+          "Frequently Asked Questions About Studying in Lithuania",
+        "description":
+          "Answers to common questions about studying and living in Lithuania."
+      },
+      {
+        "@type": "FAQPage",
+        "@id":
+          "https://www.studyinlithuania.in/faq/",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name":
+              "Why should I study in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Lithuania offers affordable European education and internationally recognized degrees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Can Indian students study in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, Indian students can apply to Lithuanian universities for English-taught programs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Do I need a student visa to study in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, non-EU students need a student visa or temporary residence permit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Can students work while studying in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, international students are generally allowed to work during studies."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id":
+          "https://www.studyinlithuania.in/faq/",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item":
+              "https://www.studyinlithuania.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "FAQ",
+            "item":
+              "https://www.studyinlithuania.in/faq/"
+          }
+        ]
+      }
+    ]
+  };
+
+  return (
+    <>
+         <Breadcrumb heading={'Frequently Asked Questions About Studying in Lithuania'}/>
+         <div className='max-w-6xl mx-auto'>
+            <div className='px-5 py-10'>
+              <h2 className="text-2xl lg:text-3xl font-aino mb-2">Frequently Asked Questions</h2>
+              <p className="text-roboto text-md lg:text-base mb-8">Find answers to frequently asked questions about studying abroad, including university admissions, course selection, eligibility requirements, tuition fees, scholarships, student visas, IELTS and other English proficiency tests, accommodation, and part-time work opportunities. Explore expert guidance to help you plan your international education journey with confidence.</p>
+               {faqData?.map((faq, index) => {
+                return <FAQ panelNo={faq.id} key={index} question={faq.question} answer={faq.answer}/>
+               })}
+            </div>
+            <div className="flex justify-end items-end mt-5">
+               <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read about us<FaArrowRightLong className="inline-block"/></Link>
+            </div>
+         </div>
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
+    </>
+  )
+}
+
+export default page
