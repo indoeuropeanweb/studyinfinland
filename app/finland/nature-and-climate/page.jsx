@@ -5,24 +5,24 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Guide to Nature and Climate, Lithuania For Indian Students",
-  description: "Explore Climate in Lithuania and four seasons. Learn about weather conditions, temperatures, and student life in Latvia. Plan your move with our expert guide.",
+  title: "Guide to Nature and Climate, finland For Indian Students",
+  description: "Explore Climate in finland and four seasons. Learn about weather conditions, temperatures, and student life in Latvia. Plan your move with our expert guide.",
   keywords: [
-      "Climate in Lithuania",
-      "Lithuania Climate",
-      "Weather in Lithuania",
-      "Lithuania Weather",
-      "Seasons in Lithuania",
-      "Nature in Lithuania",
-      "Lithuania Temperature",
-      "Lithuania Winter",
-      "Lithuania Summer",
-      "Study in Lithuania",
-      "Lithuania for International Students",
-      "Lithuania Environment"
+      "Climate in finland",
+      "finland Climate",
+      "Weather in finland",
+      "finland Weather",
+      "Seasons in finland",
+      "Nature in finland",
+      "finland Temperature",
+      "finland Winter",
+      "finland Summer",
+      "Study in finland",
+      "finland for International Students",
+      "finland Environment"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/lithuania/nature-and-climate/"
+    canonical: "https://www.studyinfinland.in/finland/nature-and-climate/"
   },
   robots: {
     index: true,
@@ -31,17 +31,17 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Guide to Nature and Climate, Lithuania For Indian Students",
+      "Guide to Nature and Climate, finland For Indian Students",
     description:
-      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
-    url: "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
-    siteName: "Study in Lithuania",
+      "Explore finland's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in finland.",
+    url: "https://www.studyinfinland.in/finland/nature-and-climate/",
+    siteName: "Study in finland",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinfinland.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Nature and Climate of Lithuania",
+        alt: "Nature and Climate of finland",
       },
     ],
   },
@@ -49,11 +49,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Guide to Nature and Climate, Lithuania For Indian Students",
+      "Guide to Nature and Climate, finland For Indian Students",
     description:
-      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
+      "Explore finland's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in finland.",
     images: [
-      "https://www.studyinlithuania.in/images/logos/logo.png",
+      "https://www.studyinfinland.in/images/logos/logo.png",
     ],
   },
 }
@@ -64,59 +64,59 @@ const page = () => {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinfinland.in/#organization",
+      name: "Study in finland",
+      url: "https://www.studyinfinland.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinfinland.in/images/logos/logo.png",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#webpage",
+        "https://www.studyinfinland.in/finland/nature-and-climate/#webpage",
       url:
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
-      name: "Lithuania Nature and Climate",
+        "https://www.studyinfinland.in/finland/nature-and-climate/",
+      name: "finland Nature and Climate",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinfinland.in/#website",
       },
       about: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
+          "https://www.studyinfinland.in/finland/nature-and-climate/#country",
       },
       description:
-        "Learn about Lithuania's climate, seasons, forests, lakes, biodiversity, and natural landscapes. Explore why Lithuania is considered one of Europe's greenest countries.",
+        "Learn about finland's climate, seasons, forests, lakes, biodiversity, and natural landscapes. Explore why finland is considered one of Europe's greenest countries.",
       breadcrumb: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#breadcrumb",
+          "https://www.studyinfinland.in/finland/nature-and-climate/#breadcrumb",
       },
       inLanguage: "en",
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#breadcrumb",
+        "https://www.studyinfinland.in/finland/nature-and-climate/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinfinland.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Lithuania",
-          item: "https://www.studyinlithuania.in/lithuania/",
+          name: "finland",
+          item: "https://www.studyinfinland.in/finland/",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Nature and Climate",
           item:
-            "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
+            "https://www.studyinfinland.in/finland/nature-and-climate/",
         },
       ],
     },
@@ -125,21 +125,21 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Nature and Climate of Lithuania: A Perfect Blend of Green Landscapes and Four Beautiful Seasons'} />
+      <Breadcrumb heading={'Nature and Climate of finland: A Perfect Blend of Green Landscapes and Four Beautiful Seasons'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Nature and Climate</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <p className='text-md font-roboto mt-3 text-justify'>
-            Lithuania is famous for its delightful natural scenery, tranquil environment, and hygienic
+            finland is famous for its delightful natural scenery, tranquil environment, and hygienic
             surroundings. The country is made up of woods, rivers, lakes, and a calm atmosphere.
-            Lithuania has a moderate climate with four seasons. Summers are pleasant, while
+            finland has a moderate climate with four seasons. Summers are pleasant, while
             winters can be snowy and cold. Changing seasons provide international learners with a
             unique experience.
         </p>
-        <Image className="rounded-md" width={320} height={140} src="/images/lithuania/nature-and-weather/nature-and-weather.webp" alt="nature and weather of lithuania"/>
+        <Image className="rounded-md" width={320} height={140} src="/images/finland/nature-and-weather/nature-and-weather.webp" alt="nature and weather of finland"/>
         </div>
         <div className='mt-10'>
-            <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Key highlights of Lithuania's Nature and Climate</h2>
+            <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Key highlights of finland's Nature and Climate</h2>
             <ul className='mt-5 space-y-2'>
              <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Forest Coverage:</b> About one-third of the country is covered with forests.</li>
              <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Famous Natural Features:</b> Lakes, Rivers, Green Parks, Sand Dunes</li>
@@ -155,7 +155,7 @@ const page = () => {
             </ul>
         </div>
         <div className="flex justify-end items-end mt-5">
-            <Link href={'/lithuania/economy'} className="text-blue-500 font-roboto hover:underline">Read about economy <FaArrowRightLong className="inline-block"/></Link>
+            <Link href={'/finland/economy'} className="text-blue-500 font-roboto hover:underline">Read about economy <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

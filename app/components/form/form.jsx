@@ -14,7 +14,7 @@ const Form = () => {
     highestQualification:"",
     CallBackTime:"",
     CourseLevel:"",
-    destination:111
+    destination: 62
   }
 
 const [user, setUser] = useState(initialForm);

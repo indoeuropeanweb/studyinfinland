@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowRightLong, FaRankingStar, FaArrowsUpToLine } from "react-icons/fa6";
+import { FaArrowRightLong, FaRankingStar } from "react-icons/fa6";
 import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 import { TbCircleDashedLetterL } from "react-icons/tb";
 import { BsBank } from "react-icons/bs";
@@ -13,17 +13,18 @@ import { blogs } from "@/public/data/blogs";
 const HomeClient = () => {
 
   const backgroundHero = {
-   backgroundImage: "url('/images/home/hero-girl.webp')",
-   backgroundSize: "cover",
-   backgroundPosition: "center",
-   backgroundRepeat: "no-repeat"
-}
+    backgroundImage: "url('/images/home/hero-girl.webp')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat"
+  }
+
   const contactFormBanner = {
-   backgroundImage: "url('/images/home/contact-form-banner.webp')",
-   backgroundSize: "cover",
-   backgroundPosition: "center",
-   backgroundRepeat: "no-repeat"
-}
+    backgroundImage: "url('/images/home/contact-form-banner.webp')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat"
+  }
 
   return (
     <div className='min-h-screen bg-zinc-50 font-sans'>
@@ -34,7 +35,7 @@ const HomeClient = () => {
         <div className="mx-5 min-h-120 xl:min-h-160 flex items-center">
         <div className="max-w-md md:max-w-xl">
         <h1 className="font-aino text-2xl md:text-4xl text-white leading-14">
-            Study in Finland for Quality Education, Growth, and Global Career Opportunities
+            Study in Finland for Quality Education, Innovation, and Global Career Opportunities
         </h1>
         </div>
         </div>
@@ -54,19 +55,15 @@ const HomeClient = () => {
       <h4 className="font-aino text-xl md:text-2xl mb-4">What is...</h4>
       <h2 className="font-aino text-2xl md:text-4xl mb-4">Study in Finland?</h2>
       <p className="text-lg md:text-xl mb-6">
-       Study in Finland offers international students the opportunity to pursue high-quality European
-        education in a country recognised for innovation, academic excellence, and student-focused
-        learning.
+        Studying in Finland offers international students the opportunity to earn internationally
+        recognised European degrees in a modern, innovative, and student-friendly environment.
+        Finnish universities provide high-quality education, English-taught programmes, and practical
+        learning across various academic disciplines.
         <br />
         <br />
-       Finland is home to internationally recognised universities and universities of applied sciences
-       offering Bachelor's, Master's, and Doctoral programmes across various academic disciplines.
-       <br />
-       <br />
-       Students can explore English-taught programmes in Business Management, Information Technology, Engineering, Healthcare, Artificial Intelligence, Design, and other fields.
-       <br />
-       <br />
-       With modern educational facilities, research opportunities, and practical learning approaches, Finland provides an excellent environment for students seeking academic development and international exposure.
+        Finland is a popular destination for students seeking academic excellence, research
+        opportunities, and international exposure. With modern universities, multicultural campuses, and
+        a strong focus on innovation, students can develop valuable skills for their future careers.
      </p>
      <div className="flex justify-end items-end">
      <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read About Us <FaArrowRightLong className="inline-block"/></Link>
@@ -83,7 +80,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/bachelors.webp'} alt="bachelors in finland" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Bachelor's</h4>
-               <p className="text-white text-sm md:text-md text-center">Pursue internationally recognised Bachelor's programmes designed to develop academic knowledge, professional skills, and practical experience. Finnish universities and universities of applied sciences offer a variety of English-taught undergraduate programmes.</p>
+               <p className="text-white text-sm md:text-md text-center">Bachelor's programmes in Finland offer internationally recognised qualifications, practical learning, and strong academic foundations for future career opportunities.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/bachelors'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -94,7 +91,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.webp'} alt="bachelors in finland" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-primary text-lg md:text-2xl font-aino">Master's</h4>
-               <p className="text-primary text-sm md:text-md text-center">Advance your education through specialised Master's programmes in Business, Technology, Engineering, Healthcare, and other disciplines. Finnish postgraduate education combines advanced academic knowledge with research and practical learning opportunities.</p>
+               <p className="text-primary text-sm md:text-md text-center">Gain specialised knowledge through advanced postgraduate programmes focused on research, innovation, and professional development.</p>
                <Link className="text-white bg-primary px-6 py-2 rounded-full border border-primary text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/masters'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -105,7 +102,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/doctoral.webp'} alt="bachelors in finland" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">PhD</h4>
-               <p className="text-white text-sm md:text-md text-center">Explore doctoral research opportunities at Finnish universities. PhD programmes provide opportunities to contribute to academic research, work with experienced supervisors, and develop expertise in specialised fields.</p>
+               <p className="text-white text-sm md:text-md text-center">Explore doctoral research opportunities at Finnish universities with expert supervision, advanced research facilities, and academic development.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/phd'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -116,7 +113,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.webp'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-primary text-lg md:text-2xl font-aino">All Programmes</h4>
-               <p className="text-primary text-sm md:text-md text-center">Discover a wide range of English-taught degree programmes offered by Finnish higher education institutions. Choose a programme that matches your academic qualifications, interests, and future career goals.</p>
+               <p className="text-primary text-sm md:text-md text-center">Discover English-taught degree programmes in Business, Engineering, IT, Healthcare, and other fields aligned with your career goals.</p>
                <Link className="text-white bg-primary px-6 py-2 rounded-full border border-primary text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/programmes'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
@@ -128,14 +125,8 @@ const HomeClient = () => {
     </section>
     <section className="max-w-6xl mx-auto">
       <div className="py-12 px-4 flex flex-col justify-center items-center gap-6">
-        <h2 className="font-aino text-2xl md:text-4xl">Application deadlines are approaching</h2>
-        <p className="font-roboto text-lg md:text-base">Planning to study in Finland? Explore upcoming university intakes, admission requirements, and
-          application deadlines.
-          <br />
-          <br />
-          Admission periods may vary depending on the university, degree programme, and application
-          route.
-        </p>
+        <h2 className="font-aino text-2xl md:text-4xl">Application Deadlines Are Approaching</h2>
+        <p className="font-roboto text-lg md:text-base">Explore upcoming admission intakes and apply for Bachelor's, Master's, or Doctoral programmes at Finnish universities.</p>
       <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full flex justify-center items-center" href={'/contact'}>Contact Us &nbsp;<FaArrowRightLong className="size-5 inline-block"/></Link>
       </div>
     </section>
@@ -143,7 +134,7 @@ const HomeClient = () => {
         <div className="relative">
           <Image className="h-auto w-full max-h-200" width={1080} height={600} src="/images/home/why-lithuania.webp" alt="Study in Lithuania" />
           <div className="absolute z-2 bottom-0 w-full h-full bg-linear-to-t from-primary via-primary to-primary/10" />
-          <h2 className="absolute top-12 left-1/2 -translate-x-1/2 z-3 text-2xl md:text-4xl font-aino">why Lithuania?</h2>
+          <h2 className="absolute top-12 left-1/2 -translate-x-1/2 z-3 text-2xl md:text-4xl font-aino">why Finland?</h2>
           <div className="relative z-3 max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-5 px-8">
               <div className="mx-auto">
@@ -151,12 +142,12 @@ const HomeClient = () => {
               </div>
               <div className="mb-5">
                  <ul className="pr-5">
-                  <li className="flex items-center gap-1 text-white my-10"><TbCircleDashedLetterL className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Finland is recognised for its student-centred education system, innovative teaching methods, and strong academic standards.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><BsBank className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Finnish higher education institutions offer respected qualifications and opportunities for international academic and professional development.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><SiEuropeanunion className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">International students can choose from numerous English-taught Bachelor's and Master's programmes across different academic fields.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><AiFillSafetyCertificate className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Finland provides opportunities to explore advanced technologies, scientific research, entrepreneurship, and innovation-focused education.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><TbCircleDashedLetterL className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">High-quality education with internationally recognised degrees.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><BsBank className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">English-taught programmes across multiple disciplines.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><SiEuropeanunion className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Modern universities focus on research and innovation.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><AiFillSafetyCertificate className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Safe, welcoming, and student-friendly environment.</p></li>
                   <li className="flex items-center gap-1 text-white my-10"><FaRankingStar className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Finland offers a modern, welcoming, and multicultural environment for international students.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><FaArrowsUpToLine className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Students can explore internships, professional networking, and employment opportunities, subject to applicable regulations and labour market conditions.</p></li>
+                  {/* <li className="flex items-center gap-1 text-white my-10"><FaArrowsUpToLine className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Opportunities for career development and international exposure.</p></li> */}
                  </ul>
               </div>
             </div>
@@ -172,7 +163,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/scholarships.webp'} alt="scholarships in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Scholarships</h4>
-               <p className="text-white text-sm md:text-md text-center">Scholarships in Lithuania help international students reduce tuition fees and study expenses based on academic performance and eligibility criteria.</p>
+               <p className="text-white text-sm md:text-md text-center">Finnish universities offer partial or full tuition fee scholarships to eligible international students. Scholarships depend on academic merit, programme requirements, and university policies.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/scholarships'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -183,7 +174,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/admission.webp'} alt="admission in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-primary text-lg md:text-2xl font-aino">Admission</h4>
-               <p className="text-primary text-sm md:text-md text-center">Admission in Lithuania universities is simple, requiring academic documents, English proficiency proof, and timely application submission before deadlines.</p>
+               <p className="text-primary text-sm md:text-md text-center">Admission requirements in Finland vary by university and programme. Students generally need academic transcripts, proof of English proficiency, identification documents, and other supporting documents.</p>
                <Link className="text-white bg-primary px-6 py-2 rounded-full border border-primary text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/admission'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -194,7 +185,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/working.webp'} alt="working in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Working</h4>
-               <p className="text-white text-sm md:text-md text-center">There is Work Opportunity for Students in Lithuania, Students can work part-time during studies, gaining practical experience and supporting their living costs effectively.</p>
+               <p className="text-white text-sm md:text-md text-center">International students with a Finnish study residence permit can generally work an average of 30 hours per week. Part-time employment offers opportunities to gain professional experience and develop practical skills.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/living/working'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -205,7 +196,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/visa-and-residence-permit.webp'} alt="visa and residence permit in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-primary text-lg md:text-2xl font-aino text-center">Visa and Residence Permit</h4>
-               <p className="text-primary text-sm md:text-md text-center">A <Link className="hover:underline" href="/living/visa-and-residence-permit">student visa and residence permit</Link> are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p>
+               <p className="text-primary text-sm md:text-md text-center">A Non-EU/EEA students studying in Finland for over 90 days generally need a residence permit. Applicants must provide proof of admission, sufficient financial resources, valid insurance, and supporting documents.</p>
                <Link className="text-white bg-primary px-6 py-2 rounded-full border border-primary text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/living/visa-and-residence-permit'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>

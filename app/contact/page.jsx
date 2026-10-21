@@ -187,9 +187,9 @@ const page = () => {
                 <div className='mt-5'>
                 <h4 className='text-lg font-inter font-semibold text-primary'>Follow us on :-</h4>
                 <ul className='flex mt-2 gap-3 items-center'>
-                  <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-tertiary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.facebook.com/Indoeuropean.in" target="_blank"><FaFacebook className='size-5 inline-block'/></Link></li>
-                  <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-tertiary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.instagram.com/indo_european" target="_blank"><FaInstagram  className='size-5 inline-block'/></Link></li>
-                  <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-tertiary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.youtube.com/IEESIndoEuropean" target="_blank"><FaYoutube  className='size-5 inline-block'/></Link></li>
+                  <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-primary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.facebook.com/Indoeuropean.in" target="_blank"><FaFacebook className='size-5 inline-block'/></Link></li>
+                  <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-primary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.instagram.com/indo_european" target="_blank"><FaInstagram  className='size-5 inline-block'/></Link></li>
+                  <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-primary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.youtube.com/IEESIndoEuropean" target="_blank"><FaYoutube  className='size-5 inline-block'/></Link></li>
                 </ul>
                 </div>
                 </div>

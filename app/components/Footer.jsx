@@ -11,7 +11,7 @@ const footer = () => {
             {/* <Image className="w-40 h-18.75" width={140} height={70} src='/images/logos/logo.webp' alt="study in lithuania centre" /> */}
             <h4 className="text-md lg:text-lg font-aino text-primary font-semibold">Finland Higher<br /> Education Center</h4>
             </Link>
-            <p className='mt-3'>Study​‍​‌‍​‍‌ in Finland at low cost while obtaining a globally recognized education in Europe, Receive guidance from professionals for university admissions as well as student ​‍​‌‍​‍‌visa.</p>
+            <p className='mt-3'>With 20+ years of experience in study abroad consultancy, we offer online and offline counselling, IELTS coaching, and admission assistance to students planning their European education journey.</p>
             <div className='flex gap-5 mt-3'>
               <span className=''>Follow us on</span>
               <ul className='flex gap-3'>

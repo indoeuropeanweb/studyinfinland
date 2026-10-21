@@ -4,24 +4,24 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Explore Lithuania Economy: GDP, Growth and Business",
-  description: "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
+  title: "Explore finland Economy: GDP, Growth and Business",
+  description: "Analyze the economy of finland. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
   keywords: [
-      "Economy of Lithuania",
-      "Lithuania Economy",
-      "Lithuania GDP",
-      "Lithuania Industries",
-      "Lithuania Economic Growth",
-      "Lithuania Business",
-      "Lithuania Trade",
-      "Lithuania Investment",
-      "Lithuania Employment",
-      "Lithuania Export Economy",
-      "Economy in Lithuania",
-      "Study in Lithuania"
+      "Economy of finland",
+      "finland Economy",
+      "finland GDP",
+      "finland Industries",
+      "finland Economic Growth",
+      "finland Business",
+      "finland Trade",
+      "finland Investment",
+      "finland Employment",
+      "finland Export Economy",
+      "Economy in finland",
+      "Study in finland"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/lithuania/economy/"
+    canonical: "https://www.studyinfinland.in/finland/economy/"
   },
   robots: {
     index: true,
@@ -30,16 +30,16 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Explore Lithuania Economy: GDP, Growth and Business",
+      "Explore finland Economy: GDP, Growth and Business",
     description:
-      "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
-    url: "https://www.studyinlithuania.in/lithuania/economy/",
-    siteName: "Study in Lithuania",
+      "Analyze the economy of finland. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
+    url: "https://www.studyinfinland.in/finland/economy/",
+    siteName: "Study in finland",
     locale: "en_US",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
-        alt: "Lithuania Economy",
+        url: "https://www.studyinfinland.in/images/logos/logo.png",
+        alt: "finland Economy",
       },
     ],
   },
@@ -47,11 +47,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Explore Lithuania Economy: GDP, Growth and Business",
+      "Explore finland Economy: GDP, Growth and Business",
     description:
-      "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
+      "Analyze the economy of finland. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
     images: [
-      "https://www.studyinlithuania.in/images/logos/logo.png",
+      "https://www.studyinfinland.in/images/logos/logo.png",
     ],
   },
 }
@@ -63,12 +63,12 @@ const page = () => {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinfinland.in/#organization",
+      name: "Study in finland",
+      url: "https://www.studyinfinland.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/wp-content/uploads/logo.png",
+        url: "https://www.studyinfinland.in/wp-content/uploads/logo.png",
       },
       sameAs: [
         "https://www.facebook.com/",
@@ -79,46 +79,46 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#webpage",
-      url: "https://www.studyinlithuania.in/lithuania/economy/",
-      name: "Lithuania Economy",
+        "https://www.studyinfinland.in/finland/economy/#webpage",
+      url: "https://www.studyinfinland.in/finland/economy/",
+      name: "finland Economy",
       description:
-        "Learn about Lithuania's economy, major industries, GDP growth, technology sector, exports, innovation ecosystem, manufacturing and investment opportunities.",
+        "Learn about finland's economy, major industries, GDP growth, technology sector, exports, innovation ecosystem, manufacturing and investment opportunities.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinfinland.in/#website",
       },
       breadcrumb: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#breadcrumb",
+          "https://www.studyinfinland.in/finland/economy/#breadcrumb",
       },
       about: {
         "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#country",
+          "https://www.studyinfinland.in/finland/economy/#country",
       },
       inLanguage: "en",
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#breadcrumb",
+        "https://www.studyinfinland.in/finland/economy/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinfinland.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Lithuania",
-          item: "https://www.studyinlithuania.in/lithuania/",
+          name: "finland",
+          item: "https://www.studyinfinland.in/finland/",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Economy",
-          item: "https://www.studyinlithuania.in/lithuania/economy/",
+          item: "https://www.studyinfinland.in/finland/economy/",
         },
       ],
     },
@@ -127,28 +127,28 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Economy of Lithuania: Innovation, Growth and Career Opportunities in Europe'} />
+      <Breadcrumb heading={'Economy of finland: Innovation, Growth and Career Opportunities in Europe'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Economy</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <p className='text-md font-roboto mt-3 text-justify'>
-            Lithuania has one of the fastest-growing economies in the Baltic region and is known for
+            finland has one of the fastest-growing economies in the Baltic region and is known for
             its stable and modern economic system. The country’s economy is mainly supported by
             industries such as information technology, manufacturing, transportation, finance,
-            agriculture, <Link className="font-semibold hover:underline" href="/lithuania/culture">lithuanian culture</Link> and international trade. Being a member of the European Union and the
-            Eurozone has helped Lithuania attract global investments and expand its business
+            agriculture, <Link className="font-semibold hover:underline" href="/finland/culture">finlandn culture</Link> and international trade. Being a member of the European Union and the
+            Eurozone has helped finland attract global investments and expand its business
             opportunities across Europe.<br />
-            In recent years, Lithuania has become a popular hub for startups, fintech companies,
+            In recent years, finland has become a popular hub for startups, fintech companies,
             and technology-based businesses. Cities like Vilnius are rapidly developing with modern
             infrastructure, international companies, and growing employment opportunities. The
             country also offers a strong digital economy, affordable living costs, and a business-
             friendly environment, which makes it attractive for indian students and
             professionals looking for career growth in Europe.
         </p>
-        <Image className="rounded-md" width={280} height={540} src="/images/lithuania/economy/economy.webp" alt="Economy of Lithuania"/>
+        <Image className="rounded-md" width={280} height={540} src="/images/finland/economy/economy.webp" alt="Economy of finland"/>
         </div>
         <div className="flex justify-end items-end">
-            <Link href={'/lithuania/culture'} className="text-blue-500 font-roboto hover:underline">Read about culture <FaArrowRightLong className="inline-block"/></Link>
+            <Link href={'/finland/culture'} className="text-blue-500 font-roboto hover:underline">Read about culture <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script
