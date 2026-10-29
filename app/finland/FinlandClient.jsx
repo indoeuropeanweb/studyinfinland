@@ -47,7 +47,7 @@ const LithuaniaClient = () => {
                            to develop communication skills, experience different cultures, and build valuable
                            international connections.</li>
                       </ul>
-                   <Image className="h-auto w-auto rounded-md" src="/images/lithuania/study-in-lithuania.webp" width={480} height={250} alt="study abroad lithuania" />
+                   <Image className="h-auto w-auto rounded-md" src="/images/finland/study-in-finland.webp" width={480} height={250} alt="study abroad lithuania" />
                  </div>
                  <div className=''>
                   <ul className='mt-3 space-y-3'>
