@@ -115,42 +115,52 @@ const page = () => {
     <div className=''>
       <Breadcrumb heading={'Lifestyle and Character of finland: Where Tradition Meets Modern European Living'} />
       <div className='px-5 py-5'>
-        <h2 className='text-2xl md:text-4xl font-aino'>The Way of Life in finland</h2>
+        <h2 className='text-2xl md:text-4xl font-aino'>Lifestyle and Character of Finland</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <p className='text-md font-roboto mt-3 text-justify'>
-         finland is a country where traditional values and modern European living come together naturally. Life here is peaceful, organized, and closely connected to nature. From beautiful forests and historic towns to modern cities and digital innovation, finland offers a lifestyle that feels both calm and progressive at the same time. People value education, personal space, hard work, and a balanced routine, which creates a comfortable environment for international students.
-         <br />finlandns are known for being practical, disciplined, and thoughtful in their daily lives. The country has preserved its cultural roots and traditions for generations while also adapting to modern technology and global trends. This unique combination of history, simplicity, innovation, and strong community values makes finland an attractive place to live, study, and experience European culture.
+         Finland is a beautiful Nordic country known for its peaceful lifestyle, breathtaking natural landscapes, modern cities and rich cultural traditions. Finnish people value honesty, equality, independence and personal space. The country offers a unique combination of modern living and a strong connection with nature, making it an attractive destination for international students.
+         <br />
+         For those exploring opportunities to study in Finland as Indian students, understanding the local lifestyle and culture can help make the transition to a new country easier and more enjoyable.
         </p>
-        <Image className="rounded-md" width={540} height={320} src="/images/finland/lifestyle/lifestyle.webp" alt="Lifestyle of finland"/>
+        <Image className="rounded-md" width={360} height={200} src="/images/finland/lifestyle/lifestyle.webp" alt="Lifestyle of finland"/>
+        </div>
+        <div className="mt-10">
+           <h2 className='text-xl md:text-2xl font-roboto font-semibold text-gray-500'>Finnish Lifestyle and Culture</h2>
+           <p className='text-md lg:text-base font-roboto mt-2'>The Finnish way of life focuses on simplicity, balance and wellbeing. People enjoy spending time outdoors, relaxing with family and appreciating nature. Finland is famous for its thousands of lakes, beautiful forests and peaceful surroundings.</p>
+           <p className='text-md lg:text-base font-roboto mt-2'>Finnish people are generally friendly, honest and respectful, although they may appear reserved initially. Punctuality, privacy and equality are important parts of everyday life. The traditional Finnish sauna is also an essential part of the country's culture, offering relaxation and an opportunity to connect with others.</p>
         </div>
         <div className='mt-10'>
-            <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Distinct Features of finlandn Lifestyle and Character page </h2>
-             <ul className='mt-6 space-y-3'>
-                <li className='space-y-2'>
-                    <h4 className='text-lg md:text-xl font-roboto'>Deep Connection with Nature</h4>
-                    <p className='text-md text-justify font-inter'>finland’s forests, lakes, parks, and open spaces are an important part of life. People like to spend time in the open air and to live in a clean and peaceful environment. </p>
+            <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Festivals and Traditions in Finland</h2>
+            <p className='text-md lg:text-base font-roboto mt-4'>Finland celebrates several traditional festivals that reflect its cultural heritage and connection with nature.</p>
+             <ul className='mt-2 space-y-3'>
+                <li className='text-md lg:text-base font-roboto'>
+                      <strong>Midsummer (Juhannus):</strong> A popular summer celebration featuring lakeside gatherings, bonfires and traditional saunas.
                 </li>
-                <li className='space-y-2'>
-                    <h4 className='text-lg md:text-xl font-roboto'>Strong Cultural Identity</h4>
-                    <p className='text-md text-justify font-inter'>The finlandns are proud of <Link className="font-semibold hover:underline" href="/finland/language">East-Baltic language</Link>, traditions, music, and historical heritage, which can still be found in modern society today. </p>
+                <li className='text-md lg:text-base font-roboto'>
+                  <strong>Vappu (May Day):</strong> A lively celebration particularly popular among university students, featuring picnics and cultural activities.
                 </li>
-                <li className='space-y-2'>
-                    <h4 className='text-lg md:text-xl font-roboto'>Modern Yet Peaceful Living</h4>
-                    <p className='text-md text-justify font-inter'>The country has modern infrastructure, digital development, and comfortable city life but without the hustle and bustle of many larger European countries.  </p>
+                <li className='text-md lg:text-base font-roboto'>
+                  <strong>Independence Day:</strong> Celebrated on 6 December with national ceremonies and traditional events.
                 </li>
-                <li className='space-y-2'>
-                    <h4 className='text-lg md:text-xl font-roboto'>Respectful and Reserved Nature</h4>
-                    <p className='text-md text-justify font-inter'>finlandns are very polite, well-behaved, and respectful of your personal space. Relationships are often real and long-lasting, but friendships can take time to develop. </p>
-                </li>
-                <li className='space-y-2'>
-                    <h4 className='text-lg md:text-xl font-roboto'>Focus on Education and Growth</h4>
-                    <p className='text-md text-justify font-inter'>Education, skills, and self-development are highly valued, especially among young people and students.</p>
-                </li>
-                <li className='space-y-2'>
-                    <h4 className='text-lg md:text-xl font-roboto'>Balance Between Tradition and Innovation</h4>
-                    <p className='text-md text-justify font-inter'>finland combines the best of old with the best of new, history with business and technology, and international culture. </p>
+                <li className='text-md lg:text-base font-roboto'>
+                  <strong>Christmas:</strong> A special winter celebration, with Lapland famous for its Santa Claus traditions and snowy landscapes.
                 </li>
              </ul>
+        </div>
+        <div className='mt-10'>
+           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Food and Everyday Life in Finland</h2>
+           <p className='text-md lg:text-base font-roboto mt-2'>Finnish cuisine is known for its fresh ingredients and traditional flavours. Popular foods include rye bread, salmon soup, Karelian pies, cinnamon buns and berry desserts. Coffee is also an important part of Finnish social culture.</p>
+           <p className='text-md lg:text-base font-roboto mt-2'>Finland experiences four distinct seasons, from bright summer days to snowy winters. Outdoor activities such as hiking, cycling, skiing and ice skating are popular throughout the year. Northern Finland is also famous for its Northern Lights and Midnight Sun.</p>
+        </div>
+        <div className='mt-10'>
+           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Student Life in Finland</h2>
+           <p className='text-md lg:text-base font-roboto mt-2'>Finland offers a welcoming international academic environment with modern educational facilities, student associations and multicultural communities. Students can participate in cultural events, sports and recreational activities while experiencing Finnish traditions.</p>
+           <p className='text-md lg:text-base font-roboto mt-2'>For those researching Study in Finland for Indian students, the country offers opportunities to develop independence, experience a new culture and gain international academic exposure. Learning basic Finnish can also help students communicate more comfortably in everyday situations.</p>
+        </div>
+        <div className='mt-10'>
+           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Experience Finnish Life with Finland consultancy</h2>
+           <p className='text-md lg:text-base font-roboto mt-2'>Finland combines natural beauty, cultural traditions and modern living, offering international students a distinctive European experience.</p>
+           <p className='text-md lg:text-base font-roboto mt-2'>If you are planning to pursue higher education in Finland, our experienced study abroad consultants for Finland can guide you through university selection, admission applications, scholarship opportunities and student residence permit documentation.</p>
         </div>
         <div className="flex justify-end items-end mt-5">
             <Link href={'/finland/language'} className="text-blue-500 font-roboto hover:underline">Read about Language <FaArrowRightLong className="inline-block"/></Link>
