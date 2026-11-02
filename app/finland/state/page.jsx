@@ -131,16 +131,16 @@ const page = () => {
         <div className='mt-6'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Quick Facts About Finland</h2>
             <ul className='mt-5 space-y-2'>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Capital City:</b> Helsinki</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Official Language:</b> Finnish and Swedish</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Currency:</b> Euro (€)</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Population:</b> Approximately 5.6 million</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Region:</b> Northern Europe (Nordic Region)</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Climate:</b> Cold winters and mild summers</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Time Zone:</b> Four distinct seasons with mild summers and cold, snowy winters</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>International Student Friendly:</b> Yes</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Popular Study Fields:</b> Information Technology, Engineering, Business, Healthcare, Artificial Intelligence, and Management</li>
-             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Popular Student Cities:</b> Helsinki, Espoo, Tampere, Turku, Oulu, Jyväskylä</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Capital City:</b> Helsinki</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Official Language:</b> Finnish and Swedish</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Currency:</b> Euro (€)</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Population:</b> Approximately 5.6 million</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Region:</b> Northern Europe (Nordic Region)</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Climate:</b> Cold winters and mild summers</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Time Zone:</b> Four distinct seasons with mild summers and cold, snowy winters</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>International Student Friendly:</b> Yes</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Popular Study Fields:</b> Information Technology, Engineering, Business, Healthcare, Artificial Intelligence, and Management</li>
+             <li><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Popular Student Cities:</b> Helsinki, Espoo, Tampere, Turku, Oulu, Jyväskylä</li>
             </ul>
         </div>
         <div className='mt-10'>

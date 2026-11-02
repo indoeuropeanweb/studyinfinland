@@ -25,7 +25,7 @@ export const metadata = {
       index: true,
       follow: true,
     },
-      openGraph: {
+    openGraph: {
     type: "website",
     title:
       "Lifestyle in finland | Culture, People & Student Life Guide",
