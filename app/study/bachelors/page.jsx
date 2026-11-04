@@ -185,7 +185,7 @@ should check the individual programme criteria.</p>
         <div className='mt-10'>
           <h2 className="text-xl md:text-2xl font-roboto text-gray-500">Study in Finland Consultants – Get Expert Guidance from Indo European</h2>
           <p className="mt-3 text-md lg:text-base text-justify text-roboto">Planning to study abroad involves several important decisions, from selecting the right university to completing admission formalities. Professional guidance can help make your application journey more organised.</p>
-          <p className="mt-3 text-md lg:text-base text-justify text-roboto">At Indo European, we assist students planning to study in Finland with:</p>
+          <p className="mt-3 text-md lg:text-base text-justify text-roboto">At <Link href={'https://www.indoeuropean.in'} className="font-semibold font-roboto hover:underline">Indo European</Link>, we assist students planning to study in Finland with:</p>
           <ul className='mt-5 space-y-2'>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;University and course selection</li>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Academic profile assessment</li>

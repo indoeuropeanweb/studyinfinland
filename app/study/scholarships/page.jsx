@@ -4,20 +4,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Find Best Scholarships in Lithuania for Indian Students",
-  description: "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
+  title: "Find Best Scholarships in Finland for Indian Students",
+  description: "Find the best scholarships in Finland for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
   keywords: [
-      "Scholarships in Lithuania",
-      "Scholarships in Lithuania for Indian Students",
-      "Lithuania Scholarships",
-      "Study in Lithuania Scholarships",
-      "Lithuania Government Scholarships",
-      "Erasmus Scholarships Lithuania",
-      "University Scholarships in Lithuania",
-      "Fully Funded Scholarships in Lithuania"
+      "Scholarships in Finland",
+      "Scholarships in Finland for Indian Students",
+      "Finland Scholarships",
+      "Study in Finland Scholarships",
+      "Finland Government Scholarships",
+      "Erasmus Scholarships Finland",
+      "University Scholarships in Finland",
+      "Fully Funded Scholarships in Finland"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/scholarships"
+    canonical: "https://www.studyinfinland.in/study/scholarships"
   },
   robots: {
     index: true,
@@ -26,16 +26,16 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.studyinlithuania.in/study/scholarships/",
-    siteName: "Study in Lithuania",
+    url: "https://www.studyinfinland.in/study/scholarships/",
+    siteName: "Study in Finland",
     title:
-      "Find Best Scholarships in Lithuania for Indian Students",
+      "Find Best Scholarships in Finland for Indian Students",
     description:
-      "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
+      "Find the best scholarships in Finland for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
-        alt: "Scholarships in Lithuania",
+        url: "https://www.studyinfinland.in/images/study/finland-01.webp",
+        alt: "Scholarships in Finland",
       },
     ],
   },
@@ -48,53 +48,53 @@ const page = () => {
       "@graph": [
         {
           "@type": "Organization",
-          "@id": "https://www.studyinlithuania.in/#organization",
-          name: "Study in Lithuania",
-          url: "https://www.studyinlithuania.in",
+          "@id": "https://www.studyinfinland.in/#organization",
+          name: "Study in Finland",
+          url: "https://www.studyinfinland.in",
           logo: {
             "@type": "ImageObject",
-            url: "https://www.studyinlithuania.in/",
+            url: "https://www.studyinfinland.in/",
           },
         },
         {
           "@type": "WebPage",
           "@id":
-            "https://www.studyinlithuania.in/study/scholarships/#webpage",
-          url: "https://www.studyinlithuania.in/study/scholarships/",
-          name: "Scholarships in Lithuania",
+            "https://www.studyinfinland.in/study/scholarships/#webpage",
+          url: "https://www.studyinfinland.in/study/scholarships/",
+          name: "Scholarships in Finland for Indian Students",
           description:
-            "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
+            "Find the best scholarships in Finland for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
           isPartOf: {
-            "@id": "https://www.studyinlithuania.in/#website",
+            "@id": "https://www.studyinfinland.in/#website",
           },
           breadcrumb: {
             "@id":
-              "https://www.studyinlithuania.in/study/scholarships/#breadcrumb",
+              "https://www.studyinfinland.in/study/scholarships/#breadcrumb",
           },
           inLanguage: "en",
         },
         {
           "@type": "BreadcrumbList",
           "@id":
-            "https://www.studyinlithuania.in/study/scholarships/#breadcrumb",
+            "https://www.studyinfinland.in/study/scholarships/#breadcrumb",
           itemListElement: [
             {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://www.studyinlithuania.in/",
+              item: "https://www.studyinfinland.in/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Study",
-              item: "https://www.studyinlithuania.in/study/",
+              item: "https://www.studyinfinland.in/study/",
             },
             {
               "@type": "ListItem",
               position: 3,
               name: "Scholarships",
-              item: "https://www.studyinlithuania.in/study/scholarships/",
+              item: "https://www.studyinfinland.in/study/scholarships/",
             },
           ],
         },
@@ -103,48 +103,52 @@ const page = () => {
 
   return (
     <>
-         <Breadcrumb heading={"Discover​‍​‌‍​‍‌ Scholarship Programs That Can Help You Make Your Education in Lithuania More ​‍​‌‍​‍‌Affordable"}/>
+         <Breadcrumb heading={"Scholarships in Finland for Indian Students"}/>
          <div className='py-5 px-5'>
-           <h2 className='font-aino text-2xl md:text-4xl'>Scholarships in Lithuania for Indian Students</h2>
-               <p className='text-justify font-roboto text-md mt-3'>Looking for affordable study options in Europe? Lithuania offers scholarships for Indian students
-                through university grants, tuition fee waivers, and government-funded programs. These
-                scholarships help students reduce tuition costs while studying at globally recognised <Link className="font-semibold hover:underline" href="/study/universities">lithuanian universities</Link>.</p>
+           <h2 className='font-aino text-2xl md:text-4xl'>Explore Scholarship Opportunities in Finland</h2>
+               <p className="text-justify font-roboto text-md lg:text-base mt-3">Planning to study in Finland but concerned about tuition fees? Scholarships in Finland can help Indian students reduce their education expenses and make higher education more affordable.</p>
+               <p className='text-justify font-roboto text-md lg:text-base mt-3'>Finnish universities offer different scholarship opportunities, including merit-based scholarships and tuition fee waivers for eligible international students pursuing Bachelor's and Master's programmes.</p>
                   <div className="mt-10"> 
                      <div className="mt-5">
-                     <h4 className="text-lg font-semibold font-roboto">Types of Scholarships in Lithuania</h4>
+                     <h4 className="text-lg lg:text-xl font-semibold font-roboto text-gray-500">Scholarship Opportunities in Finland</h4>
+                     <p className="text-md lg:text-base font-roboto mt-3">Students can explore different types of financial support, including:</p>
                      <ul className="mt-3 space-y-2">
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Government Scholarships</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;University Merit Scholarships</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Partial Tuition Fee Waivers</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Erasmus+ Scholarships</li>
+                        <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<span className="font-semibold">Merit-Based Scholarships:</span> Awarded to students with outstanding academic achievements.</li>
+                        <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<span className="font-semibold">University Scholarships:</span> Finnish universities offer scholarships to eligible international students enrolled in selected programmes.</li>
+                        <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<span className="font-semibold">Tuition Fee Waivers:</span> Some universities provide partial or full tuition fee reductions based on their scholarship policies.</li>
+                        <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<span className="font-semibold">Erasmus Mundus Scholarships:</span> Eligible students can explore funding opportunities for selected joint Master's programmes across European universities.</li>
                      </ul>
                      </div>
                      <div className="mt-5">
-                     <h4 className="text-lg font-semibold font-roboto text-[#3d3d3d]">Scholarship Eligibility</h4>
-                     <p className="text-md font-inter mt-2">Students generally require:</p>
+                     <h4 className="text-lg lg:text-xl font-semibold font-roboto text-gray-500">Scholarship Eligibility</h4>
+                     <p className="text-md font-inter mt-2">Eligibility requirements vary depending on the university and scholarship programme. Generally, students may need:</p>
                      <ul className="mt-3 space-y-2">
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Good academic scores</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Admission offer from a Lithuanian university</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;IELTS or English proficiency proof</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;SOP and updated CV</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Good academic performance.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Admission to a Finnish university.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English language proficiency, if required.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Statement of Purpose (SOP).</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Updated CV or Resume.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Supporting academic documents.</li>
                      </ul>
                      </div>
                      <div className="mt-5">
-                     <h4 className="text-xl md:text-2xl font-roboto text-[#3d3d3d]">Documents Required for Lithuania Admission</h4>
+                     <h4 className="text-xl md:text-2xl font-roboto text-gray-500">Documents Required</h4>
+                     <p className="text-md lg:text-base font-inter mt-2">Students may commonly need to submit:</p>
                      <ul className="mt-5 space-y-2">
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Academic transcripts</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Passport copy</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Admission letter</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;SOP</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;CV/Resume</li>
-                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English proficiency proof</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Academic transcripts and certificates.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Valid passport.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;University admission application or offer letter.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Statement of Purpose (SOP).</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Updated CV/Resume.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;English language proficiency proof, if required.</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Scholarship application documents.</li>
                      </ul>
                      </div>
                     <div className="mt-8">
                     <div className="flex items-center gap-3 mb-6">
-                      <div className="h-1 w-12 bg-[#FFB81C] rounded-full"></div>
-                      <h4 className="text-2xl md:text-3xl font-bold font-roboto text-[#15803D]">
-                        How to Apply
+                      <div className="h-1 w-12 bg-primary rounded-full"></div>
+                      <h4 className="text-2xl md:text-3xl font-bold font-roboto text-gray-500">
+                        How to Apply for Scholarships in Finland
                       </h4>
                     </div>
 
@@ -153,17 +157,17 @@ const page = () => {
 
                       <div className="space-y-6">
                         <div className="relative flex gap-5">
-                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#BE3A34] text-white font-bold shadow-lg">
+                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white font-bold shadow-lg">
                             1
                           </div>
 
-                          <div className="flex-1 bg-white border text-[#BE3A34] border-[#048D4E]/15 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
+                          <div className="flex-1 bg-white border text-primary border-[#048D4E]/15 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
                             <h5 className="text-lg font-semibold">
                               Choose Your University
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
-                              Select a course and university that aligns with your academic
-                              interests and long-term career goals.
+                              Select a Finnish university and programme according to your academic background and career
+                              goals.
                             </p>
                           </div>
                         </div>
@@ -174,12 +178,11 @@ const page = () => {
                           </div>
 
                           <div className="flex-1 bg-white border border-[#FFB81C]/20 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-                            <h5 className="text-lg font-semibold text-[#FFB81C]">
-                              Check Scholarship Availability
+                            <h5 className="text-lg font-semibold text-primary">
+                              Explore Available Scholarships
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
-                              Explore scholarships offered by universities, government programs,
-                              and external funding organizations.
+                              Check the scholarship opportunities, eligibility criteria and tuition fee waivers offered by your chosen university.
                             </p>
                           </div>
                         </div>
@@ -190,22 +193,32 @@ const page = () => {
                           </div>
 
                           <div className="flex-1 bg-white border border-[#BE3A34]/20 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-                            <h5 className="text-lg font-semibold text-[#15803D]">
-                              Submit Required Documents
+                            <h5 className="text-lg font-semibold text-primary">
+                              Submit Your Application
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
-                              Apply before the deadline with all required documents. Early
-                              applications often increase scholarship opportunities and help
-                              reduce overall study costs.
+                              Complete the admission and scholarship application with the required documents before the
+                              university deadline.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
+                    <div className="my-5">
+                         <h5 className="text-lg lg:text-xl font-semibold font-roboto text-gray-500">
+                           Make Your European Education More Affordable
+                         </h5>
+                         <p className="text-md lg:text-base font-roboto mt-2">
+                           Scholarships in Finland can help international students manage tuition expenses while pursuing quality education in Europe. With proper planning and the right university selection, students can explore suitable funding opportunities.
+                         </p>
+                         <p className="text-md lg:text-base font-roboto mt-2">
+                           Get expert guidance on studying in Finland, including university admissions, scholarships, student visas and career opportunities.
+                         </p>
+                      </div>
                   </div>
                 </div>
                 <div className="flex justify-end items-end mt-5">
-                    <Link href={'/living'} className="text-blue-500 font-roboto hover:underline">Read about living in lithuania <FaArrowRightLong className="inline-block"/></Link>
+                    <Link href={'/living'} className="text-blue-500 font-roboto hover:underline">Read about living in finland <FaArrowRightLong className="inline-block"/></Link>
                 </div>
          </div>
       <script

@@ -5,20 +5,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Indian Student Budget Guide: Cost of Living in Lithuania",
-  description: "Cost of living in Lithuania for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
+  title: "Indian Student Budget Guide: Cost of Living in Finland",
+  description: "Cost of living in Finland for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
   keywords: [
-      "Cost of Living in Lithuania",
-      "Living Cost in Lithuania",
-      "Lithuania Living Expenses",
-      "Cost of Living in Lithuania for International Students",
-      "Student Living Cost in Lithuania",
-      "Monthly Expenses in Lithuania",
-      "Accommodation Cost in Lithuania",
-      "Study in Lithuania"
+      "Cost of Living in Finland",
+      "Living Cost in Finland",
+      "Finland Living Expenses",
+      "Cost of Living in Finland for International Students",
+      "Student Living Cost in Finland",
+      "Monthly Expenses in Finland",
+      "Accommodation Cost in Finland",
+      "Study in Finland"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/living/living-costs"
+    canonical: "https://www.studyinfinland.in/living/living-costs"
   },
   robots: {
     index: true,
@@ -26,18 +26,18 @@ export const metadata = {
   },
    openGraph: {
     type: "article",
-    url: "https://www.studyinlithuania.in/living/living-costs/",
-    siteName: "Study in Lithuania Centre",
+    url: "https://www.studyinfinland.in/living/living-costs/",
+    siteName: "Study in Finland Centre",
     title:
-      "Indian Student Budget Guide: Cost of Living in Lithuania",
+      "Indian Student Budget Guide: Cost of Living in Finland",
     description:
-      "Cost of living in Lithuania for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
+      "Cost of living in Finland for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/living/living-cost/living-cost.webp",
+        url: "https://www.studyinfinland.in/images/living/living-cost/living-cost.webp",
         width: 1200,
         height: 630,
-        alt: "Cost of Living in Lithuania",
+        alt: "Cost of Living in Finland for Indian Students",
       },
     ],
     locale: "en_US",
@@ -46,11 +46,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Indian Student Budget Guide: Cost of Living in Lithuania",
+      "Indian Student Budget Guide: Cost of Living in Finland",
     description:
-      "Cost of living in Lithuania for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
+      "Cost of living in Finland for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
     images: [
-      "https://www.studyinlithuania.in/images/living/living-cost/living-cost.webp",
+      "https://www.studyinfinland.in/images/living/living-cost/living-cost.webp",
     ],
   },
 }
@@ -62,51 +62,51 @@ const page = () => {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania Centre",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinfinland.in/#organization",
+      name: "Study in Finland Centre",
+      url: "https://www.studyinfinland.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logoa/logo.webp",
+        url: "https://www.studyinfinland.in/images/logos/logo.webp",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/living/living-costs/#webpage",
+        "https://www.studyinfinland.in/living/living-costs/#webpage",
       url:
-        "https://www.studyinlithuania.in/living/living-costs/",
-      name: "Cost of Living in Lithuania",
+        "https://www.studyinfinland.in/living/living-costs/",
+      name: "Cost of Living in Finland",
       description:
-        "Learn about student living expenses in Lithuania, including accommodation, food, transportation, utilities and monthly budgets.",
+        "Learn about student living expenses in Finland, including accommodation, food, transportation, utilities and monthly budgets.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinfinland.in/#website",
       },
       inLanguage: "en",
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.studyinlithuania.in/living/living-costs/#breadcrumb",
+        "https://www.studyinfinland.in/living/living-costs/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinfinland.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Living",
-          item: "https://www.studyinlithuania.in/living/",
+          item: "https://www.studyinfinland.in/living/",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Living Costs",
           item:
-            "https://www.studyinlithuania.in/living/living-costs/",
+            "https://www.studyinfinland.in/living/living-costs/",
         },
       ],
     },
@@ -115,15 +115,16 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Living Costs in Lithuania: A Budget-Friendly Study Destination for Indian Students"}/>
+        <Breadcrumb heading={"Living Costs in Finland: A Budget-Friendly Study Destination for Indian Students"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>
-          <h2 className='text-2xl md:text-4xl font-aino'>Living Cost in Lithuania for Indian Students</h2>
-          <p className='text-md font-roboto mt-3 text-justify'>Understanding the living cost in Lithuania is an important part of planning your study abroad journey. Lithuania is considered one of the more affordable European destinations, offering a good balance between quality education and reasonable lifestyle expenses for Indian students.<br />
-           When planning your <Link className="font-semibold hover:underline" href="/living/visa-and-residence-permit">Lithuania student visa</Link>, budgeting for these expenses is equally important.
-           <br />
-            On average, a student can manage monthly expenses in Lithuania within €350–€700, depending on lifestyle, city, and accommodation type. Cities like Vilnius and Kaunas may be slightly higher in cost compared to smaller towns, but overall Lithuania remains budget-friendly for students.
+          <h2 className='text-2xl md:text-4xl font-aino'>Living Cost in Finland: A Complete Guide to Student Expenses</h2>
+          <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Understanding the cost of living in Finland is an important part of planning your study abroad journey. Finland offers a high standard of living, excellent public facilities and a student-friendly environment. Although living expenses are higher than in some European countries, students can manage their budgets with proper planning.<br /><br />
+            On average, international students should budget around €900–€1,200 per month, depending
+            on their city, accommodation and lifestyle. Helsinki is generally more expensive than smaller
+            student cities, while student discounts and affordable housing can help reduce monthly
+            expenses.
             </p>
             </div>
             <div>
@@ -132,50 +133,61 @@ const page = () => {
             </div>
             <div className='mt-5'>
               <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Accommodation Expenses</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Housing is the biggest part of a student’s budget in Lithuania. Students can choose between university dormitories, shared apartments, or private rentals.</p>
+                <h5 className='font-roboto text-lg md:text-xl text-gray-500'>Accommodation Expenses</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Accommodation is one of the major monthly expenses for students in Finland. Students can choose from university student housing, shared apartments and private rental accommodation.</p>
                 <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>University dormitories:</b> €120–€300 per month</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Shared apartments:</b> €200–€450 per month</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Private apartments:</b> €350–€650 per month</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Student accommodation:</b> €200–€380 per month for a room in shared housing</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Shared apartments:</b> €300–€600 per month</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Private apartments:</b> €500–€900+ per month</li>
                 </ul>
-                <p className='text-inter text-md my-5 text-justify'>Living in university accommodation also allows students to interact with classmates and
-                    experience multicultural student life more easily.</p>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Many international students prefer student housing or shared apartments to keep their living expenses affordable.</p>
               </div>
               <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Monthly Food & Grocery Cost</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Food expenses in Lithuania are quite manageable for students. Most universities also have cafeterias that offer affordable meal options.</p>
+                <h5 className='font-roboto text-lg md:text-xl text-gray-500'>Food and Grocery Expenses</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Food expenses in Finland depend on shopping habits and lifestyle. Students who prepare meals at home can save money compared to eating at restaurants regularly.</p>
                 <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Average monthly food cost:</b> €150–€300</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>University cafeteria meals:</b> budget-friendly daily options</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Eating out occasionally:</b> moderate pricing depending on restaurant type</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Average monthly food cost:</b> €200–€300</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Student cafeteria meals:</b> Affordable discounted options</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Restaurants and cafés:</b> Higher expenses depending on location</li>
                 </ul>
-                <p className='text-inter text-md my-5 text-justify'>Students who cook at home can reduce their monthly food expenses even further.</p>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Shopping at budget-friendly supermarkets and cooking at home can help students manage their monthly food budget.</p>
               </div>
             </div>
               <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Transportation Cost in Lithuania</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Public transport in Lithuania is well-connected and affordable for students. Cities like Vilnius and Kaunas offer student discounts on monthly transport passes.</p>
+                <h5 className='font-roboto text-lg md:text-xl text-gray-500'>Transportation Costs</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Finland has a well-connected public transportation system, including buses, trams, metro and trains. Students can use discounted travel passes to commute between their accommodation and university.</p>
                 <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Monthly student transport pass: </b> approx. €5–€15</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Single ticket:</b> around €0.50–€1.00</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Intercity travel (bus/train):</b> €5–€15 depending on distance</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Monthly student transport pass: </b> Approximately €30–€70</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Single public transport ticket:</b> Varies by city and travel zone</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Intercity bus and train travel:</b> Depends on destination</li>
                 </ul>
-                <p className='text-inter text-md my-5 text-justify'>Many students prefer public transport or cycling, as most facilities are located within easy reach</p>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Cycling and walking are also convenient options for students looking to reduce transportation expenses.</p>
               </div>
               <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Lifestyle, Entertainment & Personal Expenses</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Apart from basic needs, students also spend on entertainment, social life, and personal activities. Lithuania offers a balanced student lifestyle with reasonable costs.</p>
+                <h5 className='font-roboto text-lg md:text-xl text-gray-500'>Personal and Lifestyle Expenses</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Apart from basic expenses, students should also plan for entertainment, shopping and other personal needs while living in Finland.</p>
                 <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Movie tickets: </b> €5–€10</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Gym membership: </b> €20–€50 per month</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Social outings and cafés: </b> €50–€150 monthly (depending on lifestyle)</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Gym memberships: </b> €20–€50 per month</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Cinema tickets: </b> Approximately €10–€18</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Social activities and cafés: </b> €50–€100 per month</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Mobile and internet services: </b> €10–€40 per month</li>
                 </ul>
-                <p className='text-inter text-md my-5 text-justify'>Students can comfortably enjoy social activities without putting too much pressure on their budget.</p>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Students can enjoy an active social life while managing expenses through student discounts and affordable recreational activities.</p>
+              </div>
+              <div className='mt-5'>
+                <h5 className='font-roboto text-lg md:text-xl text-gray-500'>Estimated Monthly Student Budget</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>A typical international student in Finland may require:</p>
+                <ul className='space-y-2 mt-2'>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Budget lifestyle: </b> €900–€1,000 per month</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Moderate lifestyle: </b> €1,000–€1,100 per month</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;<b>Comfortable lifestyle: </b> €1,100–€1,200+ per month</li>
+                </ul>
+                <p className='font-roboto text-md my-5 text-justify'>The Finnish Immigration Service (Migri) requires students to demonstrate at least €800 per month for living expenses when applying for a student residence permit.</p>
               </div>
             <div className='mt-5'>
-              <h4 className='font-roboto text-xl md:text-2xl'>Final Overview</h4>
-              <p className='font-inter text-md mt-3 text-justify'>Overall, Lithuania offers an affordable and student-friendly cost of living compared to many other European countries. With proper budgeting, students can easily manage their monthly expenses while enjoying a comfortable and active student life in Europe.</p>
+              <h4 className='font-roboto text-xl md:text-2xl text-gray-500'>Affordable Student Life in Finland</h4>
+              <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Finland offers a great combination of quality education, modern facilities and a comfortable student lifestyle. With affordable accommodation choices, discounted transportation and careful budgeting, international students can manage their living expenses effectively.</p>
+              <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Planning to study in Finland? Indo-European Study Abroad Consultancy helps students explore universities, understand admission requirements and receive guidance on applications, IELTS preparation and student visa procedures. Connect with our Finland study consultants and take the next step towards your European education journey.</p>
             </div>
             <div className="flex justify-end items-end mt-5">
                <Link href={'/living/visa-and-residence-permit'} className="text-blue-500 font-roboto hover:underline">Read about visa and residence permit <FaArrowRightLong className="inline-block"/></Link>
