@@ -4,19 +4,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Study in Lithuania Consultant | Student Success Stories",
-  description: "Connect with our expert for Study in Lithuania. Read real success stories and get visa help from our Lithuania student ambassadors. See how they did it",
+  title: "Study in Finland Consultant | Student Success Stories",
+  description: "Connect with our expert for Study in Finland. Read real success stories and get visa help from our Finland student ambassadors. See how they did it",
   keywords: [
-      "Student Accommodation in Lithuania",
-      "Accommodation in Lithuania",
-      "Student Housing in Lithuania",
-      "Lithuania Student Dormitories",
-      "Private Accommodation in Lithuania",
-      "International Student Accommodation Lithuania",
-      "Rent Room in Lithuania",
-      "University Accommodation Lithuania",
-      "Student Apartments Lithuania",
-      "Study in Lithuania"
+      "Student Accommodation in Finland",
+      "Accommodation in Finland",
+      "Student Housing in Finland",
+      "Finland Student Dormitories",
+      "Private Accommodation in Finland",
+      "International Student Accommodation Finland",
+      "Rent Room in Finland",
+      "University Accommodation Finland",
+      "Student Apartments Finland",
+      "Study in Finland Consultant",
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/student-ambassadors/"
@@ -28,28 +28,28 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Lithuania Student Ambassador | Real Stories and Success",
+      "Finland Student Ambassador | Real Stories and Success",
     description:
-      "Connect with our expert for Study in Lithuania. Read real success stories and get visa help from our Lithuania student ambassadors. See how they did it",
+      "Connect with our expert for Study in Finland. Read real success stories and get visa help from our Finland student ambassadors. See how they did it",
     url:
       "https://www.studyinfinland.in/student-ambassadors/",
-    siteName: "Study in Lithuania Centre",
+    siteName: "Study in Finland Centre",
     images: [
       {
         url:
           "https://www.studyinfinland.in/images/student-ambassadors/student-01.webp",
         width: 1200,
         height: 630,
-        alt: "Student Experiences in Lithuania",
+        alt: "Student Experiences in Finland",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuania Student Ambassador | Real Stories and Success",
+      "Finland Student Ambassador | Real Stories and Success",
     description:
-      "Connect with our expert for Study in Lithuania. Read real success stories and get visa help from our Lithuania student ambassadors. See how they did it",
+      "Connect with our expert for Study in Finland. Read real success stories and get visa help from our Finland student ambassadors. See how they did it",
     images: [
       "https://www.studyinfinland.in/images/student-ambassadors/student-01.webp",
     ],
@@ -163,7 +163,7 @@ const page = () => {
       {
         "@type": "Organization",
         "@id": "https://www.studyinfinland.in/",
-        "name": "Study in Lithuania Centre",
+        "name": "Study in Finland Centre",
         "url": "https://www.studyinfinland.in/",
         "logo": {
           "@type": "ImageObject",
@@ -176,9 +176,9 @@ const page = () => {
           "https://www.studyinfinland.in/student-ambassadors/",
         "url":
           "https://www.studyinfinland.in/student-ambassadors/",
-        "name": "Student Experiences in Lithuania",
+        "name": "Student Experiences in Finland",
         "description":
-          "Read real experiences and success stories from international students studying in Lithuania."
+          "Read real experiences and success stories from international students studying in Finland."
       },
           {
       "@type": "BreadcrumbList",

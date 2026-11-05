@@ -5,24 +5,24 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Work While Studying in Lithuania: Top Jobs for Students",
-  description: "Looking for student jobs in Lithuania? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
+  title: "Work While Studying in Finland: Top Jobs for Students",
+  description: "Looking for student jobs in Finland? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
   keywords: [
-      "Jobs in Lithuania",
-      "Jobs in Lithuania for International Students",
-      "Jobs in Lithuania for Indians",
-      "Work in Lithuania",
-      "Part Time Jobs in Lithuania",
-      "Study and Work in Lithuania",
-      "Post Study Work in Lithuania",
-      "Lithuania Work Permit",
-      "Career Opportunities in Lithuania",
-      "Employment in Lithuania",
-      "Lithuania Student Jobs",
-      "Working While Studying in Lithuania"
+      "Jobs in Finland",
+      "Jobs in Finland for International Students",
+      "Jobs in Finland for Indians",
+      "Work in Finland",
+      "Part Time Jobs in Finland",
+      "Study and Work in Finland",
+      "Post Study Work in Finland",
+      "Finland Work Permit",
+      "Career Opportunities in Finland",
+      "Employment in Finland",
+      "Finland Student Jobs",
+      "Working While Studying in Finland"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/living/working"
+    canonical: "https://www.studyinfinland.in/living/working"
   },
   robots: {
     index: true,
@@ -30,18 +30,18 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/living/working",
-    siteName: "Study in Lithuania",
+    url: "https://www.studyinfinland.in/living/working",
+    siteName: "Study in Finland",
     title:
-      "Work While Studying in Lithuania: Top Jobs for Students",
+      "Work While Studying in Finland: Top Jobs for Students",
     description:
-      "Looking for student jobs in Lithuania? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
+      "Looking for student jobs in Finland? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/living/working/working.webp",
+        url: "https://www.studyinfinland.in/images/living/working/working.webp",
         width: 1200,
         height: 630,
-        alt: "Working in Lithuania for International Students",
+        alt: "Working in Finland for International Students",
       },
     ],
     locale: "en_US",
@@ -50,7 +50,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Work While Studying in Lithuania: Top Jobs for Students",
+      "Work While Studying in Finland: Top Jobs for Students",
     description:
       "Looking for student jobs in Lithuania? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
     images: [
@@ -66,52 +66,52 @@ const page = () => {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.studyinlithuania.in/#organization",
-        name: "Study in Lithuania",
-        url: "https://www.studyinlithuania.in",
+        "@id": "https://www.studyinfinland.in/#organization",
+        name: "Study in Finland",
+        url: "https://www.studyinfinland.in",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.studyinlithuania.in/images/logos/logo.webp",
+          url: "https://www.studyinfinland.in/images/logos/logo.webp",
         },
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.studyinlithuania.in/living/working/#webpage",
-        url: "https://www.studyinlithuania.in/living/working/",
-        name: "Working in Lithuania",
+        "@id": "https://www.studyinfinland.in/living/working/#webpage",
+        url: "https://www.studyinfinland.in/living/working/",
+        name: "Working in Finland",
         description:
           "Learn about student jobs, part-time work, internships, salaries, work rights and career opportunities in Lithuania for international students.",
         isPartOf: {
-          "@id": "https://www.studyinlithuania.in/#website",
+          "@id": "https://www.studyinfinland.in/#website",
         },
         breadcrumb: {
           "@id":
-            "https://www.studyinlithuania.in/living/working/#breadcrumb",
+            "https://www.studyinfinland.in/living/working/#breadcrumb",
         },
         inLanguage: "en",
       },
       {
         "@type": "BreadcrumbList",
         "@id":
-          "https://www.studyinlithuania.in/living/working/#breadcrumb",
+          "https://www.studyinfinland.in/living/working/#breadcrumb",
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://www.studyinlithuania.in",
+            item: "https://www.studyinfinland.in",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Living",
-            item: "https://www.studyinlithuania.in/living",
+            item: "https://www.studyinfinland.in/living",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: "Working",
-            item: "https://www.studyinlithuania.in/living/working",
+            item: "https://www.studyinfinland.in/living/working",
           },
         ],
       },
@@ -120,92 +120,105 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Working in Lithuania: Career and Part-Time Job Opportunities for Indian Students"}/>
+        <Breadcrumb heading={"Working in Finland: Career and Part-Time Job Opportunities for International Students"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>
-             <h2 className='text-2xl md:text-4xl font-aino'>Work Opportunities in Lithuania for Indian Students</h2>
-             <p className='text-md font-roboto mt-3 text-justify'>Lithuania is becoming a preferred destination for indian students not only because of affordable education but also because of growing career opportunities. International students in Lithuania are allowed to work while studying, helping them gain professional experience and manage their living expenses during their education journey.<br /><br />Students can work part-time during their studies as long as their job does not affect academic performance. Many students successfully balance studies and work by choosing flexible jobs and managing their schedules properly.</p>
+             <h2 className='text-2xl md:text-4xl font-aino'>Working in Finland for International Students</h2>
+             <p className='text-md lg:text-base font-roboto mt-3 text-justify'>Finland offers international students the opportunity to gain practical work experience while pursuing higher education. With a well-developed economy, modern industries and a strong focus on innovation, the country provides opportunities for students looking to build their professional skills alongside their studies.</p>
+             <p className='text-md lg:text-base font-roboto mt-3 text-justify'>For Indian students planning to study in Finland, part-time employment can be a valuable way to gain international exposure, develop workplace skills and contribute towards everyday living expenses.</p>
+             <p className='text-md lg:text-base font-roboto mt-3 text-justify'>Whether you are interested in technology, hospitality, customer service or business-related roles, working in Finland for international students can help you prepare for future career opportunities in Europe.</p>
             </div>
             <div>
-              <Image className='rounded-md' width={420} height={320} src={'/images/living/working/working.webp'} alt="working in lithuania for indian students" />
+              <Image className='rounded-md' width={420} height={320} src={'/images/living/working/working.webp'} alt="working in finland for international students" />
             </div>
             </div>
+            <div className='mt-10'>
+              <h4 className='font-roboto text-xl md:text-2xl text-gray-500'>Can International Students Work in Finland?</h4>
+                <p className='font-roboto text-md lg:text-base mt-2 text-justify'>Yes, international students holding a valid Finnish residence permit for studies can work while pursuing their education.</p>
+                <p className='font-roboto text-md lg:text-base mt-2 text-justify'>According to the Finnish Immigration Service (Migri), students can work in paid employment for an average of 30 hours per week. This limit is calculated as an average over the year, which means students may work more hours during certain weeks and fewer during others.</p>
+                <p className='font-roboto text-md lg:text-base mt-2 text-justify'>Students can also work full-time during holidays, provided they stay within the permitted annual average.</p>
+                <p className='font-roboto text-md lg:text-base mt-2 text-justify'>Internships and thesis work that are part of a degree programme are not subject to the same 30-hour restriction, provided they meet the applicable conditions.</p>
+                <p className='font-roboto text-md lg:text-base mt-2 text-justify'>Working while studying allows international students to gain professional experience and understand the Finnish work environment.</p>
+              </div>
+              <div className='mt-10'>
+                <h5 className='font-roboto text-xl md:text-2xl text-gray-500'>Popular Part-Time Jobs in Finland for International Students</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Finland offers employment opportunities across different industries. The availability of jobs depends on the student's qualifications, language skills, experience and location.</p>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Some common sectors where international students may explore employment opportunities include:</p>
+                <ul className='space-y-2 mt-2'>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Hospitality and Tourism: Hotels, restaurants, cafes and customer service roles.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Retail and Sales: Supermarkets, shopping centres and retail stores.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Information Technology: Software development, IT support, testing and technical roles for students with relevant skills.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Customer Service: Customer support, service assistance and multilingual support positions.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Cleaning and Facility Services: Cleaning, maintenance and facility support roles.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Logistics and Warehousing: Packaging, inventory management and warehouse assistance.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Administration: Office assistance, data entry and administrative support.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Digital Marketing: Content creation, social media management and marketing support for students with relevant experience.</li>
+                </ul>
+                <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Students should check individual job requirements, as some positions may require Finnish or Swedish language proficiency.</p>
+              </div>
+              <div className='mt-10'>
+                <h5 className='font-roboto text-xl lg:text-2xl text-gray-500'>Internship Opportunities in Finland</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Internships are an important part of professional development for international students. Many Finnish universities and universities of applied sciences encourage students to gain practical experience through industry placements and work-related projects.</p>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Depending on the academic programme, students may find internship opportunities in:</p>
+                <ul className='space-y-2 mt-2'>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;●	Information Technology and Software Development</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;●	Engineering and Manufacturing</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;●	Business and Management</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;●	Marketing and Communications</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;●	Finance and Accounting</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;●	Healthcare and Life Sciences</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;●	Research and Innovation</li>
+                </ul>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Internships help students apply classroom knowledge to real-world situations, understand industry expectations and develop professional networks.</p>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Students should check whether their internship is included in their degree programme and meets the applicable residence permit conditions.</p>
+              </div>
+              <div className='mt-5'>
+                <h5 className='font-roboto text-lg lg:text-xl text-gray-500'>Salary and Working Conditions in Finland</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Finland has established employment standards designed to protect employees and ensure fair working conditions.</p>
+                <p className='mt-3 font-roboto text-md lg:text-base text-justify'>Unlike many countries, Finland does not have a single statutory national minimum wage. Instead, minimum pay rates are generally determined through collective agreements across different industries.</p>
+                <p className='mt-3 font-roboto text-md lg:text-base text-justify'>The salary a student receives depends on several factors, including</p>
+                <ul className='space-y-2 mt-2'>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Type of employment</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Industry and job position</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Previous experience and qualifications</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Working hours and shift patterns</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Applicable collective agreement</li>
+                </ul>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Students should always review their employment contract before accepting a job. It is also important to understand taxation, working hours, overtime arrangements and other employment conditions.</p>
+              </div>
+              <div className='mt-5'>
+                <h5 className='font-roboto text-xl lg:text-2xl text-gray-500'>Balancing Work and Studies in Finland</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>While working during studies can provide valuable experience, maintaining a balance between employment and academics is important.</p>
+                <p className='mt-3 font-roboto text-md lg:text-base text-justify'>International students should prioritise their education and ensure that their employment does not affect academic progress.</p>
+                <p className='mt-3 font-roboto text-md lg:text-base text-justify'>Some useful tips include:</p>
+                <ul className='space-y-2 mt-2'>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Create a weekly schedule for classes, assignments and working hours.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Choose part-time jobs with flexible shifts.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Avoid taking on excessive working hours during examinations.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Look for internships related to your academic programme.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Improve your Finnish or Swedish language skills.</li>
+                    <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='inline-block size-5 text-primary'/>&nbsp;Explore university career services and employment support.</li>
+                </ul>
+                <p className='font-roboto text-md lg:text-base my-5 text-justify'>Good time management can help students gain professional experience while making the most of their education in Finland.</p>
+              </div>
+              <div className='mt-5'>
+                <h5 className='font-roboto text-xl lg:text-2xl text-gray-500'>Career Opportunities in Finland After Graduation</h5>
+                <p className='mt-2 font-roboto text-md lg:text-base text-justify'>Finland offers career opportunities for qualified graduates across several sectors, including technology, engineering, business, healthcare, manufacturing and research.</p>
+                <p className='font-roboto text-md lg:text-base mt-2 text-justify'>International students who complete their degrees in Finland may have the opportunity to remain in the country and explore employment or entrepreneurship options.</p>
+                <div className='mt-5'>
+                  <h5 className='font-roboto text-lg lg:text-xl text-gray-500'>Residence Permit to Look for Work After Graduation</h5>
+                  <p className='font-roboto text-md lg:text-base mt-2 text-justify'>Students who have completed a degree in Finland and do not yet have a job may be eligible to apply for a residence permit to look for work or start a business.</p>
+                  <p className='font-roboto text-md lg:text-base mt-2 text-justify'>This permit can be granted for a maximum period of two years, subject to the Finnish Immigration Service's requirements.</p>
+                  <p className='font-roboto text-md lg:text-base mt-2 text-justify'>Graduates who already have a job may also be eligible for a residence permit based on a degree completed in Finland.</p>
+                  <p className='font-roboto text-md lg:text-base mt-2 text-justify'>These options provide international graduates with additional time to explore career opportunities and establish themselves professionally in Finland.</p>
+                </div>
+              </div>
             <div className='mt-5'>
-              <h4 className='font-roboto text-xl md:text-2xl'>Part-Time Jobs in Lithuania for Students</h4>
-              <div className='mt-2'>
-                <p className='mt-2 text-inter text-md text-justify'>There are different types of jobs available for indian students in Lithuania depending on language skills, experience, and location.</p>
-                <p className='mt-3 text-inter text-md font-medium text-justify'>Popular student jobs in Lithuania include:</p>
-                <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Cafes and restaurants</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Customer support roles</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Retail and supermarket jobs</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Warehouse and delivery services</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Freelancing and online work</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;IT and technical support jobs</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Internships and university projects</li>
-                </ul>
-                <p className='text-inter text-md my-5 text-justify'>Students studying business, IT, engineering, and healthcare may also find career-related internships during their studies.</p>
-              </div>
-              <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Average Salary and Working Hours</h5>
-                <p className='mt-2 text-inter text-md text-justify'>The salary in Lithuania depends on the type of work, skills, and working hours. Many students work part-time to support accommodation, food, and personal expenses while <Link className="font-semibold hover:underline" href="/">study in lithuania</Link>.</p>
-                <p className='mt-2 text-inter text-md text-justify'>Indian students can usually manage both studies and work comfortably with proper time management. However, universities always recommend prioritising academic performance during the study period.</p>
-              </div>
-              <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>How to Find Jobs in Lithuania</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Indian students can search for jobs through:</p>
-                <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;University career centres</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Online job portals</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Social networking platforms</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Company websites</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Friends and student communities</li>
-                </ul>
-                <p className='text-inter text-md my-5 text-justify'>Creating a professional CV and preparing for interviews can improve job opportunities for students in Lithuania.</p>
-              </div>
-              <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Career Support for Indian Students</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Many universities in Lithuania provide career guidance and student support services to help indian students prepare for future careers.</p>
-                <p className='mt-3 text-inter text-md text-justify'>University career services may include:</p>
-                <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;CV and resume guidance</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Internship opportunities</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Interview preparation</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Career counselling</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Job fairs and networking events</li>
-                </ul>
-                <p className='text-inter text-md my-5 text-justify'>These services help students improve professional skills and connect with employers during their studies.</p>
-              </div>
-              <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Work Opportunities After Graduation</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Lithuania also offers career opportunities for indian graduates after completing their studies. Students may explore jobs in sectors such as:</p>
-                <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Information Technology</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Engineering</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Healthcare</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Logistics</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Finance and Business</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Marketing and Management</li>
-                </ul>
-                <p className='text-inter text-md my-5 text-justify'>Graduates who find suitable employment opportunities may apply for further residence and work-related permissions according to Lithuanian immigration regulations.</p>
-              </div>
-              <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Important Guidelines for Students</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Before starting work in Lithuania, students should:</p>
-                <ul className='space-y-2 mt-2'>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Understand employment rules and regulations</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Maintain a balance between work and studies</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Follow legal work procedures</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Use official work contracts</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Avoid unofficial or illegal employment</li>
-                </ul>
-                <p className='text-inter text-md my-5 text-justify'>Working legally and responsibly helps students gain valuable international work experience while staying protected under Lithuanian employment laws.</p>
-              </div>
-            </div>
-            <div className='mt-5'>
-              <h4 className='font-roboto text-xl md:text-2xl'>Build Your Career in Lithuania</h4>
-              <p className='font-inter text-md mt-3 text-justify'>Studying and working in Lithuania can provide students with international exposure, practical experience, and career growth opportunities. With affordable living costs, growing industries, and student-friendly policies, Lithuania offers a supportive environment for students planning their future in Europe.</p>
+              <h4 className='font-roboto text-xl md:text-2xl text-gray-500'>Build Your Future Through Education and Work in Finland</h4>
+              <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Studying in Finland offers more than academic qualifications. It also gives international students opportunities to develop practical skills, gain international exposure and prepare for a professional career.</p>
+              <p className='font-roboto text-md lg:text-base mt-3 text-justify'>From part-time employment during studies to internships and post-graduation career opportunities, Finland provides different pathways for students looking to gain experience in a European work environment.</p>
+              <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Planning to study in Finland? Connect with Indo-European Study Abroad Consultancy for guidance on university admissions, course selection, student visa assistance and your international education journey.</p>
             </div>
             <div className="flex justify-end items-end mt-5">
                <Link href={'/student-ambassadors'} className="text-blue-500 font-roboto hover:underline">Read about student ambassadors<FaArrowRightLong className="inline-block"/></Link>
