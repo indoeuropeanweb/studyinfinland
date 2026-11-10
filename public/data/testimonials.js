@@ -1,8 +1,8 @@
 export const Testimonials = [
-    "https://www.youtube.com/embed/k2iqLJ6zaCM?si=VNeDip4nZfS17LeK",
-    "https://www.youtube.com/embed/Ikk4Awrvzrg?si=VGoOvvaGsoE24Pd7",
-    "https://www.youtube.com/embed/QcWe-2VV5-w?si=18Z0D9y28mFT-ocM",
-    "https://www.youtube.com/embed/EZ5XAyrORoI?si=Ved36CttN-9RW94j",
-    "https://www.youtube.com/embed/Mc30-i2yTVQ?si=9aSsDmnM617vQAoX",
-    "https://www.youtube.com/embed/3ppo-aqCRYE?si=YvcdJzI5MONcRCRR"
+    "https://www.youtube.com/embed/lzIAWADvjrQ?si=7odUEfHWFzArUDjC",
+    "https://www.youtube.com/embed/k6O8rg7ScuQ?si=vekA4PYvLEt4FStY",
+    "https://www.youtube.com/embed/5nsxKMHOWh4?si=jl5YmmDTA-6GBLEh",
+    "https://www.youtube.com/embed/Po2fWPG1XLA?si=Unrr08lJbwzWuxHt",
+    "https://www.youtube.com/embed/q-89PBQw5dE?si=6MO4qd1YFiteGqhc",
+    "https://www.youtube.com/embed/Xa1MiDmTEkE?si=sMeS3I3tl2IkzRLJ"
 ]

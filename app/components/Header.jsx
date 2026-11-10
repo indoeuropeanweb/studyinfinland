@@ -38,23 +38,25 @@ const Header = () => {
             }`
           : "sticky bg-primary"
       }`}
+      onMouseLeave={() => setScrolled(false)}
+      onMouseEnter={() => setScrolled(true)}
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-18 lg:h-24">
           <Link href="/" className="flex items-center">
-          {/* <Image
+          <Image
             src={
               darkHeader
-                ? "/images/logos/light-logo.webp"
-                : "/images/logos/logo.webp"
+                ? "/images/logos/light-logo.png"
+                : "/images/logos/logo.png"
             }
-            alt="Study in Lithuania"
-            width={150}
-            height={50}
+            alt="Study in Finland"
+            width={200}
+            height={120}
             loading="lazy"
             className="w-full h-auto max-w-37.5 transition duration-300"
-          /> */}
-          <h4 className="text-md lg:text-lg font-semibold text-white font-aino">Finland Higher <br />Education Center</h4>
+          />
+          {/* <h4 className="text-md lg:text-lg font-semibold text-white font-aino">Finland Higher <br />Education Center</h4> */}
           </Link>
           <nav className="hidden lg:flex items-center gap-8 xl:gap-10 font-medium">
             <Link

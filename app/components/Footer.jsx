@@ -8,8 +8,8 @@ const footer = () => {
         <div className='py-6 grid grid-cols-1 md:grid-cols-4 gap-5 px-6'>
           <div className='max-w-100 col-span-1'>
             <Link className='' href={'/'}>
-            {/* <Image className="w-40 h-18.75" width={140} height={70} src='/images/logos/logo.webp' alt="study in lithuania centre" /> */}
-            <h4 className="text-md lg:text-lg font-aino text-primary font-semibold">Finland Higher<br /> Education Center</h4>
+            <Image className="" width={220} height={120} src='/images/logos/logo.png' alt="study in lithuania centre" />
+            {/* <h4 className="text-md lg:text-lg font-aino text-primary font-semibold">Finland Higher<br /> Education Center</h4> */}
             </Link>
             <p className='mt-3'>With 20+ years of experience in study abroad consultancy, we offer online and offline counselling, IELTS coaching, and admission assistance to students planning their European education journey.</p>
             <div className='flex gap-5 mt-3'>

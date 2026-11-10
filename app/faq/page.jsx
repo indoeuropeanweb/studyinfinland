@@ -60,93 +60,93 @@ const page = () => {
 const faqData = [
   {
     "id": 1,
-    "question": "1. Is Lithuania good for Indian students?",
-    "answer": "Yes, Lithuania is becoming a popular destination for Indian students because of its affordable education, globally recognized universities, safe environment, and English-taught programs."
+    "question": "1. Why should Indian students choose Finland for higher education?",
+    "answer": "Finland is a popular study destination known for its high-quality education system, modern teaching methods and excellent research facilities. It offers internationally recognised degrees, English-taught programmes, a safe living environment and opportunities to gain international work experience."
   },
   {
     "id": 2,
-    "question": "2. What is the cost of studying in Lithuania?",
-    "answer": "The cost of studying in Lithuania is relatively affordable compared to many other European countries. Tuition fees and living expenses depend on the university, city, and course."
+    "question": "2. Can Indian students study in Finland in English?",
+    "answer": "Yes, Indian students can pursue bachelor&#39;s and master&#39;s degrees in English at Finnish universities and Universities of Applied Sciences (UAS). Finland offers around 600 English-taught degree programmes across various academic fields."
   },
   {
     "id": 3,
-    "question": "3. Can Indian students study in Lithuania?",
-    "answer": "Yes, Indian students can study in Lithuania by applying to recognized universities and obtaining a Lithuanian student visa."
+    "question": "3. What are the admission requirements to study in Finland?",
+    "answer": "For bachelor&#39;s programmes, students generally need a recognised Class 12 qualification. For master's programmes, a relevant bachelor's degree is required. Depending on the course and university, students may also need English proficiency test scores, entrance examination results or work experience."
   },
   {
     "id": 4,
-    "question": "4. Is IELTS required for Lithuania?",
-    "answer": "Many universities in Lithuania accept IELTS scores, but some institutions may also accept other English proficiency proofs depending on the course requirements."
+    "question": "4. What is the minimum percentage required to study in Finland?",
+    "answer": "The minimum academic percentage depends on the university, course and admission criteria. Students must have the required academic qualifications and meet the specific eligibility conditions of their selected programme."
   },
   {
     "id": 5,
-    "question": "5. What are the top universities in Lithuania?",
-    "answer": "Some popular universities in Lithuania include universities located in Vilnius and Kaunas that offer Indianly recognized degrees."
+    "question": "5. Is IELTS mandatory to study in Finland?",
+    "answer": "IELTS is not mandatory for every university in Finland. However, many English-taught programmes require proof of English proficiency through IELTS, TOEFL, PTE or other accepted qualifications. Requirements and possible exemptions vary between universities."
   },
   {
     "id": 6,
-    "question": "6. Is Lithuania part of the Schengen Area?",
-    "answer": "Yes, Lithuania is a member of the Schengen Area, which allows students to travel across many European countries."
+    "question": "6. What is the IELTS score required for Finnish universities?",
+    "answer": "Most Finnish universities set their own English language requirements. The required IELTS score commonly varies by programme and institution. Students should check the minimum overall band score and individual section requirements before applying."
   },
   {
     "id": 7,
-    "question": "7. Can students work while studying in Lithuania?",
-    "answer": "Indian students in Lithuania are generally allowed to work part-time during their studies according to visa regulations."
+    "question": "7. How much does it cost to study in Finland for Indian students?",
+    "answer": "For Indian students, tuition fees for English-taught bachelor&#39;s and master&#39;s programmes generally range from €9,000 to €20,000 per year. Living expenses are approximately €900–€1,200 per month, depending on the city and lifestyle."
   },
   {
     "id": 8,
-    "question": "8. What is the average living cost in Lithuania?",
-    "answer": "Living costs in Lithuania are considered budget-friendly for students and usually include accommodation, food, transport, and personal expenses."
+    "question": "8. Can Indian students study in Finland for free?",
+    "answer": "Most Indian students applying for English-taught bachelor&#39;s and master&#39;s programmes need to pay tuition fees. However, some universities offer scholarships and tuition fee waivers. Doctoral programmes generally do not charge tuition fees."
   },
   {
     "id": 9,
-    "question": "9. Are English-taught programs available in Lithuania?",
-    "answer": "Yes, many universities in Lithuania offer bachelor's and master's programs in English for Indian students."
+    "question": "9. AAre scholarships available for Indian students in Finland?",
+    "answer": "Yes, several Finnish universities offer scholarships to international students, including Indian applicants. These scholarships may provide partial or full tuition fee waivers based on academic performance and university-specific eligibility criteria. Living expenses are generally not covered."
   },
   {
     "id": 10,
-    "question": "10. Is Lithuania safe for Indian students?",
-    "answer": "Lithuania is considered one of the safer European countries with a peaceful and student-friendly environment."
+    "question": "10. When are the intakes available in Finland?",
+    "answer": "Finnish universities generally offer two main admission periods: Autumn and Spring. The Autumn intake usually begins in August or September, while some universities offer programmes starting in January. Application deadlines vary by university and course."
   },
   {
     "id": 11,
-    "question": "11. How long does the Lithuania student visa process take?",
-    "answer": "The Lithuania student visa process may take several weeks depending on the application and document verification process."
+    "question": "11. How can Indian students apply to Finnish universities?",
+    "answer": "Indian students can apply to Finnish universities through the official Studyinfo.fi portal or directly through university application portals, depending on the programme. The process generally involves selecting a course, checking eligibility, submitting academic documents, paying applicable application fees and completing any required entrance examinations or interviews."
   },
   {
     "id": 12,
-    "question": "12. What are the admission requirements for Lithuanian universities?",
-    "answer": "Admission requirements usually include academic documents, passport, application form, English proficiency proof, and other university-specific requirements."
+    "question": "12. What is the Finland student visa process for Indian students?",
+    "answer": "Indian students generally need a student residence permit to study in Finland for more than 90 days. After receiving university admission, students can apply through the Enter Finland online portal. They must provide their admission confirmation, proof of sufficient funds, valid health insurance and other required documents before completing identity verification."
   },
   {
     "id": 13,
-    "question": "13. Which courses are popular in Lithuania?",
-    "answer": "Business, IT, engineering, medicine, management, and data science are among the popular courses in Lithuania."
+    "question": "13. How much bank balance is required for a Finland student residence permit?",
+    "answer": "Students must demonstrate sufficient funds to cover their living expenses during their stay in Finland. The exact financial requirement is determined by the Finnish Immigration Service (Migri). Applicants should check the latest financial requirements before submitting their residence permit application."
   },
   {
     "id": 14,
-    "question": "14. Can students stay in Lithuania after graduation?",
-    "answer": "Many graduates explore job opportunities and post-study options in Lithuania and other European countries after completing their studies."
+    "question": "14. Can Indian students work part-time while studying in Finland?",
+    "answer": "Yes, international students holding a residence permit for studies can work in Finland for an average of up to 30 hours per week. They can also work without this weekly restriction during official academic holidays when the educational institution does not provide instruction."
   },
   {
     "id": 15,
-    "question": "15. Is Lithuania affordable compared to other European countries?",
-    "answer": "Yes, Lithuania is often considered more affordable than many Western European study destinations."
+    "question": "15. What is the average cost of living in Finland for international students?",
+    "answer": "The average monthly living expenses in Finland are approximately €900–€1,200. These expenses generally include accommodation, food, transportation, utilities and personal costs. Living expenses may be higher in cities such as Helsinki compared to smaller Finnish cities."
   },
   {
     "id": 16,
-    "question": "16. What is the climate like in Lithuania?",
-    "answer": "Lithuania experiences four seasons with mild summers and cold winters."
+    "question": "16. Can Indian students stay in Finland after completing their studies?",
+    "answer": "Yes, international students who complete their degree in Finland may apply for a residence permit to look for employment or start a business. This permit can be granted for a maximum of two years, subject to eligibility and financial requirements."
   },
   {
     "id": 17,
-    "question": "17. Is accommodation available for Indian students in Lithuania?",
-    "answer": "Yes, universities usually provide hostel facilities, and private accommodation options are also available."
+    "question": "17. Are there job opportunities in Finland after graduation?",
+    "answer": "Yes, international graduates can explore employment opportunities in Finland across sectors such as IT, engineering, business, healthcare and technology. Job opportunities depend on qualifications, work experience, industry demand and language skills. Learning Finnish or Swedish can improve employment prospects."
   },
   {
     "id": 18,
-    "question": "18. Do universities in Lithuania provide scholarships?",
-    "answer": "Some Lithuanian universities and government programs offer scholarships for Indian students based on eligibility."
+    "question": "18. Can I bring my spouse or family members to Finland while studying?",
+    "answer": "Yes, eligible international students can apply for residence permits for their family members based on family ties. Applicants must meet the applicable financial and documentation requirements set by the Finnish Immigration Service. Family members who receive the relevant residence permit generally have the right to work and study in Finland."
   },
   {
     "id": 19,
@@ -257,7 +257,7 @@ const faqData = [
 
   return (
     <>
-         <Breadcrumb heading={'Frequently Asked Questions About Studying in Lithuania'}/>
+         <Breadcrumb heading={'Frequently Asked Questions About Studying in Finland'}/>
          <div className='max-w-6xl mx-auto'>
             <div className='px-5 py-10'>
               <h2 className="text-2xl lg:text-3xl font-aino mb-2">Frequently Asked Questions</h2>

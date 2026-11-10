@@ -145,62 +145,71 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading={'About Us: Your Trusted Partner for Studying in Lithuania and Abroad'}/>
+     <Breadcrumb heading={'About Us – Your Journey to Study in Finland Starts Here'}/>
      <div className='mx-auto max-w-6xl'>
          <div className='py-10 px-5'>
-               <h2 className='font-aino text-2xl md:text-4xl'>Who We Are?</h2>
-               <p className='text-justify font-roboto text-lg mt-3'>We are a dedicated international education guidance platform committed to helping students
-                achieve their dream of studying abroad. For over 20+ years, we have been supporting students
-                with university admissions, scholarships, visa applications, <Link className="font-semibold hover:underline" href="https://www.indoeuropean.in/coaching">IELTS preparation</Link>, and complete <Link className="font-semibold hover:underline" href="/contact">study abroad guidance</Link>.<br />
-                With more than 5,000+ successful student placements, we have helped aspiring students pursue
-                Bachelor's, Master's, and other higher education programmes in leading international
-                destinations. Our experienced team works closely with students to simplify every step of the
-                admission and visa process.</p>
+               <h2 className='font-aino text-2xl md:text-4xl'>Making International Education Accessible</h2>
+               <p className='text-justify font-roboto text-base md:text-lg mt-3'>We believe that quality education has the power to transform futures. With over 22 years of
+                experience in overseas education, we help students explore international academic
+                opportunities and take confident steps towards their career goals.
+                With a focus on Finland, our aim is to simplify the study abroad journey through personalised
+                counselling, university selection, admission assistance and student visa guidance. Our
+                extensive experience and connections with 200+ universities help students explore suitable
+                educational pathways based on their academic profiles and ambitions.
+                Whether you are planning a Bachelor's or Master's degree, we are here to make your journey
+                towards studying in Finland easier and more organised.</p>
               <div className='mt-10'>
-                <h2 className='font-roboto text-xl md:text-2xl'>What We Offer</h2>
+                <h2 className='font-roboto text-xl md:text-2xl'>Why Choose Us?</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>
                       <ul className='mt-3 space-y-3'>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;University admission guidance</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Scholarship assistance</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Student visa support</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;IELTS coaching and preparation</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Interview preparation</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Pre-departure guidance</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Ongoing student support</li>
+                         <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Experienced Guidance:</strong> Over two decades of experience in international education and student counselling.</li>
+                         <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Personalised Counselling:</strong> Course and university recommendations based on your qualifications, interests and career goals.</li>
+                         <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>University Network:</strong> Connections with 200+ universities across international study destinations.</li>
+                         <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Admission Assistance:</strong> Support with university shortlisting, applications and documentation.</li>
+                         <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Visa Guidance:</strong> Assistance with Finland student residence permit requirements and application procedures.</li>
+                         <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Complete Student Support:</strong> Guidance from initial counselling and test preparation to pre-departure assistance.</li>
                       </ul>
-                   <Image className="h-auto w-auto rounded-md" src="/images/lithuania/study-in-lithuania.webp" width={480} height={250} alt="study abroad lithuania" />
+                   <Image className="rounded-md" src="/images/about/study-in-finland-centre.webp" width={450} height={450} alt="study abroad finland" />
                  </div>
                  <div className=''>
-                    <p className='text-justify font-roboto text-lg mt-3'>Our commitment to quality counselling and personalised assistance has helped us maintain a
+                    <p className='text-justify font-roboto text-md lg:text-base mt-3'>Our commitment to quality counselling and personalised assistance has helped us maintain a
                       99% visa success rate, making us a trusted choice for students planning to study overseas.</p>
                  </div>
                </div>
                <div className='my-10'>
-                      <h2 className='font-roboto text-xl md:text-2xl my-5'>Study in Lithuania</h2>
-                      <p className='font-inter text-base text-justify'>Lithuania has become one of Europe&#39;s most popular study destinations for indian
-                        students. The country offers globally recognised degrees, affordable tuition fees, modern
-                        learning facilities, and excellent career opportunities.</p>
-                      <p className='font-inter text-justify text-base mt-3'>Students can explore study opportunities at some of Lithuania&#39;s leading higher education
-institutions, including:</p>
+                      <h2 className='font-roboto text-xl md:text-2xl my-5'>Our Services</h2>
+                      <p className='font-roboto text-md lg:text-base text-justify'>We provide comprehensive support to help students plan their education in Finland.</p>
                       <ul className='space-y-3 mt-3'>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Vilnius University</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Vilnius Gediminas Technical University</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Kaunas University of Technology</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Vytautas Magnus University</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Mykolas Romeris University</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Klaipėda University</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<Link className="font-semibold hover:underline" href="/study/universities">Lithuanian University</Link> of Health Sciences</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;ISM University of Management and Economics</li>
+                        <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Career Counselling:</strong> Discover suitable academic programmes based on your interests and future aspirations.</li>
+                        <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>University & Course Selection:</strong> Explore Finnish universities and English-taught programmes that match your profile.</li>
+                        <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Admission Assistance:</strong> Get guidance with eligibility checks, application forms and required documents.</li>
+                        <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>IELTS & English Test Preparation:</strong> Prepare for IELTS, PTE Academic and Duolingo English Test according to university requirements.</li>
+                        <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Scholarship & Financial Guidance:</strong> Explore scholarship options, tuition fees and financial planning.</li>
+                        <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Finland Student Visa Assistance:</strong> Understand residence permit procedures, financial requirements and health insurance documentation.</li>
+                        <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Pre-Departure Support:</strong> Prepare for accommodation, travel and student life in Finland.</li>
                       </ul>
-                      <p className='mt-5 text-justify'>These institutions offer a wide range of English-taught programmes and provide a supportive environment for indian students.</p>
+               </div>
+               <div className='my-10'>
+                      <h2 className='font-roboto text-xl md:text-2xl my-5'>Why Study in Finland?</h2>
+                      <p className='font-roboto text-md lg:text-base text-justify'>Finland is an attractive destination for international students because of its quality education, innovative teaching methods and welcoming academic environment.</p>
+                      <ul className='space-y-3 mt-3'>
+                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Globally recognised higher education institutions.</li>
+                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Hundreds of English-taught Bachelor's and Master's programmes.</li>
+                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Research-oriented and practical learning opportunities</li>
+                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Modern infrastructure and technology-driven education.</li>
+                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;International student community and multicultural exposure.</li>
+                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Opportunities for internships, part-time work and career development, subject to applicable rules.</li>
+                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;A high quality of life and student-friendly environment.</li>
+                      </ul>
+                      <p className='mt-5 text-justify text-md lg:text-base'>These institutions offer a wide range of English-taught programmes and provide a supportive environment for indian students.</p>
                </div>
                 <div className="my-10">
                   <div className="mb-10">
                     <h2 className="font-roboto text-xl md:text-2xl mt-3">
-                      Lithuania in Numbers
+                      Our Journey in Numbers
                     </h2>
-                    <p className="text-gray-600 mt-3 text-base">
-                      Lithuania offers affordable education, globally recognized degrees,
+                    <p className="text-gray-600 mt-3 text-md lg:text-base">
+                      Finland offers affordable education, globally recognized degrees,
                       and excellent opportunities for indian students.
                     </p>
                   </div>
@@ -208,8 +217,8 @@ institutions, including:</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     <div className="bg-white border rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition">
                       <FaUniversity className="mx-auto text-3xl text-primary mb-3" />
-                      <h3 className="text-3xl font-bold text-primary">20+</h3>
-                      <p className="mt-2 text-gray-600">
+                      <h3 className="text-3xl font-bold text-primary">22+</h3>
+                      <p className="mt-2 text-gray-600 text-md lg:text-base">
                         Years of Overseas Education Experience
                       </p>
                     </div>
@@ -217,7 +226,7 @@ institutions, including:</p>
                     <div className="bg-white border rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition">
                       <FaUserGraduate className="mx-auto text-3xl text-primary mb-3" />
                       <h3 className="text-3xl font-bold text-primary">5,000+</h3>
-                      <p className="mt-2 text-gray-600">
+                      <p className="mt-2 text-gray-600 text-md lg:text-base">
                         Students Successfully Guided
                       </p>
                     </div>
@@ -225,7 +234,7 @@ institutions, including:</p>
                     <div className="bg-white border rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition">
                       <FaCheckCircle className="mx-auto text-3xl text-primary mb-3" />
                       <h3 className="text-3xl font-bold text-primary">99%</h3>
-                      <p className="mt-2 text-gray-600">
+                      <p className="mt-2 text-gray-600 text-md lg:text-base">
                         Visa Success Rate
                       </p>
                     </div>
@@ -233,33 +242,33 @@ institutions, including:</p>
                     <div className="bg-white border rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition">
                       <FaAward className="mx-auto text-3xl text-primary mb-3" />
                       <h3 className="text-3xl font-bold text-primary">3000+</h3>
-                      <p className="mt-2 text-gray-600">
+                      <p className="mt-2 text-gray-600 text-md lg:text-base">
                         Scholarship Opportunities
                       </p>
                     </div>
 
                     <div className="bg-white border rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition">
                       <FaLanguage className="mx-auto text-3xl text-primary mb-3" />
-                      <h3 className="text-3xl font-bold text-primary">English</h3>
-                      <p className="mt-2 text-gray-600">
-                        Bachelor's & Master's Programmes
+                      <h3 className="text-3xl font-bold text-primary">600+</h3>
+                      <p className="mt-2 text-gray-600 text-md lg:text-base">
+                        English-Taught Bachelor's & Master's Programmes in Finland
                       </p>
                     </div>
 
                     <div className="bg-white border rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition">
                       <FaGlobeEurope className="mx-auto text-3xl text-primary mb-3" />
-                      <h3 className="text-3xl font-bold text-primary">Growing</h3>
-                      <p className="mt-2 text-gray-600">
-                        Indian Student Community
+                      <h3 className="text-3xl font-bold text-primary">International</h3>
+                      <p className="mt-2 text-gray-600 text-md lg:text-base">
+                        Welcoming Student Community
                       </p>
                     </div>
                   </div>
 
                   <div className="mt-10 bg-primary text-white rounded-2xl p-8">
-                    <p className="text-center text-lg leading-relaxed">
+                    <p className="text-center text-md lg:text-base leading-relaxed">
                       We believe studying abroad is more than earning a degree—it's an
                       opportunity to build a successful global career and gain
-                      life-changing indian experience.
+                      life-changing international experience.
                     </p>
                   </div>
                 </div>

@@ -123,12 +123,12 @@ const page = () => {
                   <h4 className="text-lg lg:text-xl font-semibold font-roboto text-gray-500">Scholarship Eligibility</h4>
                   <p className="text-md font-inter mt-2">Eligibility requirements vary depending on the university and scholarship programme. Generally, students may need:</p>
                   <ul className="mt-3 space-y-2">
-                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Good academic performance.</li>
-                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Admission to a Finnish university.</li>
-                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English language proficiency, if required.</li>
-                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Statement of Purpose (SOP).</li>
-                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Updated CV or Resume.</li>
-                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Supporting academic documents.</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Good academic performance.</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Admission to a Finnish university.</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;English language proficiency, if required.</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Statement of Purpose (SOP).</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Updated CV or Resume.</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Supporting academic documents.</li>
                   </ul>
                   </div>
                   <div className="mt-5">

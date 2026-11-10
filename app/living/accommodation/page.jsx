@@ -121,7 +121,7 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Living​‍​‌‍​‍‌ Arrangements for Indian Students in ​‍​‌‍​‍‌Lithuania"}/>
+        <Breadcrumb heading={"Living​‍​‌‍​‍‌ Arrangements for Indian Students in Finland"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div>
@@ -130,7 +130,7 @@ const page = () => {
             Student accommodation in Finland is generally more affordable through student housing foundations than private rental properties. Most student apartments provide essential facilities and convenient access to universities, public transport and nearby amenities.</p>
             </div>
             <div className=''>
-               <Image width={420} height={320} className="rounded-md" src="/images/living/accommodation/accommodation.webp" alt="accommodation options for indian students in lithuania" />
+               <Image width={420} height={320} className="rounded-md" src="/images/living/accommodation/accommodation.webp" alt="accommodation options for indian students in finland" />
             </div>
             </div>
             <div className='mt-5'>

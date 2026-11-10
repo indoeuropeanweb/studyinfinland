@@ -107,11 +107,12 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading={'Student Experiences in Finland: Real Stories, Success Journeys and Study Abroad Experiences'}/>
+     <Breadcrumb heading={'Student Life in Finland – Real Stories from International Students'}/>
      <section className='mx-auto max-w-6xl'>
        <div className='py-10 px-5'>
-         <h2 className='text-2xl md:text-4xl font-aino'>Student Experiences in Lithuania</h2>
-         <p className='text-base font-inter text-justify mt-3'>Hear directly from students who successfully secured admissions, scholarships, and visas to study in Lithuania. Watch their video reviews and explore moments from their international education journey.</p>
+         <h2 className='text-2xl md:text-4xl font-aino'>Life in Finland Through Student Eyes</h2>
+         <p className='text-md lg:text-base font-roboto text-justify mt-3'>Explore real student experiences from Finland and discover their journey of studying abroad. Watch student stories covering university admissions, student visas, campus life, accommodation and everyday experiences of studying in Finland.</p>
+         <p className='text-md lg:text-base font-roboto text-justify mt-3'>Discover how international students are building their academic and professional futures in Finland through quality education, global exposure and exciting career opportunities.</p>
          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-3 space-x-3 mt-8'>
             {Testimonials.map((testimonial, index) => {
               return <div className='' key={index}>
@@ -119,7 +120,7 @@ const page = () => {
               </div>
             })}
          </div>
-       </div>
+      </div>
       <div className="flex justify-end items-end">
           <Link href={'/faq'} className="text-blue-500 font-roboto hover:underline">Read Frequently Asked Questions (FAQ) <FaArrowRightLong className="inline-block"/></Link>
       </div>

@@ -26,7 +26,7 @@ const LivingClient = () => {
           </p>
             </div>
             <div className=''>
-              <Image className='rounded-md' width={420} height={320} src="/images/living/living.webp" alt="living in lithuania for indian students" />
+              <Image className='rounded-md' width={420} height={320} src="/images/living/living.webp" alt="living in finland for indian students" />
             </div>
             </div>
             <div className='mt-5'>
@@ -36,11 +36,11 @@ const LivingClient = () => {
               and participate in different activities.</p>
               <p className='text-inter text-md mt-2'>Students can enjoy:</p>
               <ul className='mt-3'>
-                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6'/>&nbsp;University orientation programmes</li>
-                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Student clubs and cultural events</li>
-                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Sports and recreational activities</li>
-                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Workshops and career development programmes</li>
-                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Social gatherings and networking opportunities</li>
+                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6 text-primary'/>&nbsp;University orientation programmes</li>
+                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6 text-primary'/>&nbsp;Student clubs and cultural events</li>
+                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6 text-primary'/>&nbsp;Sports and recreational activities</li>
+                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6 text-primary'/>&nbsp;Workshops and career development programmes</li>
+                <li className='text-inter text-md'><IoIosArrowForward className='inline-block size-6 text-primary'/>&nbsp;Social gatherings and networking opportunities</li>
               </ul>
               <p className='text-inter text-md mt-2'>These activities help international students make friends, understand Finnish culture, and feel more connected to their university community.</p>
             </div>

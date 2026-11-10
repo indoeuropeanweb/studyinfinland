@@ -204,7 +204,7 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading="Student​‍​‌‍​‍‌ Success Stories: Real Experiences from ​‍​‌‍​‍‌Lithuania"/>
+     <Breadcrumb heading="Our Students' Experiences: Life and Study in Finland"/>
      <section className='max-w-6xl mx-auto'>
        <div className='py-10 px-5'>
         <div className="grid grid-cols-1 gap-5 lg:gap-8">
