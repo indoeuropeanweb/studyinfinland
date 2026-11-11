@@ -6,22 +6,22 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 
 export const metadata = {
-  title: "Get Study in Lithuania Consultants Blogs For Indian Student",
-  description: "Explore study in Lithuania blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
+  title: "Get Study in Finland Consultants Blogs For Indian Student",
+  description: "Explore study in Finland blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
   keywords: [
-      "Lithuania Blog",
-      "Study in Lithuania Blog",
-      "Study in Lithuania Articles",
-      "Lithuania Student Blog",
-      "Study Abroad Lithuania",
-      "Lithuania Universities",
-      "Study in Lithuania for Indian Students",
-      "Lithuania Student Visa",
-      "Lithuania Scholarships",
-      "Lithuania Admission Guide"
+      "Finland Blog",
+      "Study in Finland Blog",
+      "Study in Finland Articles",
+      "Finland Student Blog",
+      "Study Abroad Finland",
+      "Finland Universities",
+      "Study in Finland for Indian Students",
+      "Finland Student Visa",
+      "Finland Scholarships",
+      "Finland Admission Guide"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/blogs/"
+    canonical: "https://www.studyinfinland.in/blogs/"
   },
   robots: {
     index: true,
@@ -29,19 +29,19 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/blogs/",
+    url: "https://www.studyinfinland.in/blogs/",
     title:
-      "Get Study in Lithuania Consultants Blogs For Indian Student",
+      "Get Study in Finland Consultants Blogs For Indian Student",
     description:
-      "Explore study in Lithuania blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
-    siteName: "Study in Lithuania",
+      "Explore study in Finland blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
+    siteName: "Study in Finland",
     locale: "en_US",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinfinland.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Study in Lithuania Blog for International Students",
+        alt: "Study in Finland Blog for International Students",
       },
     ],
   },
@@ -54,63 +54,63 @@ const schema = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinfinland.in/#organization",
+      name: "Study in Finland",
+      url: "https://www.studyinfinland.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/wp-content/uploads/logo.png",
+        url: "https://www.studyinfinland.in/wp-content/uploads/logo.png",
       },
     },
     {
       "@type": "Blog",
-      "@id": "https://www.studyinlithuania.in/blogs/#blog",
-      url: "https://www.studyinlithuania.in/blogs/",
-      name: "Study in Lithuania Blog",
+      "@id": "https://www.studyinfinland.in/blogs/#blog",
+      url: "https://www.studyinfinland.in/blogs/",
+      name: "Study in Finland Blog",
       description:
-        "Educational resources, admission guides, scholarship updates, visa information, student life tips and university insights for international students planning to study in Lithuania.",
+        "Educational resources, admission guides, scholarship updates, visa information, student life tips and university insights for international students planning to study in Finland.",
       publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
+        "@id": "https://www.studyinfinland.in/#organization",
       },
       inLanguage: "en",
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.studyinlithuania.in/blogs/#webpage",
-      url: "https://www.studyinlithuania.in/blogs/",
-      name: "Study in Lithuania Blog",
+      "@id": "https://www.studyinfinland.in/blogs/#webpage",
+      url: "https://www.studyinfinland.in/blogs/",
+      name: "Study in Finland Blog",
       description:
-        "Explore blogs about Lithuanian universities, admissions, scholarships, visas, accommodation, living costs and student life.",
+        "Explore blogs about Finlandn universities, admissions, scholarships, visas, accommodation, living costs and student life.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinfinland.in/#website",
       },
       breadcrumb: {
-        "@id": "https://www.studyinlithuania.in/blogs/#breadcrumb",
+        "@id": "https://www.studyinfinland.in/blogs/#breadcrumb",
       },
     },
     {
       "@type": "CollectionPage",
-      "@id": "https://www.studyinlithuania.in/blogs/#collectionpage",
-      url: "https://www.studyinlithuania.in/blogs/",
-      name: "Study in Lithuania Blogs",
+      "@id": "https://www.studyinfinland.in/blogs/#collectionpage",
+      url: "https://www.studyinfinland.in/blogs/",
+      name: "Study in Finland Blogs",
       description:
         "Collection of blog articles and study guides for international students.",
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.studyinlithuania.in/blogs/#breadcrumb",
+      "@id": "https://www.studyinfinland.in/blogs/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinfinland.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Blogs",
-          item: "https://www.studyinlithuania.in/blogs/",
+          item: "https://www.studyinfinland.in/blogs/",
         },
       ],
     },
@@ -119,10 +119,10 @@ const schema = {
 
   return (
     <>
-    <Breadcrumb heading="Study in Lithuania Blogs: Expert Guides, Student Resources and Study Abroad Insights" />
+    <Breadcrumb heading="Study in Finland Blogs: Expert Guides, Student Resources and Study Abroad Insights" />
     <div className="max-w-6xl mx-auto py-10 px-5">
-      <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Lithuania Blogs & Student Guides</h2>
-      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Lithuania. From university admissions and Lithuania student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their <Link className="font-semibold hover:underline" href="https://indoeuropean.in">study abroad consultants</Link>. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Lithuania.</p>
+      <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Finland Blogs & Student Guides</h2>
+      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Finland. From university admissions and Finland student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their <Link className="font-semibold hover:underline" href="https://indoeuropean.in">study abroad consultants</Link>. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Finland.</p>
       <div className="grid md:grid-cols-3 gap-6">
         {[...blogs].reverse().map((blog) => (
           <Link

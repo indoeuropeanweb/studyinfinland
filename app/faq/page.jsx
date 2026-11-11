@@ -5,21 +5,21 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Lithuania Study Consultants: Top FAQs for Indian Students",
-  description: "Looking for trusted Study in Lithuania Consultants? Find answers to admission, visa, scholarships, tuition fees, eligibility, and student life in Lithuania.",
+  description: "Looking for trusted Study in Finland Consultants? Find answers to admission, visa, scholarships, tuition fees, eligibility, and student life in Finland.",
   keywords: [
-      "Study in Lithuania Consultants",
-      "Study in Lithuania Consultant India",
-      "Study in Lithuania FAQ",
-      "Study in Lithuania Admission",
-      "Lithuania Student Visa",
-      "Study in Lithuania for Indian Students",
-      "Lithuania Universities",
-      "Lithuania Scholarship",
+      "Study in Finland Consultants",
+      "Study in Finland Consultant India",
+      "Study in Finland FAQ",
+      "Study in Finland Admission",
+      "Finland Student Visa",
+      "Study in Finland for Indian Students",
+      "Finland Universities",
+      "Finland Scholarship",
       "Study Abroad Consultants",
-      "Lithuania Education Consultants"
+      "Finland Education Consultants"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/faq"
+    canonical: "https://www.studyinfinland.in/faq"
   },
     robots: {
     index: true,
@@ -28,29 +28,29 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Lithuania Study Consultants: Top FAQs for Indian Students",
+      "Finland Study Consultants: Top FAQs for Indian Students",
     description:
-      "Get answers to common questions about studying and living in Lithuania.",
-    url: "https://www.studyinlithuania.in/faq/",
-    siteName: "Study in Lithuania Centre",
+      "Get answers to common questions about studying and living in Finland.",
+    url: "https://www.studyinfinland.in/faq/",
+    siteName: "Study in Finland Centre",
     images: [
       {
         url:
-          "https://www.studyinlithuania.in/images/logos/logo.png",
+          "https://www.studyinfinland.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Study in Lithuania FAQ",
+        alt: "Study in Finland FAQ",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuania Study Consultants: Top FAQs for Indian Students",
+      "Finland Study Consultants: Top FAQs for Indian Students",
     description:
-      "Get answers to common questions about studying and living in Lithuania.",
+      "Get answers to common questions about studying and living in Finland.",
     images: [
-      "https://www.studyinlithuania.in/images/logos/logo.png",
+      "https://www.studyinfinland.in/images/logos/logo.png",
     ],
   },
 }
@@ -150,13 +150,13 @@ const faqData = [
   },
   {
     "id": 19,
-    "question": "19. Why do students choose Lithuania for higher education?",
-    "answer": "Students choose Lithuania because of quality education, affordable costs, Indian exposure, and European career opportunities."
+    "question": "19. What are the best courses to study in Finland?",
+    "answer": "Finland offers popular courses in Information Technology, Engineering, Business Administration, Artificial Intelligence, Data Science, Nursing, Healthcare, Environmental Sciences, and Hospitality Management. The best course depends on your academic background and career goals."
   },
   {
     "id": 20,
-    "question": "20. Is Lithuania a good place to live for students?",
-    "answer": "Yes, Lithuania offers a peaceful lifestyle, modern facilities, clean surroundings, and a comfortable environment for students."
+    "question": "20. What documents are required for admission to Finnish universities?",
+    "answer": "Students generally need academic certificates and mark sheets, a valid passport, English proficiency test scores (if required), Statement of Purpose (SOP), updated CV, Letters of Recommendation, and work experience certificates (if applicable). Additional documents may vary depending on the university and programme."
   }
 ]
 
@@ -165,54 +165,54 @@ const faqData = [
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.studyinlithuania.in/",
-        "name": "Study in Lithuania Centre",
-        "url": "https://www.studyinlithuania.in/",
+        "@id": "https://www.studyinfinland.in/",
+        "name": "Study in Finland Centre",
+        "url": "https://www.studyinfinland.in/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.studyinlithuania.in/images/logos/logo.png"
+          "url": "https://www.studyinfinland.in/images/logos/logo.png"
         }
       },
       {
         "@type": "WebPage",
         "@id":
-          "https://www.studyinlithuania.in/",
+          "https://www.studyinfinland.in/",
         "url":
-          "https://www.studyinlithuania.in/faq/",
+          "https://www.studyinfinland.in/faq/",
         "name":
-          "Frequently Asked Questions About Studying in Lithuania",
+          "Frequently Asked Questions About Studying in Finland",
         "description":
-          "Answers to common questions about studying and living in Lithuania."
+          "Answers to common questions about studying and living in Finland."
       },
       {
         "@type": "FAQPage",
         "@id":
-          "https://www.studyinlithuania.in/faq/",
+          "https://www.studyinfinland.in/faq/",
         "mainEntity": [
           {
             "@type": "Question",
             "name":
-              "Why should I study in Lithuania?",
+              "Why should I study in Finland?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "Lithuania offers affordable European education and internationally recognized degrees."
+                "Finland offers affordable European education and internationally recognized degrees."
             }
           },
           {
             "@type": "Question",
             "name":
-              "Can Indian students study in Lithuania?",
+              "Can Indian students study in Finland?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
-                "Yes, Indian students can apply to Lithuanian universities for English-taught programs."
+                "Yes, Indian students can apply to Finnish universities for English-taught programs."
             }
           },
           {
             "@type": "Question",
             "name":
-              "Do I need a student visa to study in Lithuania?",
+              "Do I need a student visa to study in Finland?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
@@ -222,7 +222,7 @@ const faqData = [
           {
             "@type": "Question",
             "name":
-              "Can students work while studying in Lithuania?",
+              "Can students work while studying in Finland?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text":
@@ -234,21 +234,21 @@ const faqData = [
       {
         "@type": "BreadcrumbList",
         "@id":
-          "https://www.studyinlithuania.in/faq/",
+          "https://www.studyinfinland.in/faq/",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
             "item":
-              "https://www.studyinlithuania.in/"
+              "https://www.studyinfinland.in/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "FAQ",
             "item":
-              "https://www.studyinlithuania.in/faq/"
+              "https://www.studyinfinland.in/faq/"
           }
         ]
       }

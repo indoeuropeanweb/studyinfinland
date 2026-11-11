@@ -169,23 +169,22 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading="Contact Us for Expert Guidance on Studying in Lithuania"/>
+      <Breadcrumb heading="Contact Us for Expert Guidance on Studying in Finland"/>
       <section className='max-w-6xl mx-auto'>
          <div className='px-5 py-10'>
              <div className=''>
-                <h2 className='text-2xl md:text-4xl font-aino'>Study in Lithuania Contact – Get Expert Guidance for Your Future</h2>
-                <h4 className='text-md md:text-lg font-roboto mt-3'>Connect With Lithuania Education Experts</h4>
-                <p className='text-md font-inter mt-3 text-justify'>Planning to <Link className="font-semibold hover:underline" href="/">study in Lithuania</Link>? Whether you're exploring universities, looking for scholarship opportunities, or need guidance on the Lithuania student visa process, our team is here to help.</p>
-                <p className='text-md font-inter mt-3 text-justify'>We understand that studying abroad is one of the most important decisions in a student's life. Our experienced advisors provide personalised guidance, helping students choose the right university, course, and career pathway while making the Lithuania admission and visa process smooth and stress-free.</p>
+                <h2 className='text-2xl lg:text-4xl font-aino'>Study in Finland Contact – Get Expert Guidance for Your Future</h2>
+                <h4 className='text-md lg:text-lg font-roboto mt-3'>Connect With Finland Education Experts</h4>
+                <p className='text-md lg:text-base font-roboto mt-3 text-justify'>Planning to study in Finland? Whether you are exploring universities, searching for the right courses, or need guidance on the Finland student visa process, our team is here to help.</p>
+                <p className='text-md lg:text-base font-roboto mt-3 text-justify'>We understand that studying abroad is an important decision. Our experienced counsellors provide personalised guidance to help students select the right university, course, and career pathway while making the admission and visa process easier.</p>
              </div>
              <div className='mt-10'>
               <div className='grid md:grid-cols-3 grid-cols-1 gap-5 border-2 border-dotted border-secondary p-4 rounded-lg bg-gray-100'>
                 <div className='col-span-1 px-3'>
-                <h2 className='text-xl md:text-2xl font-aino mt-3'>Book Your Free Study in Lithuania Consultation</h2>
-                <p className='text-md font-inter mt-3 text-justify'>Not sure where to start? Schedule a free consultation and receive personalised guidance based
-                on your academic background, career goals, and preferred study programme.</p>
+                <h2 className='text-xl md:text-2xl font-aino mt-3'>Book Your Free Study in Finland Consultation</h2>
+                <p className='text-md lg:text-base font-roboto mt-3 text-justify'>Not sure where to begin? Book a free consultation with our expert counsellors and get personalised guidance based on your academic background, career goals, and preferred study programme.</p>
                 <div className='mt-5'>
-                <h4 className='text-lg font-inter font-semibold text-primary'>Follow us on :-</h4>
+                <h4 className='text-base lg:text-lg font-roboto font-semibold text-primary'>Follow us on :-</h4>
                 <ul className='flex mt-2 gap-3 items-center'>
                   <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-primary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.facebook.com/Indoeuropean.in" target="_blank"><FaFacebook className='size-5 inline-block'/></Link></li>
                   <li className=''><Link className="px-2 py-2 flex justify-center items-center rounded-full bg-primary text-white hover:scale-110 duration-300 ease-in-out" href="https://www.instagram.com/indo_european" target="_blank"><FaInstagram  className='size-5 inline-block'/></Link></li>
@@ -202,30 +201,28 @@ const page = () => {
                 <h4 className='mt-5 text-xl md:text-2xl font-aino'>Our Expert Support Includes:</h4>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                 <ul className='space-y-2 mt-3'>
-                    <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;University and course selection</li>
-                    <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Lithuania admission guidance</li>
-                    <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Scholarship assistance</li>
-                    <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Lithuania student visa support</li>
-                    <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Document verification</li>
-                    <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Interview preparation</li>
-                    <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Pre-departure assistance</li>
+                    <li className='text-base lg:text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;University and course selection</li>
+                    <li className='text-base lg:text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Finland admission guidance</li>
+                    <li className='text-base lg:text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Scholarship assistance</li>
+                    <li className='text-base lg:text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Finland student visa support</li>
+                    <li className='text-base lg:text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Document verification</li>
+                    <li className='text-base lg:text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Interview preparation</li>
+                    <li className='text-base lg:text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Pre-departure assistance</li>
                 </ul>
-                <Image className="rounded-md h-full w-full" width={380} height={180} src="/images/contact/our-expert.webp" alt="Meet Our Experts" />
+                <Image className="rounded-md h-full w-full" width={400} height={200} src="/images/contact/our-expert.webp" alt="Meet Our Experts" />
                 </div>
-                <p className='text-base text-inter mt-3 text-justify'>We help students make informed decisions and prepare for a successful academic future in
-                    Lithuania.</p>
+                <p className='text-md lg:text-base font-roboto mt-3 text-justify'>We help students make informed decisions and prepare for a successful academic journey in Finland.</p>
               </div>
              <div className='my-10 mx-5'>
                    <h2 className='text-2xl md:text-4xl font-aino'>Visit Our Office for Personalised Guidance</h2>
-                   <p className='mt-3'>For students who prefer face-to-face counselling, we welcome you to connect with our
-                      experienced advisors and discuss their <Link className="font-semibold hover:underline" href="https://indoeuropean.in">study abroad plans in detail</Link>.</p>
+                   <p className='mt-3 text-md lg:text-base font-roboto'>If you prefer face-to-face counselling, visit our office and connect with our experienced advisors. Discuss your study abroad plans and get expert guidance at every step of your journey.</p>
                       <div className='py-5'>
                       <div className='border-2 border-dotted border-secondary p-4 rounded-md'>
                         <div>
                           <h4 className='text-xl md:text-2xl font-semibold font-roboto'>
                             Address:
                           </h4>
-                          <p className='text-lg font-inter mt-3'>
+                          <p className='text-base lg:text-lg font-roboto mt-3'>
                             First Floor, 18/1 -A, Jail Road, Opposite Tilak Nagar Metro Station Gate no - 4,
                             Above Sona Baker, New Delhi-110058.
                           </p>
@@ -243,6 +240,7 @@ const page = () => {
                       </div>
                    </div>
               </div>
+              <p className='text-md lg:text-base font-roboto mt-3 text-justify'>Get in touch with us today and take the first step towards studying in Finland.</p>
          </div>
       </section>
       <script

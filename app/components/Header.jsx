@@ -46,9 +46,9 @@ const Header = () => {
           <Link href="/" className="flex items-center">
           <Image
             src={
-              darkHeader
-                ? "/images/logos/light-logo.png"
-                : "/images/logos/logo.png"
+              // darkHeader
+              //   ? "/images/logos/light-logo.png": 
+                "/images/logos/light-logo.png"
             }
             alt="Study in Finland"
             width={200}

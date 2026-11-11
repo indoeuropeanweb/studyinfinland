@@ -25,13 +25,13 @@ export async function generateMetadata({ params }) {
     keywords: blog.keywords,
 
     alternates: {
-      canonical: `https://www.studyinlithuania.in/blogs/${slug}`,
+      canonical: `https://www.studyinfinland.in/blogs/${slug}`,
     },
 
     openGraph: {
       title: blog.metaTitle || blog.title,
       description: blog.metaDescription,
-      url: `https://www.studyinlithuania.in/blogs/${slug}`,
+      url: `https://www.studyinfinland.in/blogs/${slug}`,
       type: "article",
       images: [
         {
@@ -75,51 +75,51 @@ export default async function BlogPage({ params }) {
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": `https://www.studyinlithuania.in/blogs/${slug}#article`,
+      "@id": `https://www.studyinfinland.in/blogs/${slug}#article`,
       headline: blog.title,
       description: blog.metaDescription,
       image: [blog.image],
       author: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in Finland",
       },
       publisher: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in Finland",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.studyinlithuania.in/images/logos/logo.png",
+          url: "https://www.studyinfinland.in/images/logos/logo.png",
         },
       },
       datePublished: blog.date,
       dateModified: blog.date,
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": `https://www.studyinlithuania.in/blogs/${slug}`,
+        "@id": `https://www.studyinfinland.in/blogs/${slug}`,
       },
     },
 
     {
       "@type": "BreadcrumbList",
-      "@id": `https://www.studyinlithuania.in/blogs/${slug}#breadcrumb`,
+      "@id": `https://www.studyinfinland.in/blogs/${slug}#breadcrumb`,
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in",
+          item: "https://www.studyinfinland.in",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Blogs",
-          item: "https://www.studyinlithuania.in/blogs",
+          item: "https://www.studyinfinland.in/blogs",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: blog.title,
-          item: `https://www.studyinlithuania.in/blogs/${slug}`,
+          item: `https://www.studyinfinland.in/blogs/${slug}`,
         },
       ],
     },
@@ -165,7 +165,7 @@ export default async function BlogPage({ params }) {
             <h2
               id="article"
               key={index}
-              className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-[#048D4E]"
+              className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-primary"
             >
               {section.content}
             </h2>
@@ -176,7 +176,7 @@ export default async function BlogPage({ params }) {
           return (
             <h4
               key={index}
-              className="mt-10 text-lg md:text-xl font-semibold font-aino text-[#188b55]"
+              className="mt-10 text-lg md:text-xl font-semibold font-aino text-primary"
             >
               {section.content}
             </h4>
@@ -242,7 +242,7 @@ export default async function BlogPage({ params }) {
         return (
           <ul
             key={index}
-            className="mt-5 space-y-3 rounded-2xl bg-[#048D4E]/5 p-5"
+            className="mt-5 space-y-3 rounded-2xl bg-primary/5 p-5"
           >
             {section.items.map((item, itemIndex) => (
               <li
@@ -264,7 +264,7 @@ export default async function BlogPage({ params }) {
     })}
 
         <div className="mt-10">
-          <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-[#048D4E]">
+          <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-primary">
             FAQs
           </h2>
 
