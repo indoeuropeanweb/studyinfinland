@@ -4,27 +4,25 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Top Universities in Lithuania Admission for Indian Students",
-  description: "Explore top universities in Lithuania, courses, tuition fees, scholarships, and admission requirements. Contact our experts today!",
+  title: "Universities in Finland: Top Universities & Study Options",
+  description: "Explore the top universities in Finland for Indian students. Discover English-taught courses, bachelor's and master's degrees, admission requirements and study opportunities.",
   keywords: [
-      "Universities in Lithuania",
-      "Lithuania Universities",
-      "Top Universities in Lithuania",
-      "Best Universities in Lithuania",
-      "Lithuania Universities for International Students",
-      "Lithuania Universities for Indian Students",
-      "Best Universities in Lithuania for International Students",
-      "Study in Lithuania",
-      "Higher Education in Lithuania",
-      "Lithuanian Universities",
-      "Public Universities in Lithuania",
-      "English-Taught Universities in Lithuania",
-      "Top Lithuanian Universities",
-      "University Admission in Lithuania",
-      "Study at Lithuanian Universities"
+      "universities in Finland",
+      "top universities in Finland",
+      "best universities in Finland",
+      "Finland universities for international students",
+      "universities in Finland for Indian students",
+      "study in Finland universities",
+      "Finnish universities",
+      "public universities in Finland",
+      "universities of applied sciences in Finland",
+      "English taught universities in Finland",
+      "bachelor's courses in Finland",
+      "master's courses in Finland",
+      "Finland university admission"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/universities"
+    canonical: "https://www.studyinfinland.in/study/universities"
   },
   robots: {
     index: true,
@@ -33,16 +31,16 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.studyinlithuania.in/study/universities/",
-    siteName: "Study in Lithuania",
+    url: "https://www.studyinfinland.in/study/universities/",
+    siteName: "Study in Finland",
     title:
-    "Study Programmes in Lithuania | Bachelor's, Master's & PhD Courses",
+    "Universities in Finland: Top Universities & Study Options",
     description:
-    "Explore top universities in Lithuania, courses, tuition fees, scholarships, and admission requirements. Contact our experts today!",
+    "Explore the top universities in Finland for Indian students. Discover English-taught courses, bachelor's and master's degrees, admission requirements and study opportunities.",
     images: [
     {
-    url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
-    alt: "Top Universities in Lithuania",
+    url: "https://www.studyinfinland.in/images/study/finland-01.webp",
+    alt: "Top Universities in Finland",
     },
   ],
 },
@@ -53,165 +51,171 @@ const page = () => {
   const univeristiesData = [
   {
     "id": 1,
-    "name": "Vilnius University",
-    "img_url": "/images/universities/vilnius-university.webp",
-    "rankingRecognition": "Ranked #1 university in Lithuania in most global ranking systems (QS/THE national listings). It is also the oldest university in Lithuania (founded 1579) and one of the most recognised in Eastern Europe.",
+    "name": "University of Helsinki",
+    "img_url": "/images/universities/university-of-helsinki.webp",
+    "rankingRecognition": "One of Finland's leading research universities, recognised internationally for its academic excellence, scientific research, and contributions to education and innovation.",
     "academicStrength": [
       "Medicine",
       "Law",
       "Business",
-      "Economics",
+      "Life Sciences",
       "Social Sciences"
     ]
   },
   {
     "id": 2,
-    "name": "Kaunas University of Technology",
-    "img_url": "/images/universities/kausan-university.webp",
-    "rankingRecognition": "Consistently ranked among the top 3 technical universities in Lithuania, known for engineering and innovation-focused education.",
+    "name": "Aalto University",
+    "img_url": "/images/universities/aalto-university.webp",
+    "rankingRecognition": "A globally recognised university known for combining technology, business, science, and arts. It has a strong reputation for innovation, entrepreneurship, and interdisciplinary education.",
     "academicStrength": [
-      "IT",
+      "Business",
       "Engineering",
-      "Artificial Intelligence",
+      "Computer Science",
       "Data Science",
-      "Electronics"
+      "Design"
     ]
   },
   {
     "id": 3,
-    "name": "Vytautas Magnus University",
-    "img_url": "/images/universities/vyantus-university.webp",
-    "rankingRecognition": "Recognised as a top Lithuanian university for humanities and social sciences, with strong international collaboration programs.",
+    "name": "Tampere University",
+    "img_url": "/images/universities/tampere-university.webp",
+    "rankingRecognition": "A well-established multidisciplinary research university known for its innovative teaching methods, technological research, and international academic collaborations.",
     "academicStrength": [
-      "Marketing",
-      "Political Science",
-      "Communication",
-      "Humanities",
-      "Education"
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Lithuanian University of Health Sciences",
-    "img_url": "/images/universities/lithuanian-university-of-health-sciences.webp",
-    "rankingRecognition": "One of the leading medical universities in Lithuania and the Baltic region, especially known for clinical training and healthcare education.",
-    "academicStrength": [
-      "Medicine",
-      "Dentistry",
-      "Pharmacy",
-      "Nursing",
-      "Veterinary Medicine"
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Vilnius Gediminas Technical University",
-    "img_url": "/images/universities/vilnius-gediminas-technical-university.webp",
-    "rankingRecognition": "Ranked among the top engineering and architecture universities in Lithuania, with strong focus on applied sciences and innovation.",
-    "academicStrength": [
-      "Civil Engineering",
-      "Architecture",
-      "Mechanical Engineering",
-      "Aviation",
-      "Computer Science"
-    ]
-  },
-  {
-    "id": 6,
-    "name": "ISM University of Management and Economics",
-    "img_url": "/images/universities/ism-university-of-management-and-economics.webp",
-    "rankingRecognition": "One of the top private business universities in Lithuania, focused on management and economics education.",
-    "academicStrength": [
-      "Business Administration",
-      "Finance",
-      "Economics",
-      "Marketing"
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Klaipėda University",
-    "img_url": "/images/universities/klaipeda-university.webp",
-    "rankingRecognition": "Known for marine science and environmental studies, with strong regional academic importance.",
-    "academicStrength": [
-      "Marine Science",
-      "Environmental Studies",
-      "Public Health",
+      "Engineering",
+      "Information Technology",
+      "Health Sciences",
+      "Business",
       "Social Sciences"
     ]
   },
   {
-    "id": 8,
-    "name": "Mykolas Romeris University",
-    "img_url": "/images/universities/mykolas-romeris-university.webp",
-    "rankingRecognition": "Strong reputation in law, public administration, and social sciences in Lithuania.",
+    "id": 4,
+    "name": "University of Turku",
+    "img_url": "/images/universities/university-of-turku.webp",
+    "rankingRecognition": "An internationally recognised research university offering diverse academic programmes and strong research opportunities across multiple disciplines.",
     "academicStrength": [
-      "Law",
+      "Medicine",
+      "Business",
+      "Computer Science",
+      "Biotechnology",
+      "Education"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "University of Oulu",
+    "img_url": "/images/universities/university-of-oulu.webp",
+    "rankingRecognition": "Recognised for its research and innovation in technology, engineering, and science, with strong international academic and industry connections.",
+    "academicStrength": [
+      "Computer Science",
+      "Engineering",
+      "Wireless Communications",
+      "Business",
+      "Natural Sciences"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "LUT University",
+    "img_url": "/images/universities/lut-university.webp",
+    "rankingRecognition": "A leading Finnish public science university recognised for its focus on sustainable technology, business, innovation, and environmental solutions.",
+    "academicStrength": [
+      "Mechanical Engineering",
+      "Software Engineering",
+      "Business",
+      "Energy Technology",
+      "Sustainability"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "University of Eastern Finland",
+    "img_url": "/images/universities/university-of-eastern-finland.webp",
+    "rankingRecognition": "One of Finland&#39;s multidisciplinary universities, recognised for research and education in health sciences, environmental studies, business, and technology.",
+    "academicStrength": [
+      "Medicine",
+      "Public Health",
+      "Environmental Sciences",
+      "Business",
+      "Information Technology"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "University of Jyväskylä",
+    "img_url": "/images/universities/university-of-jyvaskayla.webp",
+    "rankingRecognition": "An established Finnish university known for its strong academic reputation, research activities, and international programmes in education, science, and business.",
+    "academicStrength": [
+      "Education",
       "Psychology",
-      "Public Administration",
-      "Digital Society"
+      "Business",
+      "Sports Sciences",
+      "Information Technology"
     ]
   },
   {
     "id": 9,
-    "name": "LCC International University",
-    "img_url": "/images/universities/lcc-international-university.webp",
-    "rankingRecognition": "A small international liberal arts university with English-taught programs and global student intake.",
+    "name": "University of Vaasa",
+    "img_url": "/images/universities/university-of-vaasa.webp",
+    "rankingRecognition": "Recognised for its international approach to higher education, with particular strengths in business, economics, management, and energy technology.",
     "academicStrength": [
-      "Business",
-      "Communication",
-      "Psychology",
-      "International Relations"
+      "Business Administration",
+      "Finance",
+      "Economics",
+      "Management",
+      "Energy Technology"
     ]
   },
   {
     "id": 10,
-    "name": "Kazimieras Simonavičius University (KSU)",
-    "img_url": "/images/universities/kazimieras-simonavicius-university.webp",
-    "rankingRecognition": "An emerging private university, focused on entrepreneurship, aviation, and creative industries.",
+    "name": "University of Lapland",
+    "img_url": "/images/universities/university-of-lapland.webp",
+    "rankingRecognition": "A recognised university in Northern Finland, known for its specialised academic programmes in tourism, arts, law, education, and social sciences.",
     "academicStrength": [
+      "Tourism",
       "Business",
-      "Marketing",
-      "Aviation Management",
       "Law",
-      "Creative Industries"
+      "Education",
+      "Art and Design"
     ]
   },
   {
     "id": 11,
-    "name": "Vilnius Academy of Arts",
-    "img_url": "/images/universities/vilnius-academy-of-arts.webp",
-    "rankingRecognition": "Top arts and design institution in Lithuania, highly specialised in creative education.",
+    "name": "Hanken School of Economics",
+    "img_url": "/images/universities/hanken-school-of-economics.webp",
+    "rankingRecognition": "One of Finland&#39;s established business schools, known for international business education, research, and strong connections with the corporate sector.",
     "academicStrength": [
-      "Fine Arts",
-      "Graphic Design",
-      "Fashion",
-      "Interior Design"
+      "Finance",
+      "Marketing",
+      "Economics",
+      "Management",
+      "Accounting"
     ]
   },
   {
     "id": 12,
-    "name": "Lithuanian Academy of Music and Theatre",
-    "img_url": "/images/universities/lithuanian-academy-of-music-and-theatre.webp",
-    "rankingRecognition": "Leading national-level institution for music, theatre, and performing arts education.",
+    "name": "Åbo Akademi University",
+    "img_url": "/images/universities/abo-akademi-university.webp",
+    "rankingRecognition": "A well-known multidisciplinary university in Finland, recognised for its research, international academic environment, and education across various disciplines.",
     "academicStrength": [
-      "Music",
-      "Acting",
-      "Theatre",
-      "Film",
-      "Composition"
+      "Business",
+      "Chemical Engineering",
+      "Natural Sciences",
+      "Social Sciences",
+      "Information Technology"
     ]
   },
   {
     "id": 13,
-    "name": "Šiauliai Academy (Vilnius University branch)",
-    "img_url": "/images/universities/siauliai-academy.webp",
-    "rankingRecognition": "A regional branch of Vilnius University, focused on accessible education and regional development.",
+    "name": "University of the Arts Helsinki",
+    "img_url": "/images/universities/university-of-the-arts-helsinki.webp",
+    "rankingRecognition": "Finland's leading specialised university for arts education, bringing together renowned academies focused on creative learning, artistic research, and professional development.",
     "academicStrength": [
-      "Education",
-      "Business",
-      "Social Sciences",
-      "IT"
+      "Fine Arts",
+      "Music",
+      "Theatre",
+      "Dance",
+      "Performing Arts"
     ]
   }
 ]
@@ -221,53 +225,53 @@ const schema = {
       "@graph": [
       {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinfinland.in/#organization",
+      name: "Study in Finland",
+      url: "https://www.studyinfinland.in",
       logo: {
       "@type": "ImageObject",
-      url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      url: "https://www.studyinfinland.in/images/study/finland-01.webp",
       },
       },
       {
       "@type": "WebPage",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#webpage",
-      url: "https://www.studyinlithuania.in/study/universities/",
-      name: "Universities in Lithuania",
+      "https://www.studyinfinland.in/study/universities/#webpage",
+      url: "https://www.studyinfinland.in/study/universities/",
+      name: "Universities in Finland: Top Universities & Study Options",
       description:
-      "Explore top universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+      "Explore the top universities in Finland for Indian students. Discover English-taught courses, bachelor's and master's degrees, admission requirements and study opportunities.",
       isPartOf: {
-      "@id": "https://www.studyinlithuania.in/#website",
+      "@id": "https://www.studyinfinland.in/#website",
       },
       breadcrumb: {
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      "https://www.studyinfinland.in/study/universities/#breadcrumb",
       },
       inLanguage: "en",
       },
       {
       "@type": "BreadcrumbList",
       "@id":
-      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      "https://www.studyinfinland.in/study/universities/#breadcrumb",
       itemListElement: [
       {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://www.studyinlithuania.in/",
+      item: "https://www.studyinfinland.in/",
       },
       {
       "@type": "ListItem",
       position: 2,
       name: "Study",
-      item: "https://www.studyinlithuania.in/study/",
+      item: "https://www.studyinfinland.in/study/",
       },
       {
       "@type": "ListItem",
       position: 3,
       name: "Universities",
-      item: "https://www.studyinlithuania.in/study/universities",
+      item: "https://www.studyinfinland.in/study/universities",
       },
       ],
       },
@@ -277,20 +281,21 @@ const schema = {
 
   return (
     <>
-      <Breadcrumb heading={'Top Universities in Lithuania: Explore Leading Institutions for Indian Students'}/>
+      <Breadcrumb heading={'Top Universities in Finland: Explore Leading Institutions for Indian Students'}/>
       <div className="px-10 mt-10">
-         <h2 className="font-aino text-2xl md:text-4xl">Explore Top Universities in Lithuania</h2>
-         <p className="mt-5">Lithuania hosts internationally recognised universities offering quality education, affordable fees,
-          and globally accepted degrees. Students can study business, medicine, engineering, IT,
-          management, and social sciences.<br />
-          Universities provide modern campuses, research opportunities, English-taught programs in
-          public and private institutions in Vilnius.
+         <h2 className="font-aino text-2xl md:text-4xl">Explore Top Universities in Finland</h2>
+         <p className="mt-5">Finland is home to internationally recognised universities offering quality education, modern
+            learning facilities, and globally valued degrees. Students can explore academic opportunities in
+            business, engineering, medicine, information technology, management, and social sciences.<br />
+            Finnish universities focus on research, innovation, and practical learning, providing Bachelor's,
+            Master's, and PhD programmes. Many institutions also offer English-taught programmes,
+            making Finland an attractive destination for Indian and international students.
           <br />
           <br />
           Students may opt for one of many types of <Link className="font-semibold hover:underline" href="/study/programmes">study programmes</Link>, which in Lithuania offer bachelor’s, master’s, and PhD degrees. A lot of them are lectured in English, mixing the academic with the hands-on. Areas like computer science, engineering, business, healthcare, finance, and social sciences are quite popular among international students since they make it easier for foreigners to find good jobs in Europe after  ‍ ‌‍ ‍‌graduation.
           </p>
           <div className="mt-12">
-          <h2 className="font-aino text-2xl md:text-4xl">Discover Leading Universities in Lithuania</h2>
+          <h2 className="font-aino text-2xl md:text-4xl">Discover Leading Universities in Finland</h2>
           <div className="mt-5">
                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {univeristiesData.map((university) => (
@@ -356,6 +361,12 @@ const schema = {
                     </div>
                     ))}
                   </div>
+          </div>
+          <div className="mt-10">
+            <h5 className="text-lg font-bold text-gray-600">Explore Your Study Opportunities in Finland</h5>
+            <p className="text-gray-600 mt-2">
+              Study in Finland and explore globally recognised universities offering quality education and international career opportunities. Connect with the <Link className="font-semibold hover:underline" href="/contact">best Finland consultants</Link> for professional guidance on university selection, admission applications, and your study abroad journey.
+            </p>
           </div>
           </div>
           <div className="flex justify-end items-end">

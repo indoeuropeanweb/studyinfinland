@@ -3,16 +3,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "finland Language: Expert Guide for Indian Students",
-  description: "Learn the finland language before you move. Get basic phrases, pronunciation tips, and student guides. Start your study abroad prep here today.",
+  title: "Language in Finland: Official Languages, Finnish & Swedish",
+  description: "Discover the language in Finland, including Finnish, Swedish and English. Explore official languages, regional dialects and language use for international students.",
   keywords: [
-      "finland Language",
-      "Learn finland Language",
-      "finland Language Guide",
-      "finland Language for Students",
-      "Study in finland",
-      "finland Language Course",
-      "finland Language Basics"
+      "language in Finland",
+      "languages spoken in Finland",
+      "official languages of Finland",
+      "Finnish language",
+      "Swedish language in Finland",
+      "English in Finland",
+      "Finland language for international students",
+      "Finland native language",
+      "Finnish culture and language",
+      "learning Finnish language",
+      "languages in Finland for students"
   ],
   alternates: {
     canonical:"https://www.studyinfinland.in/finland/language/"
@@ -27,9 +31,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/finland/language/",
     siteName: "Study in finland",
     title:
-      "finland Language: Expert Guide for Indian Students",
+      "Language in Finland: Official Languages, Finnish & Swedish",
     description:
-      "Learn the finland language before you move. Get basic phrases, pronunciation tips, and student guides. Start your study abroad prep here today.",
+      "Discover the language in Finland, including Finnish, Swedish and English. Explore official languages, regional dialects and language use for international students.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/logos/logo.png",
@@ -40,9 +44,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "finland Language: Expert Guide for Indian Students",
+      "Language in Finland: Official Languages, Finnish & Swedish",
     description:
-      "Learn the finland language before you move. Get basic phrases, pronunciation tips, and student guides. Start your study abroad prep here today.",
+      "Discover the language in Finland, including Finnish, Swedish and English. Explore official languages, regional dialects and language use for international students.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -56,7 +60,7 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinfinland.in/#organization",
-      name: "Study in finland",
+      name: "Language in Finland: Official Languages, Finnish & Swedish",
       url: "https://www.studyinfinland.in",
       logo: {
         "@type": "ImageObject",
@@ -68,9 +72,9 @@ const page = () => {
       "@id":
         "https://www.studyinfinland.in/finland/language/#webpage",
       url: "https://www.studyinfinland.in/finland/language/",
-      name: "Language of finland",
+      name: "Language in Finland: Official Languages, Finnish & Swedish",
       description:
-        "Learn about the finland language, its history, significance, usage in finland, and language opportunities available for international students.",
+        "Discover the language in Finland, including Finnish, Swedish and English. Explore official languages, regional dialects and language use for international students.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },

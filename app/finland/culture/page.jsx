@@ -6,17 +6,21 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-    title: "finland Culture: Traditions, Festivals and Student Life",
-    description: "Discover the beauty of the finland Culture and Food. Learn how the country's deep history supports students from across the globe. Visit us today.",
+    title: "Finland Culture: Traditions, Festivals & Student Life",
+    description: "Explore Finland culture, traditions, festivals, Finnish food, language and lifestyle. Discover what makes Finland a welcoming destination for Indian students.",
     keywords: [
-        "finland Culture",
-        "Culture of finland",
-        "finland Traditions",
-        "finland Festivals",
-        "finland Lifestyle",
-        "finland Food",
-        "finland Customs",
-        "finland Heritage"
+      "Finland culture",
+      "Finnish culture",
+      "culture of Finland",
+      "Finnish traditions",
+      "Finland festivals",
+      "Finnish lifestyle",
+      "Finland food and cuisine",
+      "Finnish language",
+      "Finland student life",
+      "Finnish customs",
+      "cultural heritage of Finland",
+      "life in Finland for Indian students"
     ],
     alternates: {
       canonical: "https://www.studyinfinland.in/finland/culture/"
@@ -31,9 +35,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/finland/culture/",
     siteName: "Study in finland",
     title:
-      "finland Culture: Traditions, Festivals and Student Life",
+      "Finland Culture: Traditions, Festivals & Student Life",
     description:
-      "Discover the beauty of the finland Culture and Food. Learn how the country's deep history supports students from across the globe. Visit us today.",
+      "Explore Finland culture, traditions, festivals, Finnish food, language and lifestyle. Discover what makes Finland a welcoming destination for Indian students.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/logos/logo.png",
@@ -45,9 +49,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "finland Culture: Traditions, Festivals and Student Life",
+      "Finland Culture: Traditions, Festivals & Student Life",
     description:
-      "Discover the beauty of the finland Culture and Food. Learn how the country's deep history supports students from across the globe. Visit us today.",
+      "Explore Finland culture, traditions, festivals, Finnish food, language and lifestyle. Discover what makes Finland a welcoming destination for Indian students.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -73,9 +77,9 @@ const page = () => {
       "@id":
         "https://www.studyinfinland.in/finland/culture/#webpage",
       url: "https://www.studyinfinland.in/finland/culture/",
-      name: "finlandn Culture",
+      name: "Finland Culture: Traditions, Festivals & Student Life",
       description:
-        "Explore finland's traditions, language, festivals, cuisine, arts, music, and cultural heritage.",
+        "Explore Finland culture, traditions, festivals, Finnish food, language and lifestyle. Discover what makes Finland a welcoming destination for Indian students.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },

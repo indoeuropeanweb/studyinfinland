@@ -32,20 +32,22 @@ export const metadata = {
   metadataBase: new URL('https://www.studyinfinland.in'),
 
   title:
-    "Study in Lithuania for Indian Students | Universities, Visa & Admission",
+    "Study in Finland Consultant | Expert Study Abroad Guidance",
 
   description:
-    "Study in Lithuania with expert guidance for Indian students. Get help with admissions, student visa, scholarships, universities, tuition fees, and accommodation in Lithuania.",
+    "Looking for a trusted Study in Finland consultant? Get expert guidance on Finnish universities, admissions, scholarships, student visas and global career opportunities.",
 
   keywords: [
-    'study in lithuania',
-    'lithuania student visa',
-    'study in lithuania from india',
-    'lithuania universities',
-    'lithuania scholarship',
-    'study abroad lithuania',
-    'europe study visa',
-    'lithuania admission consultants'
+    'Study in Finland consultant',
+    'best Study in Finland consultant',
+    'Study in Finland for Indian students',
+    'Finland study abroad consultant',
+    'Finland university admission',
+    'Finland student visa guidance',
+    'study abroad consultants for Finland',
+    'Finland scholarships',
+    'higher education in Finland',
+    'study in Finland'
   ],
 
   alternates: {

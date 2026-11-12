@@ -5,21 +5,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Guide to Nature and Climate, finland For Indian Students",
-  description: "Explore Climate in finland and four seasons. Learn about weather conditions, temperatures, and student life in Latvia. Plan your move with our expert guide.",
+  title: "Finland Climate: Seasons, Weather & Temperature Guide",
+  description: "Explore Finland climate, four seasons, average temperatures, weather conditions, daylight hours and natural beauty throughout the year.",
   keywords: [
-      "Climate in finland",
-      "finland Climate",
-      "Weather in finland",
-      "finland Weather",
-      "Seasons in finland",
-      "Nature in finland",
-      "finland Temperature",
-      "finland Winter",
-      "finland Summer",
-      "Study in finland",
-      "finland for International Students",
-      "finland Environment"
+    "finland climate",
+    "climate in Finland",
+    "Finland weather",
+    "Finland seasons",
+    "Finland temperature",
+    "Finland winter",
+    "Finland summer",
+    "Finland nature and climate",
+    "weather in Finland throughout the year",
+    "Finland daylight hours"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/finland/nature-and-climate/"
@@ -31,9 +29,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Guide to Nature and Climate, finland For Indian Students",
+      "Finland Climate: Seasons, Weather & Temperature Guide",
     description:
-      "Explore finland's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in finland.",
+      "Explore Finland climate, four seasons, average temperatures, weather conditions, daylight hours and natural beauty throughout the year.",
     url: "https://www.studyinfinland.in/finland/nature-and-climate/",
     siteName: "Study in finland",
     images: [
@@ -49,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Guide to Nature and Climate, finland For Indian Students",
+      "Finland Climate: Seasons, Weather & Temperature Guide",
     description:
-      "Explore finland's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in finland.",
+      "Explore Finland climate, four seasons, average temperatures, weather conditions, daylight hours and natural beauty throughout the year.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -78,7 +76,7 @@ const page = () => {
         "https://www.studyinfinland.in/finland/nature-and-climate/#webpage",
       url:
         "https://www.studyinfinland.in/finland/nature-and-climate/",
-      name: "finland Nature and Climate",
+      name: "Finland Climate: Seasons, Weather & Temperature Guide",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },
@@ -87,7 +85,7 @@ const page = () => {
           "https://www.studyinfinland.in/finland/nature-and-climate/#country",
       },
       description:
-        "Learn about finland's climate, seasons, forests, lakes, biodiversity, and natural landscapes. Explore why finland is considered one of Europe's greenest countries.",
+        "Explore Finland climate, four seasons, average temperatures, weather conditions, daylight hours and natural beauty throughout the year.",
       breadcrumb: {
         "@id":
           "https://www.studyinfinland.in/finland/nature-and-climate/#breadcrumb",

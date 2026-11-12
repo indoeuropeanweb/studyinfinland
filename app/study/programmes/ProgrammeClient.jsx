@@ -86,10 +86,10 @@ const ProgrammeClient = () => {
 
   return (
     <>
-      <Breadcrumb heading={"Earn​‍​‌‍​‍‌ your programme's degree in Latvia: quality education at lower ​‍​‌‍​‍‌prices"}/>
+      <Breadcrumb heading={"Earn​‍​‌‍​‍‌ your programme's degree in Finland: quality education at lower ​‍​‌‍​‍‌prices"}/>
       <div className='py-6 px-10'>
-        <h2 className='text-2xl md:text-4xl font-aino'>Programmes for Lithuania</h2>
-        <p className='mt-3 text-justify text-roboto'>Look​‍​‌‍​‍‌ into Bachelor, Master, and PhD courses at Lithuanian universities that have international recognition. Pick among a diverse array of excellent courses instructed in English in areas like Business, Engineering, Information Technology, Health Sciences, Social Sciences, etc. Besides low-cost tuition, state-of-the-art campuses, creative learning environments, and Europeanly and globally recognized degrees, Lithuania is a great place for foreign students. No matter if you are studying <Link className="font-semibold hover:underline" href="/study/bachelors">Bachelors</Link>, Masters, or PhD, Lithuania offers the academic excellence, practical experience, and worldwide opportunities that are essential to a successful international ​‍​‌‍​‍‌career.</p>
+        <h2 className='text-2xl md:text-4xl font-aino'>Programmes for Finland</h2>
+        <p className='mt-3 text-justify text-roboto'>Look​‍​‌‍​‍‌ into Bachelor, Master, and PhD courses at Finnish universities that have international recognition. Pick among a diverse array of excellent courses instructed in English in areas like Business, Engineering, Information Technology, Health Sciences, Social Sciences, etc. Besides low-cost tuition, state-of-the-art campuses, creative learning environments, and Europeanly and globally recognized degrees, Finland is a great place for foreign students. No matter if you are studying <Link className="font-semibold hover:underline" href="/study/bachelors">Bachelors</Link>, Masters, or PhD, Finland offers the academic excellence, practical experience, and worldwide opportunities that are essential to a successful international ​‍​‌‍​‍‌career.</p>
       </div>
       <section className="my-5">
         <div className="mx-auto max-w-6xl px-4">

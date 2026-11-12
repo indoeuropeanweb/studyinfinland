@@ -4,19 +4,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-    title: "Lifestyle in finland | Culture, People & Student Guide",
-    description: "Explore lifestyle in finland. Learn about local culture, student life, and great work-life balance. Get everything you need to study abroad now.",
+    title: "Lifestyle in Finland: Culture, People & Student Life",
+    description: "Discover the lifestyle in Finland, including Finnish culture, traditions, people, daily life and student experiences in a safe, modern and nature-friendly country.",
     keywords: [
-        "Lifestyle in finland",
-        "finland Lifestyle",
-        "Student Lifestyle in finland",
-        "Culture of finland",
-        "Life in finland",
-        "Living in finland",
-        "finlandn Culture",
-        "finlandn People",
-        "finland Student Life",
-        "Study in finland"
+      "lifestyle in Finland",
+      "Finnish lifestyle",
+      "life in Finland",
+      "Finland culture",
+      "Finnish traditions",
+      "Finnish people",
+      "daily life in Finland",
+      "student life in Finland",
+      "living in Finland",
+      "Finland for international students"
     ],
     alternates: {
         canonical: "https://www.studyinfinland.in/finland/life-style-and-character"
@@ -28,9 +28,9 @@ export const metadata = {
     openGraph: {
     type: "website",
     title:
-      "Lifestyle in finland | Culture, People & Student Life Guide",
+      "Lifestyle in Finland: Culture, People & Student Life",
     description:
-      "Explore finland's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in finland.",
+      "Discover the lifestyle in Finland, including Finnish culture, traditions, people, daily life and student experiences in a safe, modern and nature-friendly country.",
     url: "https://www.studyinfinland.in/finland/life-style-and-character/",
     siteName: "Study in finland",
     images: [
@@ -45,9 +45,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lifestyle in finland | Culture, People & Student Life Guide",
+      "Lifestyle in Finland: Culture, People & Student Life",
     description:
-      "Explore finland's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in finland.",
+      "Discover the lifestyle in Finland, including Finnish culture, traditions, people, daily life and student experiences in a safe, modern and nature-friendly country.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -74,9 +74,9 @@ const page = () => {
         "@id": "https://www.studyinfinland.in/finland/life-style-and-character/",
         "url": "https://www.studyinfinland.in/finland/life-style-and-character/",
         "name":
-          "Lifestyle in finland | Culture, People & Student Life Guide",
+          "Lifestyle in Finland: Culture, People & Student Life",
         "description":
-          "Explore finland's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in finland.",
+          "Discover the lifestyle in Finland, including Finnish culture, traditions, people, daily life and student experiences in a safe, modern and nature-friendly country.",
         "isPartOf": {
           "@id": "https://www.studyinfinland.in/"
         }

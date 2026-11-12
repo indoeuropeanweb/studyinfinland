@@ -1,23 +1,26 @@
 import FinlandClient from "./FinlandClient";
 
 export const metadata = {
-  title: "Get Study in Lithuania Consultant for Student By Our Expert",
-  description: "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!",
+  title: "Study in Finland for Indian Students | Benefits & Career",
+  description: "Explore the benefits of studying in Finland for Indian students. Discover top universities, quality education, affordable living, scholarships and global career opportunities.",
   keywords: [
-    "Why Study in Lithuania",
-    "Study in Lithuania",
-    "Study in Lithuania for Indian Students",
-    "Benefits of Studying in Lithuania",
-    "Lithuania Universities",
-    "Lithuania Education",
-    "Lithuania Student Visa",
-    "Affordable Study in Europe",
-    "Lithuania Scholarships",
-    "European Universities",
-    "Higher Education in Lithuania"
+    "study in Finland",
+    "study in Finland for Indian students",
+    "Finland universities",
+    "benefits of studying in Finland",
+    "Finland education system",
+    "study abroad in Finland",
+    "higher education in Finland",
+    "Finland student visa",
+    "Finland scholarships for Indian students",
+    "cost of studying in Finland",
+    "top universities in Finland",
+    "study in Finland consultants",
+    "international students in Finland",
+    "career opportunities in Finland"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/lithuania"
+    canonical: "https://www.studyinlithuania.in/finland"
   },
     robots: {
     index: true,
@@ -26,28 +29,28 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Get Study in Lithuania Consultant for Student By Our Expert",
+      "Study in Finland for Indian Students | Benefits & Career",
     description:
-      "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!",
-    url: "https://www.studyinlithuania.in/lithuania/",
-    siteName: "Study in Lithuania",
+      "Explore the benefits of studying in Finland for Indian students. Discover top universities, quality education, affordable living, scholarships and global career opportunities.",
+    url: "https://www.studyinfinland.in/finland/",
+    siteName: "Study in Finland",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        url: "https://www.studyinfinland.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Study in Lithuania",
+        alt: "Study in Finland",
       },
     ]
    },
   twitter: {
     card: "summary_large_image",
     title:
-      "Get Study in Lithuania Consultant for Student By Our Expert",
+      "Study in Finland for Indian Students | Benefits & Career",
     description:
-      "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!",
+      "Explore the benefits of studying in Finland for Indian students. Discover top universities, quality education, affordable living, scholarships and global career opportunities.",
     images: [
-      "https://www.studyinlithuania.in/images/logos/logo.png",
+      "https://www.studyinfinland.in/images/logos/logo.png",
     ],
   },
 }
@@ -59,39 +62,39 @@ export default function Home() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.studyinlithuania.in/#organization",
-        "name": "Study in Lithuania",
-        "url": "https://www.studyinlithuania.in/",
+        "@id": "https://www.studyinfinland.in/#organization",
+        "name": "Study in Finland",
+        "url": "https://www.studyinfinland.in/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.studyinlithuania.in/logo.png"
+          "url": "https://www.studyinfinland.in/images/logos/logo.png"
         }
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.studyinlithuania.in/lithuania/#webpage",
-        "url": "https://www.studyinlithuania.in/lithuania/",
+        "@id": "https://www.studyinfinland.in/finland/#webpage",
+        "url": "https://www.studyinfinland.in/finland/",
         "name":
-          "Get Study in Lithuania Consultant for Student By Our Expert",
+          "Study in Finland for Indian Students | Benefits & Career",
         "description":
-          "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!"
+          "Explore the benefits of studying in Finland for Indian students. Discover top universities, quality education, affordable living, scholarships and global career opportunities."
       },
             {
         "@type": "BreadcrumbList",
         "@id":
-          "https://www.studyinlithuania.in/lithuania/#breadcrumb",
+          "https://www.studyinfinland.in/finland/#breadcrumb",
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://www.studyinlithuania.in",
+            item: "https://www.studyinfinland.in",
           },
           {
             "@type": "ListItem",
             position: 2,
-            name: "Lithuania",
-            item: "https://www.studyinlithuania.in/lithuania",
+            name: "Finland",
+            item: "https://www.studyinfinland.in/finland",
           },
         ],
       },

@@ -24,7 +24,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const darkHeader = !isHomePage || scrolled;
+  // const darkHeader = !isHomePage || scrolled;
 
   return (
     <header
@@ -65,21 +65,18 @@ const Header = () => {
             >
               Finland
             </Link>
-
             <Link
               href="/study"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               Study
             </Link>
-
             <Link
               href="/living"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               Living
             </Link>
-
             <Link
               href="/student-ambassadors"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
@@ -87,35 +84,30 @@ const Header = () => {
               Student <br />
               Ambassador
             </Link>
-
             <Link
               href="/blogs"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               Blogs
             </Link>
-
             <Link
               href="/gallery"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               Gallery
             </Link>
-
             <Link
               href="/faq"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               FAQ
             </Link>
-
             <Link
               href="/about"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               About Us
             </Link>
-
             <Link
               href="/contact"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
@@ -123,7 +115,6 @@ const Header = () => {
               Contact Us
             </Link>
           </nav>
-
           <div className="hidden lg:flex items-center gap-4 bg-white px-2 py-1 rounded-lg animate-zoomInOut">
             <Link
               href="https://zoom.us/j/91022278457#success"
@@ -173,7 +164,6 @@ const Header = () => {
           >
             Living
           </Link>
-
           <Link
             onClick={() => setMenuOpen(false)}
             href="/student-ambassadors"
@@ -181,7 +171,6 @@ const Header = () => {
           >
             Student Ambassador
           </Link>
-
           <Link
             onClick={() => setMenuOpen(false)}
             href="/blogs"
@@ -189,7 +178,6 @@ const Header = () => {
           >
             Blogs
           </Link>
-
           <Link
             onClick={() => setMenuOpen(false)}
             href="/gallery"
@@ -197,7 +185,6 @@ const Header = () => {
           >
             Gallery
           </Link>
-
           <Link
             onClick={() => setMenuOpen(false)}
             href="/faq"
@@ -205,7 +192,6 @@ const Header = () => {
           >
             FAQ
           </Link>
-
           <Link
             onClick={() => setMenuOpen(false)}
             href="/about"
@@ -213,7 +199,6 @@ const Header = () => {
           >
             About Us
           </Link>
-
           <Link
             onClick={() => setMenuOpen(false)}
             href="/contact"
@@ -221,7 +206,6 @@ const Header = () => {
           >
             Contact Us
           </Link>
-
           <div className="inline-block gap-4 bg-white px-2 py-1 rounded-lg animate-zoomInOut">
             <Link
               href="https://zoom.us/j/91022278457#success"

@@ -123,8 +123,8 @@ const schema = {
     <div className="max-w-6xl mx-auto py-10 px-5">
       <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Finland Blogs & Student Guides</h2>
       <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Finland. From university admissions and Finland student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their <Link className="font-semibold hover:underline" href="https://indoeuropean.in">study abroad consultants</Link>. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Finland.</p>
-      <div className="grid md:grid-cols-3 gap-6">
-        {[...blogs].reverse().map((blog) => (
+      {blogs.length === 0 ? <p className="text-center text-base lg:text-lg font-roboto text-gray-500">No blogs available at the moment. Please check back later.</p> : <div className="grid md:grid-cols-3 gap-6">
+        {blogs.slice().reverse().map((blog) => (
           <Link
             href={`/blogs/${blog.slug}`}
             key={blog.id}
@@ -152,7 +152,7 @@ const schema = {
             </div>
           </Link>
         ))}
-      </div>
+      </div>}
       <div className="flex justify-end items-end mt-5">
           <Link href={'/gallery'} className="text-blue-500 font-roboto hover:underline">Check our gallery <FaArrowRightLong className="inline-block"/></Link>
        </div>

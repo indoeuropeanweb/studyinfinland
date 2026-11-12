@@ -2,20 +2,23 @@ import StudyClient from "./StudyClient";
 
 
 export const metadata = {
-  title: "Why Study in finland: Top Benefits for Indian Students",
-  description: "Why Study in finland as an Indian student. Get low tuition fees, top degrees, and easy visa guides. Start your European career journey today. Learn more now.",
+  title: "Study in Finland: Quality Education, Benefits & Career Opportunities",
+  description: "Explore the benefits of studying in Finland. Discover top universities, English-taught programmes, scholarships, affordable living and career opportunities.",
   keywords: [
-      "Why Study in finland",
-      "Study in finland",
-      "Study in finland for Indian Students",
-      "Benefits of Studying in finland",
-      "finland Universities",
-      "finland Education",
-      "finland Study Visa",
-      "Affordable Study in Europe",
-      "finland Scholarships",
-      "Study Abroad finland",
-      "finland Admission"
+      "study in Finland",
+      "study in Finland for Indian students",
+      "benefits of studying in Finland",
+      "Finland universities",
+      "Finnish education system",
+      "study in Finland consultant",
+      "higher education in Finland",
+      "English taught programmes in Finland",
+      "Finland scholarships for international students",
+      "cost of studying in Finland",
+      "Finland student life",
+      "study abroad in Finland",
+      "admission in Finland universities",
+      "Finland career opportunities"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/study/"
@@ -27,9 +30,9 @@ export const metadata = {
     openGraph: {
     type: "website",
     title:
-      "Why Study in finland: Top Benefits for Indian Students",
+      "Study in Finland: Quality Education, Benefits & Career Opportunities",
     description:
-      "Why Study in finland as an Indian student. Get low tuition fees, top degrees, and easy visa guides. Start your European career journey today. Learn more now.",
+      "Explore the benefits of studying in Finland. Discover top universities, English-taught programmes, scholarships, affordable living and career opportunities.",
     url: "https://www.studyinfinland.in/study/",
     siteName: "Study in finland",
     images: [
@@ -44,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Why Study in finland: Top Benefits for Indian Students",
+      "Study in Finland: Quality Education, Benefits & Career Opportunities",
     description:
-      "Why Study in finland as an Indian student. Get low tuition fees, top degrees, and easy visa guides. Start your European career journey today. Learn more now.",
+      "Explore the benefits of studying in Finland. Discover top universities, English-taught programmes, scholarships, affordable living and career opportunities.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -72,9 +75,9 @@ export default function Home() {
         "@id": "https://www.studyinfinland.in/study/#webpage",
         "url": "https://www.studyinfinland.in/study/",
         "name":
-          "Why Study in finland? | Universities, Courses & Benefits for Indian Students",
+          "Study in Finland: Quality Education, Benefits & Career Opportunities",
         "description":
-          "Discover why Indian students choose to study in finland."
+          "Explore the benefits of studying in Finland. Discover top universities, English-taught programmes, scholarships, affordable living and career opportunities."
       },
           {
       "@type": "BreadcrumbList",

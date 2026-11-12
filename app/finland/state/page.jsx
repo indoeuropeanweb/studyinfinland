@@ -6,24 +6,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Best Universities in Finland: The Complete Student Guide",
-  description: "Get a guide to the best state universities in Finland. Learn about low tuition fees and top courses. See how student life feels and start your journey.",
+  title: "Finland States: Explore Regions, Cities & Student Life",
+  description: "Explore Finland states, regions and major cities. Discover student life, education opportunities, lifestyle and popular destinations for international students.",
   keywords: [
-      "State of Finland",
-      "Finland States and Regions",
-      "Regions of Finland",
-      "Cities in Finland",
-      "Finland Country Facts",
-      "Study in Finland",
-      "Finland Education System",
-      "Finland for International Students",
-      "Finland Geography",
-      "Major Cities in Finland",
-      "Finland Administrative Regions",
-      "Finland Population and Geography",
-      "Finland Country Information",
-      "Living in Lithuania for International Students",
-      "Finland for Indian Students"
+    "Finland states",
+    "states in Finland",
+    "regions of Finland",
+    "Finland regions",
+    "cities in Finland",
+    "major cities in Finland",
+    "Finland administrative regions",
+    "study in Finland",
+    "student life in Finland",
+    "Finland for international students"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/finland/state"
@@ -35,9 +30,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Best Universities in Finland: The Complete Student Guide",
+      "Finland States: Explore Regions, Cities & Student Life",
     description:
-      "Get a guide to the best state universities in Finland. Learn about low tuition fees and top courses. See how student life feels and start your journey",
+      "Explore Finland states, regions and major cities. Discover student life, education opportunities, lifestyle and popular destinations for international students.",
     url: "https://www.studyinfinland.in/finland/state/",
     siteName: "Study in Finland Centre",
     images: [
@@ -52,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Best Universities in Lithuania: The Complete Student Guide",
+      "Finland States: Explore Regions, Cities & Student Life",
     description:
-      "Get a guide to the best state universities in Lithuania. Learn about low tuition fees and top courses. See how student life feels and start your journey",
+      "Explore Finland states, regions and major cities. Discover student life, education opportunities, lifestyle and popular destinations for international students.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -68,11 +63,11 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinfinland.in/#organization",
-      "name": "Study in Lithuania",
+      "name": "Study in Finland",
       "url": "https://www.studyinfinland.in/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.studyinfinland.in/wp-content/uploads/logo.png"
+        "url": "https://www.studyinfinland.in/images/logos/logo.png"
       }
     },
     {

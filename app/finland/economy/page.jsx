@@ -4,21 +4,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Explore finland Economy: GDP, Growth and Business",
-  description: "Analyze the economy of finland. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
+  title: "Finland Economy: Key Industries, Growth & Job Opportunities",
+  description: "Explore the Finland economy, major industries, economic growth, exports, business sectors and job opportunities for international students.",
   keywords: [
-      "Economy of finland",
-      "finland Economy",
-      "finland GDP",
-      "finland Industries",
-      "finland Economic Growth",
-      "finland Business",
-      "finland Trade",
-      "finland Investment",
-      "finland Employment",
-      "finland Export Economy",
-      "Economy in finland",
-      "Study in finland"
+    "Finland economy",
+    "economy of Finland",
+    "Finland economic growth",
+    "Finland industries",
+    "Finland GDP",
+    "Finland job opportunities",
+    "Finland business sectors",
+    "Finland exports",
+    "Finland labour market",
+    "Finland economy for international students"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/finland/economy/"
@@ -30,9 +28,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Explore finland Economy: GDP, Growth and Business",
+      "Finland Economy: Key Industries, Growth & Job Opportunities",
     description:
-      "Analyze the economy of finland. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
+      "Explore the Finland economy, major industries, economic growth, exports, business sectors and job opportunities for international students.",
     url: "https://www.studyinfinland.in/finland/economy/",
     siteName: "Study in finland",
     locale: "en_US",
@@ -47,9 +45,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Explore finland Economy: GDP, Growth and Business",
+      "Finland Economy: Key Industries, Growth & Job Opportunities",
     description:
-      "Analyze the economy of finland. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
+      "Explore the Finland economy, major industries, economic growth, exports, business sectors and job opportunities for international students.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -81,9 +79,9 @@ const page = () => {
       "@id":
         "https://www.studyinfinland.in/finland/economy/#webpage",
       url: "https://www.studyinfinland.in/finland/economy/",
-      name: "finland Economy",
+      name: "Finland Economy: Key Industries, Growth & Job Opportunities",
       description:
-        "Learn about finland's economy, major industries, GDP growth, technology sector, exports, innovation ecosystem, manufacturing and investment opportunities.",
+        "Explore the Finland economy, major industries, economic growth, exports, business sectors and job opportunities for international students.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },
