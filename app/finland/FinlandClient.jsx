@@ -26,8 +26,8 @@ const LithuaniaClient = () => {
                   students yearly, offering high-quality education, research, employment opportunities, and a
                   vibrant academic environment in Europe.</p>
               <div className='mt-10'>
-                <h2 className='font-roboto text-xl md:text-2xl'>Benefits of Studying in Finland for Indian Students</h2>
-                <h4 className='text-lg font-inter mt-3'>Studying in Finland offers several benefits beyond academics:</h4>
+                <h2 className='font-roboto text-xl lg:text-2xl font-semibold text-gray-500'>Benefits of Studying in Finland for Indian Students</h2>
+                <h4 className=' text-base lg:text-lg font-roboto mt-3'>Studying in Finland offers several benefits beyond academics:</h4>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>
                       <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>High-Quality Education:</b> Finland is recognised for its excellent education system,
@@ -47,7 +47,7 @@ const LithuaniaClient = () => {
                            to develop communication skills, experience different cultures, and build valuable
                            international connections.</li>
                       </ul>
-                   <Image className="h-auto w-auto rounded-md" src="/images/finland/study-in-finland.webp" width={480} height={250} alt="study abroad lithuania" />
+                   <Image className="h-auto w-auto rounded-md" src="/images/finland/study-in-finland.webp" width={300} height={500} alt="study abroad lithuania" />
                  </div>
                  <div className=''>
                   <ul className='mt-3 space-y-3'>
@@ -70,13 +70,13 @@ const LithuaniaClient = () => {
                  </div>
                </div>
                <div className='my-10'>
-                      <h2 className='font-roboto text-xl md:text-2xl my-5'>What Makes Us Different?</h2>
-                      <p className='font-inter text-base'>Applying to the universities in Finland can be a lengthy and complex process, ranging from
+                      <h2 className='font-roboto text-xl md:text-2xl mt-5 font-semibold text-gray-500'>What Makes Us Different?</h2>
+                      <p className='font-roboto text-md lg:text-base mt-3'>Applying to the universities in Finland can be a lengthy and complex process, ranging from
                         identifying the most suitable programs to preparing all the necessary paperwork and getting a
                         residence permit. However, with the support of the Finland Study Centre, the students are
                         ensured to receive the most accurate and personalized guidance in making their educational
                         choices.</p>
-                      <h4 className='text-lg md:text-xl font-roboto mt-5'>What makes us different?</h4>
+                      {/* <h4 className='text-lg md:text-xl font-roboto mt-5'>What makes us different?</h4> */}
                       <ul className='space-y-3 mt-3'>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<b>Personalised Student Counselling:</b> Every student has different academic
                            qualifications, interests, and career goals. Our experienced counsellors help students

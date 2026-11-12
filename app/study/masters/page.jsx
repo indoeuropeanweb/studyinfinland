@@ -135,8 +135,8 @@ const page = () => {
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto font-semibold text-gray-500'>Master's Courses in Finland</h2>
           <p className='mt-3 text-justify text-roboto'>Finnish universities offer diverse postgraduate programmes designed to combine academic knowledge, research and practical skills. Master's programmes are available at traditional research universities as well as Universities of Applied Sciences (UAS).</p>
-          <h4 className='text-md lg:text-lg font-semibold font-roboto text-gray-500'>Popular Master's Courses in Finland</h4>
-          <ul className='mt-5 space-y-2'>
+          <h4 className='text-md lg:text-lg font-semibold font-roboto text-gray-500 mt-5'>Popular Master's Courses in Finland</h4>
+          <ul className='mt-2 space-y-2'>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Business Administration (MBA)</li>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;International Business and Management</li>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Computer Science and Information Technology</li>
@@ -156,8 +156,8 @@ const page = () => {
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto text-gray-500 font-semibold'>Eligibility Requirements to Study Master's in Finland</h2>
           <p className='text-justify text-roboto text-md lg:text-base'>Indian students planning to pursue a postgraduate degree in Finland must fulfil the academic and programme-specific admission requirements.</p>
-          <h5 className='text-md lg:text-lg font-semibold font-roboto text-gray-500'>General eligibility requirements include:</h5>
-          <ul className='mt-5 space-y-2'>
+          <h5 className='text-md lg:text-lg font-semibold font-roboto text-gray-500 mt-5'>General eligibility requirements include:</h5>
+          <ul className='mt-2 space-y-2'>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;●	A recognised Bachelor's degree from an accredited higher education institution.</li>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;●	Academic transcripts and degree certificates</li>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;●	Valid passport.</li>
@@ -183,7 +183,7 @@ const page = () => {
         </div>
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Tuition Fees and Scholarships for Master's in Finland</h2>
-          <p className='text-justify text-roboto text-md lg:text-base'>For non-EU/EEA students, tuition fees generally apply to English-taught Master's programmes in Finland.</p>
+          <p className='text-justify text-roboto text-md lg:text-base mt-3'>For non-EU/EEA students, tuition fees generally apply to English-taught Master's programmes in Finland.</p>
           <p className='mt-3 text-justify text-roboto text-md lg:text-base'>The annual tuition fees typically range from €9,000 to €20,000, depending on the university and selected programme.</p>
           <p className='mt-3 text-justify text-roboto text-md lg:text-base'>Many Finnish universities offer scholarships or tuition fee waivers to eligible international students. These scholarships are competitive and generally cover part or all of the tuition fees rather than living expenses.</p>
           <p className='mt-3 text-justify text-roboto text-md lg:text-base'>Students should also plan for accommodation, food, transportation, health insurance and other personal expenses while studying in Finland.</p>
@@ -191,7 +191,7 @@ const page = () => {
         <div className='mt-10'>
           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>How to Apply for a Master's Degree in Finland?</h2>
           <p className='mt-3 text-justify text-roboto text-md lg:text-base'>The admission process for Finnish universities involves several important steps:</p>
-          <ul className='mt-5 space-y-2'>
+          <ul className='mt-3 space-y-2'>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;1.	Choose Your Programme: Explore Master's courses according to your Bachelor's background and career goals.</li>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;2.	Select a University: Compare universities and Universities of Applied Sciences offering your preferred programme</li>
             <li className="text-md lg:text-base font-roboto"><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;3.	Check Eligibility: Review academic qualifications, English language requirements and work experience criteria.</li>

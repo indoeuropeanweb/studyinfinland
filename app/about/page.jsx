@@ -159,7 +159,7 @@ const page = () => {
                 Whether you are planning a Bachelor's or Master's degree, we are here to make your journey
                 towards studying in Finland easier and more organised.</p>
               <div className='mt-10'>
-                <h2 className='font-roboto text-xl md:text-2xl'>Why Choose Us?</h2>
+                <h2 className='font-roboto text-xl md:text-2xl font-semibold text-gray-500'>Why Choose Us?</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>
                       <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Experienced Guidance:</strong> Over two decades of experience in international education and student counselling.</li>
@@ -177,7 +177,7 @@ const page = () => {
                  </div>
                </div>
                <div className='my-10'>
-                      <h2 className='font-roboto text-xl md:text-2xl my-5'>Our Services</h2>
+                      <h2 className='font-roboto text-xl md:text-2xl my-5 font-semibold text-gray-500'>Our Services</h2>
                       <p className='font-roboto text-md lg:text-base text-justify'>We provide comprehensive support to help students plan their education in Finland.</p>
                       <ul className='space-y-3 mt-3'>
                         <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;<strong>Career Counselling:</strong> Discover suitable academic programmes based on your interests and future aspirations.</li>
@@ -190,7 +190,7 @@ const page = () => {
                       </ul>
                </div>
                <div className='my-10'>
-                      <h2 className='font-roboto text-xl md:text-2xl my-5'>Why Study in Finland?</h2>
+                      <h2 className='font-roboto text-xl md:text-2xl my-5 font-semibold text-gray-500'>Why Study in Finland?</h2>
                       <p className='font-roboto text-md lg:text-base text-justify'>Finland is an attractive destination for international students because of its quality education, innovative teaching methods and welcoming academic environment.</p>
                       <ul className='space-y-3 mt-3'>
                           <li className='font-roboto text-justify text-md lg:text-base'><IoIosArrowForward className='size-6 inline-block text-primary'/>&nbsp;Globally recognised higher education institutions.</li>
@@ -205,7 +205,7 @@ const page = () => {
                </div>
                 <div className="my-10">
                   <div className="mb-10">
-                    <h2 className="font-roboto text-xl md:text-2xl mt-3">
+                    <h2 className="font-roboto text-xl md:text-2xl mt-3 font-semibold text-gray-500">
                       Our Journey in Numbers
                     </h2>
                     <p className="text-gray-600 mt-3 text-md lg:text-base">

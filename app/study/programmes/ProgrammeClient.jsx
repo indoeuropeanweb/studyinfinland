@@ -93,7 +93,7 @@ const ProgrammeClient = () => {
       </div>
       <section className="my-5">
         <div className="mx-auto max-w-6xl px-4">
-          <div className="py-8 px-4 shadow rounded-md">
+          {courseData.length > 0 ? <div className="py-8 px-4 shadow rounded-md">
             <form
               onSubmit={handleSubmit}
               className="flex flex-col md:flex-row gap-4"
@@ -192,7 +192,7 @@ const ProgrammeClient = () => {
                 }}
               />
              </div>
-          </div>
+          </div>: <div className="text-center w-full font-medium text-base lg:text-xl text-gray-500">No courses found</div>}
         </div>
         <div className="flex justify-end items-end mt-5">
             <Link href={'/study/bachelors'} className="text-blue-500 font-roboto hover:underline">Read bachelors programme <FaArrowRightLong className="inline-block"/></Link>

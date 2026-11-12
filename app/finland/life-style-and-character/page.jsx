@@ -130,7 +130,7 @@ const page = () => {
            <p className='text-md lg:text-base font-roboto mt-2'>Finnish people are generally friendly, honest and respectful, although they may appear reserved initially. Punctuality, privacy and equality are important parts of everyday life. The traditional Finnish sauna is also an essential part of the country's culture, offering relaxation and an opportunity to connect with others.</p>
         </div>
         <div className='mt-10'>
-            <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Festivals and Traditions in Finland</h2>
+            <h2 className='text-xl md:text-2xl font-roboto font-semibold text-gray-500'>Festivals and Traditions in Finland</h2>
             <p className='text-md lg:text-base font-roboto mt-4'>Finland celebrates several traditional festivals that reflect its cultural heritage and connection with nature.</p>
              <ul className='mt-2 space-y-3'>
                 <li className='text-md lg:text-base font-roboto'>
@@ -148,17 +148,17 @@ const page = () => {
              </ul>
         </div>
         <div className='mt-10'>
-           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Food and Everyday Life in Finland</h2>
+           <h2 className='text-xl md:text-2xl font-roboto font-semibold text-gray-500'>Food and Everyday Life in Finland</h2>
            <p className='text-md lg:text-base font-roboto mt-2'>Finnish cuisine is known for its fresh ingredients and traditional flavours. Popular foods include rye bread, salmon soup, Karelian pies, cinnamon buns and berry desserts. Coffee is also an important part of Finnish social culture.</p>
            <p className='text-md lg:text-base font-roboto mt-2'>Finland experiences four distinct seasons, from bright summer days to snowy winters. Outdoor activities such as hiking, cycling, skiing and ice skating are popular throughout the year. Northern Finland is also famous for its Northern Lights and Midnight Sun.</p>
         </div>
         <div className='mt-10'>
-           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Student Life in Finland</h2>
+           <h2 className='text-xl md:text-2xl font-roboto  font-semibold text-gray-500'>Student Life in Finland</h2>
            <p className='text-md lg:text-base font-roboto mt-2'>Finland offers a welcoming international academic environment with modern educational facilities, student associations and multicultural communities. Students can participate in cultural events, sports and recreational activities while experiencing Finnish traditions.</p>
            <p className='text-md lg:text-base font-roboto mt-2'>For those researching Study in Finland for Indian students, the country offers opportunities to develop independence, experience a new culture and gain international academic exposure. Learning basic Finnish can also help students communicate more comfortably in everyday situations.</p>
         </div>
         <div className='mt-10'>
-           <h2 className='text-xl md:text-2xl font-roboto text-gray-500'>Experience Finnish Life with Finland consultancy</h2>
+           <h2 className='text-xl md:text-2xl font-roboto font-semibold text-gray-500'>Experience Finnish Life with Finland consultancy</h2>
            <p className='text-md lg:text-base font-roboto mt-2'>Finland combines natural beauty, cultural traditions and modern living, offering international students a distinctive European experience.</p>
            <p className='text-md lg:text-base font-roboto mt-2'>If you are planning to pursue higher education in Finland, our experienced study abroad consultants for Finland can guide you through university selection, admission applications, scholarship opportunities and student residence permit documentation.</p>
         </div>
