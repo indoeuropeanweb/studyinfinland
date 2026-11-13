@@ -210,11 +210,10 @@ const HomeClient = () => {
       <div className="my-12 mx-6">
           <h2 className="font-aino text-2xl md:text-4xl">Blogs</h2>
           <div className="mt-10">
-            <div className="">
-              <ul className="space-y-10 grid grid-cols-1 md:grid-cols-2 space-x-10">
+            <div className="text-center">
+              {blogs.length > 0 ? ( <ul className="space-y-10 grid grid-cols-1 md:grid-cols-2 space-x-10">
                 {blogs.slice(0, 6).map((blog, index) => {
                   return <li key={blog.id}>
-                  {/* <h4 className="font-aino mb-3">{blog.title}</h4> */}
                   <div className="flex justify-center gap-2">
                     <div className="">
                       <Image className="max-w-50" height={160} width={200} src={`${blog.image}`} alt={`${blog.title}`} />
@@ -222,14 +221,13 @@ const HomeClient = () => {
                     <div className="">
                          <h4 className="font-aino">{blog.metaTitle}</h4>
                          <div className="flex justify-between items-center mt-4">
-                          {/* <span className="font-roboto text-sm md:text-md">{blog.publishDate}</span> */}
                           <Link className="text-primary hover:underline text-end ms-auto" href={`/blogs/${blog.slug}`}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
                          </div>
                     </div>
                   </div>
                 </li>
                 })}
-              </ul>
+              </ul>): (<p className="text-gray-500 font-roboto font-semibold text-base lg:text-lg">No blogs available at the moment. Please check back later.</p>)}
           <div className="flex justify-end items-center mt-12">
             <Link className="px-4 py-2 border-2 border-primary text-primary bg-white rounded-full hover:bg-primary hover:text-white duration-300 ease-in-out" href={`/blogs`}>All Blogs &nbsp;<FaArrowRightLong className="size-6 inline-block"/></Link>
           </div>
