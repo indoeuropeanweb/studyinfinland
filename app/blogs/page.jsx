@@ -6,19 +6,19 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 
 export const metadata = {
-  title: "Get Study in Finland Consultants Blogs For Indian Student",
-  description: "Explore study in Finland blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
+  title: "Indian Students in Finland: Student Success Stories & Experiences",
+  description: "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
   keywords: [
-      "Finland Blog",
-      "Study in Finland Blog",
-      "Study in Finland Articles",
-      "Finland Student Blog",
-      "Study Abroad Finland",
-      "Finland Universities",
-      "Study in Finland for Indian Students",
-      "Finland Student Visa",
-      "Finland Scholarships",
-      "Finland Admission Guide"
+      "Indian students in Finland",
+      "Indian students studying in Finland",
+      "student experiences in Finland",
+      "Indian students success stories",
+      "study in Finland",
+      "Finland student life",
+      "Finland university admissions",
+      "Finland study abroad",
+      "Indian students abroad",
+      "Finland education for Indians"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/blogs/"
@@ -31,9 +31,9 @@ export const metadata = {
     type: "website",
     url: "https://www.studyinfinland.in/blogs/",
     title:
-      "Get Study in Finland Consultants Blogs For Indian Student",
+      "Indian Students in Finland: Student Success Stories & Experiences",
     description:
-      "Explore study in Finland blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
+      "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
     siteName: "Study in Finland",
     locale: "en_US",
     images: [
@@ -66,9 +66,9 @@ const schema = {
       "@type": "Blog",
       "@id": "https://www.studyinfinland.in/blogs/#blog",
       url: "https://www.studyinfinland.in/blogs/",
-      name: "Study in Finland Blog",
+      name: "Indian Students in Finland: Student Success Stories & Experiences",
       description:
-        "Educational resources, admission guides, scholarship updates, visa information, student life tips and university insights for international students planning to study in Finland.",
+        "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
       publisher: {
         "@id": "https://www.studyinfinland.in/#organization",
       },
@@ -78,9 +78,9 @@ const schema = {
       "@type": "WebPage",
       "@id": "https://www.studyinfinland.in/blogs/#webpage",
       url: "https://www.studyinfinland.in/blogs/",
-      name: "Study in Finland Blog",
+      name: "Indian Students in Finland: Student Success Stories & Experiences",
       description:
-        "Explore blogs about Finlandn universities, admissions, scholarships, visas, accommodation, living costs and student life.",
+        "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },
@@ -92,9 +92,9 @@ const schema = {
       "@type": "CollectionPage",
       "@id": "https://www.studyinfinland.in/blogs/#collectionpage",
       url: "https://www.studyinfinland.in/blogs/",
-      name: "Study in Finland Blogs",
+      name: "Indian Students in Finland: Student Success Stories & Experiences",
       description:
-        "Collection of blog articles and study guides for international students.",
+        "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
     },
     {
       "@type": "BreadcrumbList",

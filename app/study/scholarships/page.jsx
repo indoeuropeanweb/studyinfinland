@@ -4,17 +4,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Find Best Scholarships in Finland for Indian Students",
-  description: "Find the best scholarships in Finland for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
+  title: "Scholarships in Finland for Indian Students: Fees & Eligibility",
+  description: "Explore scholarships in Finland for Indian students. Discover university scholarships, tuition fee waivers, eligibility criteria, required documents and application process.",
   keywords: [
       "Scholarships in Finland",
-      "Scholarships in Finland for Indian Students",
-      "Finland Scholarships",
-      "Study in Finland Scholarships",
-      "Finland Government Scholarships",
-      "Erasmus Scholarships Finland",
-      "University Scholarships in Finland",
-      "Fully Funded Scholarships in Finland"
+      "Finland scholarships for Indian students",
+      "Finland university scholarships",
+      "study in Finland with scholarship",
+      "Finland tuition fee waivers",
+      "scholarships for international students in Finland",
+      "Finland student funding",
+      "merit-based scholarships in Finland",
+      "Finland scholarship eligibility",
+      "Finland scholarship application process"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/study/scholarships"
@@ -29,9 +31,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/study/scholarships/",
     siteName: "Study in Finland",
     title:
-      "Find Best Scholarships in Finland for Indian Students",
+      "Scholarships in Finland for Indian Students: Fees & Eligibility",
     description:
-      "Find the best scholarships in Finland for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
+      "Explore scholarships in Finland for Indian students. Discover university scholarships, tuition fee waivers, eligibility criteria, required documents and application process.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/study/finland-01.webp",
@@ -61,9 +63,9 @@ const page = () => {
           "@id":
             "https://www.studyinfinland.in/study/scholarships/#webpage",
           url: "https://www.studyinfinland.in/study/scholarships/",
-          name: "Scholarships in Finland for Indian Students",
+          name: "Scholarships in Finland for Indian Students: Fees & Eligibility",
           description:
-            "Find the best scholarships in Finland for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
+            "Explore scholarships in Finland for Indian students. Discover university scholarships, tuition fee waivers, eligibility criteria, required documents and application process.",
           isPartOf: {
             "@id": "https://www.studyinfinland.in/#website",
           },

@@ -4,19 +4,23 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Lithuania Study Consultants: Top FAQs for Indian Students",
-  description: "Looking for trusted Study in Finland Consultants? Find answers to admission, visa, scholarships, tuition fees, eligibility, and student life in Finland.",
+  title: "Study in Finland FAQs: Admission, Fees, Visa & IELTS",
+  description: "Find answers to common Study in Finland FAQs about university admissions, tuition fees, scholarships, IELTS requirements, student visas, living costs, accommodation and part-time jobs for Indian students.",
   keywords: [
-      "Study in Finland Consultants",
-      "Study in Finland Consultant India",
-      "Study in Finland FAQ",
-      "Study in Finland Admission",
-      "Finland Student Visa",
-      "Study in Finland for Indian Students",
-      "Finland Universities",
-      "Finland Scholarship",
-      "Study Abroad Consultants",
-      "Finland Education Consultants"
+        "Study in Finland FAQs",
+        "Finland study FAQs",
+        "Study in Finland for Indian students",
+        "Finland university admission",
+        "Finland student visa",
+        "Finland tuition fees",
+        "cost of studying in Finland",
+        "Finland scholarships",
+        "IELTS requirements for Finland",
+        "Finland universities",
+        "part-time jobs in Finland",
+        "Finland student accommodation",
+        "study abroad Finland",
+        "Finland admission requirements"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/faq"
@@ -28,9 +32,9 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Finland Study Consultants: Top FAQs for Indian Students",
+      "Study in Finland FAQs: Admission, Fees, Visa & IELTS",
     description:
-      "Get answers to common questions about studying and living in Finland.",
+      "Find answers to common Study in Finland FAQs about university admissions, tuition fees, scholarships, IELTS requirements, student visas, living costs, accommodation and part-time jobs for Indian students.",
     url: "https://www.studyinfinland.in/faq/",
     siteName: "Study in Finland Centre",
     images: [
@@ -46,9 +50,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Finland Study Consultants: Top FAQs for Indian Students",
+      "Study in Finland FAQs: Admission, Fees, Visa & IELTS",
     description:
-      "Get answers to common questions about studying and living in Finland.",
+      "Find answers to common Study in Finland FAQs about university admissions, tuition fees, scholarships, IELTS requirements, student visas, living costs, accommodation and part-time jobs for Indian students.",
     images: [
       "https://www.studyinfinland.in/images/logos/logo.png",
     ],
@@ -180,9 +184,9 @@ const faqData = [
         "url":
           "https://www.studyinfinland.in/faq/",
         "name":
-          "Frequently Asked Questions About Studying in Finland",
+          "Study in Finland FAQs: Admission, Fees, Visa & IELTS",
         "description":
-          "Answers to common questions about studying and living in Finland."
+          "Find answers to common Study in Finland FAQs about university admissions, tuition fees, scholarships, IELTS requirements, student visas, living costs, accommodation and part-time jobs for Indian students."
       },
       {
         "@type": "FAQPage",

@@ -6,19 +6,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Top Student Accommodation Finland: Options at Lower Cost",
-  description: "Find student accommodation in Finland. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
+  title: "Student Accommodation in Finland: Housing & Living Guide",
+  description: "Explore student accommodation in Finland for international students. Discover affordable student housing, shared apartments, private rentals, living costs and accommodation options in Finnish cities.",
   keywords: [
-      "Student Accommodation in Finland",
-      "Accommodation in Finland",
-      "Student Housing in Finland",
-      "Finland Student Accommodation",
-      "Student Apartments in Finland",
-      "University Dormitories in Finland",
-      "Private Accommodation in Finland",
-      "Affordable Student Accommodation in Finland",
-      "International Student Housing Finland",
-      "Living in Finland"
+      "student accommodation in Finland",
+      "student housing in Finland",
+      "accommodation in Finland for international students",
+      "affordable student accommodation Finland",
+      "student apartments in Finland",
+      "shared accommodation in Finland",
+      "private student housing Finland",
+      "cost of student accommodation in Finland",
+      "student accommodation Helsinki",
+      "student accommodation for Indian students"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/living/accommodation"
@@ -32,9 +32,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/living/accommodation/",
     siteName: "Study in Finland Centre",
     title:
-      "Top Student Accommodation Finland: Options at Lower Cost",
+      "Student Accommodation in Finland: Housing & Living Guide",
     description:
-      "Find student accommodation in Finland. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
+      "Explore student accommodation in Finland for international students. Discover affordable student housing, shared apartments, private rentals, living costs and accommodation options in Finnish cities.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/living/accommodation/accommodation.webp",
@@ -49,9 +49,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Top Student Accommodation Finland: Options at Lower Cost",
+      "Student Accommodation in Finland: Housing & Living Guide",
     description:
-      "Find student accommodation in Finland. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
+      "Explore student accommodation in Finland for international students. Discover affordable student housing, shared apartments, private rentals, living costs and accommodation options in Finnish cities.",
     images: [
       "https://www.studyinfinland.in/images/living/accommodation/accommodation.webp",
     ],
@@ -78,9 +78,9 @@ const page = () => {
         "https://www.studyinfinland.in/living/accommodation/#webpage",
       url:
         "https://www.studyinfinland.in/living/accommodation/",
-      name: "Student Accommodation in Finland",
+      name: "Student Accommodation in Finland: Housing & Living Guide",
       description:
-        "Explore accommodation options in Finland including university dormitories, student residences, private apartments and shared housing.",
+        "Explore student accommodation in Finland for international students. Discover affordable student housing, shared apartments, private rentals, living costs and accommodation options in Finnish cities.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },
@@ -109,12 +109,6 @@ const page = () => {
             "https://www.studyinfinland.in/living/accommodation/",
         },
       ],
-    },
-    {
-      "@type": "Residence",
-      name: "Student Accommodation in Finland",
-      description:
-        "Accommodation options available for international students including university dormitories, student residences, shared apartments and private housing.",
     },
   ],
 };

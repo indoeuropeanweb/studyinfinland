@@ -20,7 +20,7 @@ export const metadata = {
     "career opportunities in Finland"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/finland"
+    canonical: "https://www.studyinfinland.in/finland"
   },
     robots: {
     index: true,

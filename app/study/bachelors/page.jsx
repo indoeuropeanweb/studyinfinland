@@ -7,20 +7,22 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 
 export const metadata = {
-  title: "Bachelor Degree in Lithuania: Best Universities for Indians",
-  description: "Study for a Bachelor degree in Lithuania. Find English programs, low tuition fees, and scholarships for Indian students. Get expert admission help today.",
+  title: "Bachelor Degree in Finland for Indian Students | Study in Finland",
+  description: "Explore bachelor degree in Finland for Indian students. Discover top courses, universities, eligibility requirements, admission process and study opportunities.",
   keywords: [
-      "Bachelor Degree in Lithuania",
-      "Study Bachelor Degree in Lithuania",
-      "Bachelor's in Lithuania",
-      "Study in Lithuania",
-      "Lithuania Universities",
-      "Bachelor Programs in Lithuania",
-      "Undergraduate Study in Lithuania",
-      "Lithuania Education"
+      "bachelor degree in Finland",
+      "bachelor's courses in Finland",
+      "study bachelor's in Finland",
+      "bachelor programmes in Finland",
+      "bachelor's universities in Finland",
+      "undergraduate courses in Finland",
+      "Finland admission requirements",
+      "study in Finland for Indian students",
+      "English taught bachelor's programmes in Finland",
+      "Finland student admission"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/bachelors"
+    canonical: "https://www.studyinfinland.in/study/bachelors"
   },
   robots: {
     index: true,
@@ -28,18 +30,18 @@ export const metadata = {
   },
    openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/study/bachelors/",
-    siteName: "Study in Lithuania",
+    url: "https://www.studyinfinland.in/study/bachelors/",
+    siteName: "Study in Finland",
     title:
-      "Bachelor Degree in Lithuania: Best Universities for Indians",
+      "Bachelor Degree in Finland for Indian Students | Study in Finland",
     description:
-      "Study for a Bachelor degree in Lithuania. Find English programs, low tuition fees, and scholarships for Indian students. Get expert admission help today.",
+      "Explore bachelor degree in Finland for Indian students. Discover top courses, universities, eligibility requirements, admission process and study opportunities.",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+        url: "https://www.studyinfinland.in/images/study/finland-01.webp",
         width: 1200,
         height: 630,
-        alt: "Bachelor's Programs in Lithuania",
+        alt: "Bachelor's Programs in Finland",
       },
     ],
     locale: "en_US",
@@ -47,11 +49,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Bachelor Degree in Lithuania: Best Universities for Indians",
+      "Bachelor Degree in Finland for Indian Students | Study in Finland",
     description:
-      "Study for a Bachelor degree in Lithuania. Find English programs, low tuition fees, and scholarships for Indian students. Get expert admission help today.",
+      "Explore bachelor degree in Finland for Indian students. Discover top courses, universities, eligibility requirements, admission process and study opportunities.",
     images: [
-      "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      "https://www.studyinfinland.in/images/study/finland-01.webp",
     ],
   },
 }
@@ -64,25 +66,25 @@ const page = () => {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinfinland.in/#organization",
+      name: "Study in Finland",
+      url: "https://www.studyinfinland.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logos/logo.webp",
+        url: "https://www.studyinfinland.in/images/logos/logo.webp",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/study/bachelors/#webpage",
+        "https://www.studyinfinland.in/study/bachelors/#webpage",
       url:
-        "https://www.studyinlithuania.in/study/bachelors/",
-      name: "Bachelor's Programs in Lithuania",
+        "https://www.studyinfinland.in/study/bachelors/",
+      name: "Bachelor Degree in Finland for Indian Students | Study in Finland",
       description:
-        "Explore undergraduate degree programs in Lithuania for international students including admission requirements, tuition fees and career opportunities.",
+        "Explore bachelor degree in Finland for Indian students. Discover top courses, universities, eligibility requirements, admission process and study opportunities.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinfinland.in/#website",
       },
       inLanguage: "en",
     },

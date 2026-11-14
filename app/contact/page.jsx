@@ -6,22 +6,22 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from 'next/image';
 
 export const metadata = {
-  title: "Study in Lithuania Consultants | Expert Admission Help",
-  description: "Get help from expert Study in Lithuania consultants. We handle university admission, scholarships, and visa forms. Contact Us & Start your application Now",
+  title: "Study in Finland Consultants | Expert Admission Guidance",
+  description: "Connect with expert study in Finland consultants for university selection, admission guidance, scholarships, student visa support and personalised counselling.",
   keywords: [
-      "Study in Lithuania Consultants",
-      "Study in Lithuania Consultant",
-      "Lithuania Education Consultants",
-      "Study in Lithuania Consultants India",
-      "Study in Lithuania Consultants Delhi",
-      "Study Abroad Consultants",
-      "Lithuania Student Visa Consultant",
-      "Lithuania Admission Consultants",
-      "Study in Lithuania Guidance",
-      "Study in Lithuania Experts"
+      "study in Finland consultants",
+      "Finland study consultants",
+      "study in Finland consultancy",
+      "Finland education consultants",
+      "Finland admission consultants",
+      "study in Finland from India",
+      "Finland student visa consultants",
+      "Finland university admission",
+      "study abroad consultants for Finland",
+      "study in Finland guidance"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/contact"
+    canonical: "https://www.studyinfinland.in/contact"
   },
     robots: {
     index: true,
@@ -30,28 +30,28 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Study in Lithuania Consultants | Expert Admission Help",
+      "Study in Finland Consultants | Expert Admission Guidance",
     description:
-      "Get help from expert Study in Lithuania consultants. We handle university admission, scholarships, and visa forms. Contact Us & Start your application Now",
-    url: "https://www.studyinlithuania.in/contact/",
+      "Connect with expert study in Finland consultants for university selection, admission guidance, scholarships, student visa support and personalised counselling.",
+    url: "https://www.studyinfinland.in/contact/",
     siteName: "Study in Lithuania Centre",
     images: [
       {
-        url: "https://www.studyinlithuania.in/assets/images/contact/our-expert.webp",
+        url: "https://www.studyinfinland.in/assets/images/contact/our-expert.webp",
         width: 1200,
         height: 630,
-        alt: "Contact Study in Lithuania Centre",
+        alt: "Contact Study in Finland Centre",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Study in Lithuania Consultants | Expert Admission Help",
+      "Study in Finland Consultants | Expert Admission Guidance",
     description:
-      "Get help from expert Study in Lithuania consultants. We handle university admission, scholarships, and visa forms. Contact Us & Start your application Now",
+      "Connect with expert study in Finland consultants for university selection, admission guidance, scholarships, student visa support and personalised counselling.",
     images: [
-      "https://www.studyinlithuania.in/assets/images/contact/our-expert.webp",
+      "https://www.studyinfinland.in/assets/images/contact/our-expert.webp",
     ],
   },
 }
@@ -63,11 +63,11 @@ const page = () => {
       {
         "@type": "Organization",
         "@id": "https://www.studyinlithuania.in/#organization",
-        name: "Study in Lithuania Centre",
-        url: "https://www.studyinlithuania.in/",
+        name: "Study in Finland Centre",
+        url: "https://www.studyinfinland.in/",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.studyinlithuania.in/images/logos/logo.png",
+          url: "https://www.studyinfinland.in/images/logos/logo.png",
         },
         contactPoint: {
           "@type": "ContactPoint",
@@ -80,26 +80,26 @@ const page = () => {
       {
         "@type": "ContactPage",
         "@id":
-          "https://www.studyinlithuania.in/contact/#contactpage",
-        url: "https://www.studyinlithuania.in/contact/",
-        name: "Contact Study in Lithuania Centre",
+          "https://www.studyinfinland.in/contact/#contactpage",
+        url: "https://www.studyinfinland.in/contact/",
+        name: "Study in Finland Consultants | Expert Admission Guidance",
         description:
-          "Contact page for students seeking guidance on Lithuania university admissions, scholarships, student visas, and study abroad counselling.",
+          "Connect with expert study in Finland consultants for university selection, admission guidance, scholarships, student visa support and personalised counselling.",
         isPartOf: {
-          "@id": "https://www.studyinlithuania.in/#website",
+          "@id": "https://www.studyinfinland.in/#website",
         },
         about: {
-          "@id": "https://www.studyinlithuania.in/#organization",
+          "@id": "https://www.studyinfinland.in/#organization",
         },
       },
       {
         "@type": "EducationalOrganization",
         "@id":
-          "https://www.studyinlithuania.in/#educationalorganization",
-        name: "Study in Lithuania Centre",
-        url: "https://www.studyinlithuania.in/",
+          "https://www.studyinfinland.in/#educationalorganization",
+        name: "Study in Finland Consultants | Expert Admission Guidance",
+        url: "https://www.studyinfinland.in/",
         description:
-          "Education consultancy helping Indian students study in Lithuania.",
+          "Connect with expert study in Finland consultants for university selection, admission guidance, scholarships, student visa support and personalised counselling.",
         areaServed: {
           "@type": "Country",
           name: "India",
@@ -109,12 +109,12 @@ const page = () => {
       {
         "@type": "LocalBusiness",
         "@id":
-          "https://www.studyinlithuania.in/contact/#localbusiness",
-        name: "Study in Lithuania Centre",
-        url: "https://www.studyinlithuania.in/",
+          "https://www.studyinfinland.in/contact/#localbusiness",
+        name: "Study in Finland Consultants | Expert Admission Guidance",
+        url: "https://www.studyinfinland.in/",
         image: "https://www.studyinlithuania.in/images/logos/logo.png",
         telephone: "+919650133355",
-        email: "info@studyinlithuania.in",
+        email: "info@indoeuropean.in",
         address: {
           "@type": "PostalAddress",
           streetAddress: "First Floor, 18/1 -A, Jail Road, Opposite Tilak Nagar Metro Station Gate no - 4, Above Sona Baker, New Delhi-110058.",
@@ -132,35 +132,35 @@ const page = () => {
 
       {
         "@type": "Service",
-        "@id": "https://www.studyinlithuania.in/contact/#service",
-        name: "Lithuania Study Abroad Consultation",
+        "@id": "https://www.studyinfinland.in/contact/#service",
+        name: "Study in Finland Consultants | Expert Admission Guidance",
         serviceType: "Education Consultancy",
         provider: {
-          "@id": "https://www.studyinlithuania.in/#organization",
+          "@id": "https://www.studyinfinland.in/#organization",
         },
         areaServed: {
           "@type": "Country",
           name: "India",
         },
         description:
-          "Student counselling, university selection, application support, scholarship guidance, visa documentation support, and pre-departure assistance for studying in Lithuania.",
+          "Connect with expert study in Finland consultants for university selection, admission guidance, scholarships, student visa support and personalised counselling.",
       },
       {
         "@type": "BreadcrumbList",
         "@id":
-          "https://www.studyinlithuania.in/contact/#breadcrumb",
+          "https://www.studyinfinland.in/contact/#breadcrumb",
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://www.studyinlithuania.in/",
+            item: "https://www.studyinfinland.in/",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Contact",
-            item: "https://www.studyinlithuania.in/contact/",
+            item: "https://www.studyinfinland.in/contact/",
           },
         ],
       },

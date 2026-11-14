@@ -2,19 +2,21 @@ import LivingClient from "./LivingClient";
 
 
 export const metadata = {
-  title: "Get Expert Help for Student Accommodation in Lithuania",
-  description: "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
+  title: "Living in Finland: Lifestyle, Cost of Living & Student Life",
+  description: "Discover what living in Finland is like for international students. Explore the cost of living, accommodation, lifestyle, culture, healthcare, transport and student life.",
   keywords: [
-      "Student Accommodation in Lithuania",
-      "Accommodation in Lithuania for Students",
-      "Student Housing in Lithuania",
-      "University Dormitories in Lithuania",
-      "Affordable Student Accommodation Lithuania",
-      "Lithuania Student Hostel",
-      "Private Accommodation in Lithuania",
-      "Shared Apartments in Lithuania",
-      "Living in Lithuania for Indian Students",
-      "Study in Lithuania"
+      "living in Finland",
+      "life in Finland",
+      "cost of living in Finland",
+      "student life in Finland",
+      "lifestyle in Finland",
+      "living in Finland for Indian students",
+      "accommodation in Finland",
+      "Finland student lifestyle",
+      "Finland culture",
+      "healthcare in Finland",
+      "transportation in Finland",
+      "international students in Finland"
   ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/living/"
@@ -26,9 +28,9 @@ export const metadata = {
     openGraph: {
     type: "website",
     title:
-      "Get Expert Help for Student Accommodation in Lithuania",
+      "Living in Finland: Lifestyle, Cost of Living & Student Life",
     description:
-      "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
+      "Discover what living in Finland is like for international students. Explore the cost of living, accommodation, lifestyle, culture, healthcare, transport and student life.",
     url: "https://www.studyinlithuania.in/living/",
     siteName: "Study in Lithuania",
     images: [
@@ -44,9 +46,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Get Expert Help for Student Accommodation in Lithuania",
+      "Living in Finland: Lifestyle, Cost of Living & Student Life",
     description:
-      "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
+      "Discover what living in Finland is like for international students. Explore the cost of living, accommodation, lifestyle, culture, healthcare, transport and student life.",
     images: [
       "https://www.studyinlithuania.in/images/living/living.webp",
     ],
@@ -71,9 +73,9 @@ export const metadata = {
         "@id": "https://www.studyinlithuania.in/living/",
         "url": "https://www.studyinlithuania.in/living/",
         "name":
-          "Living in Lithuania as an International Student",
+          "Living in Finland: Lifestyle, Cost of Living & Student Life",
         "description":
-          "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
+          "Discover what living in Finland is like for international students. Explore the cost of living, accommodation, lifestyle, culture, healthcare, transport and student life.",
         "isPartOf": {
           "@id": "https://www.studyinlithuania.in/"
         }

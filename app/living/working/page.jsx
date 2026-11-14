@@ -5,21 +5,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Work While Studying in Finland: Top Jobs for Students",
-  description: "Looking for student jobs in Finland? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
+  title: "Working in Finland: Part-Time Jobs & Work Opportunities for Students",
+  description: "Explore working in Finland for international students. Discover part-time jobs, work opportunities, student working hours, salaries and career prospects.",
   keywords: [
-      "Jobs in Finland",
-      "Jobs in Finland for International Students",
-      "Jobs in Finland for Indians",
-      "Work in Finland",
-      "Part Time Jobs in Finland",
-      "Study and Work in Finland",
-      "Post Study Work in Finland",
-      "Finland Work Permit",
-      "Career Opportunities in Finland",
-      "Employment in Finland",
-      "Finland Student Jobs",
-      "Working While Studying in Finland"
+      "Working in Finland",
+      "part-time jobs in Finland",
+      "jobs in Finland for international students",
+      "Finland work opportunities",
+      "student jobs in Finland",
+      "working while studying in Finland",
+      "Finland student employment",
+      "Finland job opportunities",
+      "summer jobs in Finland",
+      "work after graduation in Finland"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/living/working"
@@ -33,9 +31,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/living/working",
     siteName: "Study in Finland",
     title:
-      "Work While Studying in Finland: Top Jobs for Students",
+      "Working in Finland: Part-Time Jobs & Work Opportunities for Students",
     description:
-      "Looking for student jobs in Finland? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
+      "Explore working in Finland for international students. Discover part-time jobs, work opportunities, student working hours, salaries and career prospects.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/living/working/working.webp",
@@ -50,9 +48,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Work While Studying in Finland: Top Jobs for Students",
+      "Working in Finland: Part-Time Jobs & Work Opportunities for Students",
     description:
-      "Looking for student jobs in Lithuania? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
+      "Explore working in Finland for international students. Discover part-time jobs, work opportunities, student working hours, salaries and career prospects.",
     images: [
       "https://www.studyinlithuania.in/images/living/working/working.webp",
     ],
@@ -78,9 +76,9 @@ const page = () => {
         "@type": "WebPage",
         "@id": "https://www.studyinfinland.in/living/working/#webpage",
         url: "https://www.studyinfinland.in/living/working/",
-        name: "Working in Finland",
+        name: "Working in Finland: Part-Time Jobs & Work Opportunities for Students",
         description:
-          "Learn about student jobs, part-time work, internships, salaries, work rights and career opportunities in Lithuania for international students.",
+          "Explore working in Finland for international students. Discover part-time jobs, work opportunities, student working hours, salaries and career prospects.",
         isPartOf: {
           "@id": "https://www.studyinfinland.in/#website",
         },

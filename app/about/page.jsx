@@ -13,22 +13,22 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Study in Lithuania Consultants | About Us",
-  description: "Study in Lithuania consultants with 20 years of experience. We help Indian students get visas, scholarships, and admissions. Book a free consultation today.",
+  title: "Finland Study Abroad Consultants | About Us",
+  description: "Meet trusted Finland study abroad consultants offering expert guidance for university admissions, scholarships, student visas, IELTS preparation and personalised study abroad support for Indian students.",
   keywords: [
-      "Study in Lithuania Consultants",
-      "Lithuania Education Consultants",
-      "Study in Lithuania Consultant India",
-      "Lithuania Admission Consultants",
-      "Overseas Education Consultants",
-      "Lithuania Student Visa Consultants",
-      "Study Abroad Consultants India",
-      "Lithuania Universities",
-      "Study in Lithuania",
-      "Indo European"
+        "Finland study abroad consultants",
+        "study in Finland consultants",
+        "Finland education consultants",
+        "Finland student visa consultants",
+        "study in Finland for Indian students",
+        "Finland university admission consultants",
+        "Finland study visa guidance",
+        "study abroad consultants for Finland",
+        "Finland scholarship guidance",
+        "overseas education consultants"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/about"
+    canonical: "https://www.studyinfinland.in/about"
   },
     robots: {
     index: true,
@@ -37,29 +37,29 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Study in Lithuania Consultants | About Us",
+      "Finland Study Abroad Consultants | About Us",
     description:
-      "Study in Lithuania consultants with 20 years of experience. We help Indian students get visas, scholarships, and admissions. Book a free consultation today.",
-    url: "https://www.studyinlithuania.in/about/",
-    siteName: "Study in Lithuania Centre",
+      "Meet trusted Finland study abroad consultants offering expert guidance for university admissions, scholarships, student visas, IELTS preparation and personalised study abroad support for Indian students.",
+    url: "https://www.studyinfinland.in/about/",
+    siteName: "Study in Finland Centre",
     images: [
       {
         url:
-          "https://www.studyinlithuania.in/images/contact/our-expert.webp",
+          "https://www.studyinfinland.in/images/contact/our-expert.webp",
         width: 1200,
         height: 630,
-        alt: "About Study in Lithuania Centre",
+        alt: "About Study in Finland Centre",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Study in Lithuania Consultants | About Us",
+      "Finland Study Abroad Consultants | About Us",
     description:
-      "Study in Lithuania consultants with 20 years of experience. We help Indian students get visas, scholarships, and admissions. Book a free consultation today.",
+      "Meet trusted Finland study abroad consultants offering expert guidance for university admissions, scholarships, student visas, IELTS preparation and personalised study abroad support for Indian students.",
     images: [
-      "https://www.studyinlithuania.in/images/contact/our-expert.webp",
+      "https://www.studyinfinland.in/images/contact/our-expert.webp",
     ],
   },
 }
@@ -71,46 +71,46 @@ const page = () => {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.studyinlithuania.in/",
-        "name": "Study in Lithuania Centre",
-        "url": "https://www.studyinlithuania.in/",
+        "@id": "https://www.studyinfinland.in/",
+        "name": "Study in Finland Centre",
+        "url": "https://www.studyinfinland.in/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.studyinlithuania.in/images/logos/logo.png"
+          "url": "https://www.studyinfinland.in/images/logos/logo.png"
         },
         "description":
-          "Study in Lithuania Centre helps Indian students with admissions, scholarships, visa guidance, and study abroad support."
+          "Meet trusted Finland study abroad consultants offering expert guidance for university admissions, scholarships, student visas, IELTS preparation and personalised study abroad support for Indian students."
       },
       {
         "@type": "AboutPage",
         "@id":
-          "https://www.studyinlithuania.in/about/#aboutpage",
+          "https://www.studyinfinland.in/about/#aboutpage",
         "url":
           "https://www.studyinlithuania.in/about/",
         "name":
-          "About Study in Lithuania Centre",
+          "Finland Study Abroad Consultants | About Us",
         "description":
-          "Trusted education consultancy supporting Indian students studying in Lithuania.",
+          "Meet trusted Finland study abroad consultants offering expert guidance for university admissions, scholarships, student visas, IELTS preparation and personalised study abroad support for Indian students.",
         "isPartOf": {
           "@id":
-            "https://www.studyinlithuania.in/#website"
+            "https://www.studyinfinland.in/#website"
         },
         "about": {
           "@id":
-            "https://www.studyinlithuania.in/#organization"
+            "https://www.studyinfinland.in/#organization"
         }
       },
       {
         "@type": "Service",
         "@id":
-          "https://www.studyinlithuania.in/about/#service",
+          "https://www.studyinfinland.in/about/#service",
         "name":
-          "Lithuania Study Abroad Consultation",
+          "Finland Study Abroad Consultation",
         "serviceType":
           "Education Consultancy",
         "provider": {
           "@id":
-            "https://www.studyinlithuania.in/#organization"
+            "https://www.studyinfinland.in/#organization"
         },
         "areaServed": {
           "@type": "Country",
@@ -122,21 +122,21 @@ const page = () => {
       {
         "@type": "BreadcrumbList",
         "@id":
-          "https://www.studyinlithuania.in/about/#breadcrumb",
+          "https://www.studyinfinland.in/about/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
             "item":
-              "https://www.studyinlithuania.in/"
+              "https://www.studyinfinland.in/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "About",
             "item":
-              "https://www.studyinlithuania.in/about/"
+              "https://www.studyinfinland.in/about/"
           }
         ]
       }

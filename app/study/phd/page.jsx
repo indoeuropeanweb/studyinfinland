@@ -5,20 +5,19 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 
 export const metadata = {
-  title: "PhD in Lithuania | Get Top University Admission in Finland",
-  description: "Study a PhD in Lithuania as an Indian student. Find top universities, tuition costs, and scholarship tips. with the help of our expert. Contact us",
+  title: "Finland Admission Process for Indian Students | 2027 Guide",
+  description: "Explore the Finland admission process for Indian students. Learn about eligibility, university applications, required documents, admission requirements and important deadlines.",
   keywords: [
-      "PhD in Finland",
-      "Doctoral Programs in Finland",
-      "Study PhD in Finland",
-      "Finland PhD Universities",
-      "PhD Admission in Finland",
-      "PhD in Finland for Indian Students",
-      "Doctorate in Finland",
-      "Research Programs in Finland",
-      "Scholarships for PhD in Finland",
-      "Finland Student Visa",
+      "Finland Admission Process",
+      "Finland University Admission",
+      "Study in Finland Admission",
+      "Finland Admission Requirements",
+      "Finland University Application",
+      "Admission in Finland for Indian Students",
+      "Finland Study Requirements",
+      "Finland University Application Process",
       "Study in Finland for Indian Students",
+      "Finland Intake 2027"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/study/phd"
@@ -32,9 +31,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/study/phd/",
     siteName: "Study in Finland",
     title:
-      "PhD in Finland | Get Top University Admission in Finland",
+      "Finland Admission Process for Indian Students | 2027 Guide",
     description:
-      "Study a PhD in Finland as an Indian student. Find top universities, tuition costs, and scholarship tips. with the help of our expert. Contact us",
+      "Explore the Finland admission process for Indian students. Learn about eligibility, university applications, required documents, admission requirements and important deadlines.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/study/finland-01.webp",
@@ -49,9 +48,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "PhD in Finland | Get Top University Admission in Finland",
+      "Finland Admission Process for Indian Students | 2027 Guide",
     description:
-      "Study a PhD in Finland as an Indian student. Find top universities, tuition costs, and scholarship tips. with the help of our expert. Contact us",
+      "Explore the Finland admission process for Indian students. Learn about eligibility, university applications, required documents, admission requirements and important deadlines.",
     images: [
       "https://www.studyinfinland.in/images/study/finland-01.webp",
     ],
@@ -80,9 +79,9 @@ const page = () => {
         "https://www.studyinfinland.in/study/phd/#webpage",
       url:
         "https://www.studyinfinland.in/study/phd/",
-      name: "PhD Programs in Finland",
+      name: "Finland Admission Process for Indian Students | 2027 Guide",
       description:
-        "Explore doctoral and research degree programs in Finland for international students, including admission requirements, scholarships, and research opportunities.",
+        "Explore the Finland admission process for Indian students. Learn about eligibility, university applications, required documents, admission requirements and important deadlines.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },

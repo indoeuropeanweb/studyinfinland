@@ -6,20 +6,24 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Study for a Master's Degree in Lithuania University",
-  description: "Master's courses in Lithuania. Get English-taught degrees from top University with their tuition. Get admission and scholarships. apply your application Now.",
+  title: "Study Master's in Finland | Courses, Universities & Eligibility",
+  description: "Explore Master's in Finland for international students. Discover top courses, leading universities, admission requirements, tuition fees and career opportunities.",
   keywords: [
-      "Master's Courses in Lithuania",
-      "Masters in Lithuania",
-      "Study Masters in Lithuania",
-      "Lithuania Masters Programs",
-      "Universities in Lithuania for Masters",
-      "MS in Lithuania",
-      "Master's Degree in Lithuania",
-      "Study in Lithuania"
+        "Master's in Finland",
+        "Master's degree in Finland",
+        "study Master's in Finland",
+        "Master's courses in Finland",
+        "Finland universities for Master's",
+        "Master's programs in Finland",
+        "study in Finland for international students",
+        "Finland admission requirements",
+        "postgraduate courses in Finland",
+        "English taught Master's programs in Finland",
+        "Finland student visa",
+        "study in Finland"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/masters"
+    canonical: "https://www.studyinfinland.in/study/masters"
   },
   robots: {
     index: true,
@@ -27,18 +31,18 @@ export const metadata = {
   },
     openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/study/masters/",
-    siteName: "Study in Lithuania",
+    url: "https://www.studyinfinland.in/study/masters/",
+    siteName: "Study in Finland",
     title:
-      "Study for a Master's Degree in Lithuania University",
+      "Study Master's in Finland | Courses, Universities & Eligibility",
     description:
-      "Master's courses in Lithuania. Get English-taught degrees from top University with their tuition. Get admission and scholarships. apply your application Now.",
+      "Explore Master's in Finland for international students. Discover top courses, leading universities, admission requirements, tuition fees and career opportunities.",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+        url: "https://www.studyinfinland.in/images/study/finland-01.webp",
         width: 1200,
         height: 630,
-        alt: "Master's Programs in Lithuania",
+        alt: "Master's Programs in Finland",
       },
     ],
     locale: "en_US",
@@ -47,11 +51,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Study for a Master's Degree in Lithuania University",
+      "Study Master's in Finland | Courses, Universities & Eligibility",
     description:
-      "Master's courses in Lithuania. Get English-taught degrees from top University with their tuition. Get admission and scholarships. apply your application Now.",
+      "Explore Master's in Finland for international students. Discover top courses, leading universities, admission requirements, tuition fees and career opportunities.",
     images: [
-      "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      "https://www.studyinfinland.in/images/study/lithuania-01.webp",
     ],
   },
 }
@@ -63,25 +67,25 @@ const page = () => {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
-      url: "https://www.studyinlithuania.in",
+      "@id": "https://www.studyinfinland.in/#organization",
+      name: "Study in Finland",
+      url: "https://www.studyinfinland.in",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logos/logo.webp",
+        url: "https://www.studyinfinland.in/images/logos/logo.webp",
       },
     },
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/study/masters/#webpage",
+        "https://www.studyinfinland.in/study/masters/#webpage",
       url:
-        "https://www.studyinlithuania.in/study/masters/",
-      name: "Master's Programs in Lithuania",
+        "https://www.studyinfinland.in/study/masters/",
+      name: "Study Master's in Finland | Courses, Universities & Eligibility",
       description:
-        "Explore Master's degree programs in Lithuania for international students including admission requirements, tuition fees, scholarships and career opportunities.",
+        "Explore Master's in Finland for international students. Discover top courses, leading universities, admission requirements, tuition fees and career opportunities.",
       isPartOf: {
-        "@id": "https://www.studyinlithuania.in/#website",
+        "@id": "https://www.studyinfinland.in/#website",
       },
       inLanguage: "en",
     },
@@ -92,35 +96,35 @@ const page = () => {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinfinland.in/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Study",
-          item: "https://www.studyinlithuania.in/study/",
+          item: "https://www.studyinfinland.in/study/",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Master's",
           item:
-            "https://www.studyinlithuania.in/study/masters/",
+            "https://www.studyinfinland.in/study/masters/",
         },
       ],
     },
     {
       "@type": "EducationalOccupationalProgram",
-      name: "Master's Degree Programs in Lithuania",
+      name: "Master's Degree Programs in Finland",
       educationalLevel: "Postgraduate",
       timeToComplete: "P1Y-P2Y",
       occupationalCategory: "Higher Education",
       provider: {
         "@type": "Organization",
-        name: "Lithuanian Universities",
+        name: "Finnish Universities",
       },
       description:
-        "Master's degree programs offered in English across Engineering, Information Technology, Business, Management, Health Sciences, Social Sciences and other disciplines.",
+        "Explore Master's in Finland for international students. Discover top courses, leading universities, admission requirements, tuition fees and career opportunities.",
     },
   ],
 };

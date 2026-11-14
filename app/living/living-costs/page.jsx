@@ -5,17 +5,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Indian Student Budget Guide: Cost of Living in Finland",
-  description: "Cost of living in Finland for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
+  title: "Living Costs in Finland for International Students | 2027",
+  description: "Discover the living costs in Finland for international students. Explore accommodation, food, transportation, monthly expenses and budgeting tips for studying in Finland.",
   keywords: [
-      "Cost of Living in Finland",
-      "Living Cost in Finland",
-      "Finland Living Expenses",
-      "Cost of Living in Finland for International Students",
-      "Student Living Cost in Finland",
-      "Monthly Expenses in Finland",
-      "Accommodation Cost in Finland",
-      "Study in Finland"
+      "living costs in Finland",
+      "cost of living in Finland",
+      "Finland living expenses",
+      "cost of living in Finland for students",
+      "monthly expenses in Finland",
+      "accommodation costs in Finland",
+      "food costs in Finland",
+      "student living costs in Finland",
+      "Finland student expenses",
+      "study in Finland costs",
+      "living expenses for Indian students in Finland"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/living/living-costs"
@@ -29,9 +32,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/living/living-costs/",
     siteName: "Study in Finland Centre",
     title:
-      "Indian Student Budget Guide: Cost of Living in Finland",
+      "Living Costs in Finland for International Students | 2027",
     description:
-      "Cost of living in Finland for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
+      "Discover the living costs in Finland for international students. Explore accommodation, food, transportation, monthly expenses and budgeting tips for studying in Finland.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/living/living-cost/living-cost.webp",
@@ -46,9 +49,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Indian Student Budget Guide: Cost of Living in Finland",
+      "Living Costs in Finland for International Students | 2027",
     description:
-      "Cost of living in Finland for students: get consultant of rent, food, and transport. Plan your monthly budget with our Expert and start your journey now.",
+      "Discover the living costs in Finland for international students. Explore accommodation, food, transportation, monthly expenses and budgeting tips for studying in Finland.",
     images: [
       "https://www.studyinfinland.in/images/living/living-cost/living-cost.webp",
     ],
@@ -76,9 +79,9 @@ const page = () => {
         "https://www.studyinfinland.in/living/living-costs/#webpage",
       url:
         "https://www.studyinfinland.in/living/living-costs/",
-      name: "Cost of Living in Finland",
+      name: "Living Costs in Finland for International Students | 2027",
       description:
-        "Learn about student living expenses in Finland, including accommodation, food, transportation, utilities and monthly budgets.",
+        "Discover the living costs in Finland for international students. Explore accommodation, food, transportation, monthly expenses and budgeting tips for studying in Finland.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },

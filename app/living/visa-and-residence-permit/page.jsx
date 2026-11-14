@@ -5,16 +5,17 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Finland Student Visa: Fees, Documents and Eligibility",
-  description: "Get your Finland student visa fast. Learn about costs, documents, and rules for Indian students. Start your application today for a smooth move.",
+  title: "Finland Student Visa & Residence Permit: Complete Guide",
+  description: "Explore the Finland student visa process for Indian students. Learn about visa requirements, residence permits, required documents, financial proof and application steps.",
   keywords: [
-      "Finland Student Visa",
-      "Finland Student Visa for Indian Students",
-      "Study in Finland Visa",
-      "Finland Student Residence Permit",
-      "Finland Visa Requirements",
-      "Finland Student Visa Documents",
-      "Finland Student Visa Process"
+        "Finland student visa",
+        "Finland student visa for Indian students",
+        "Finland study visa",
+        "Finland residence permit for students",
+        "Finland visa requirements",
+        "Finland student visa process",
+        "Finland visa documents",
+        "Finland study permit"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/living/visa-and-residence-permit"
@@ -28,9 +29,9 @@ export const metadata = {
     url: "https://www.studyinfinland.in/living/visa-and-residence-permit/",
     siteName: "Study in Finland Centre",
     title:
-      "Finland Student Visa: Fees, Documents and Eligibility",
+      "Finland Student Visa & Residence Permit: Complete Guide",
     description:
-      "Get your Finland student visa fast. Learn about costs, documents, and rules for Indian students. Start your application today for a smooth move.",
+      "Explore the Finland student visa process for Indian students. Learn about visa requirements, residence permits, required documents, financial proof and application steps.",
     images: [
       {
         url: "https://www.studyinfinland.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
@@ -45,9 +46,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Finland Student Visa: Fees, Documents and Eligibility",
+      "Finland Student Visa & Residence Permit: Complete Guide",
     description:
-      "Get your Finland student visa fast. Learn about costs, documents, and rules for Indian students. Start your application today for a smooth move.",
+      "Explore the Finland student visa process for Indian students. Learn about visa requirements, residence permits, required documents, financial proof and application steps.",
     images: [
       "https://www.studyinfinland.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
     ],
@@ -75,9 +76,9 @@ const page = () => {
         "https://www.studyinfinland.in/living/visa-and-residence-permit/#webpage",
       url:
         "https://www.studyinfinland.in/living/visa-and-residence-permit/",
-      name: "Finland Student Visa and Residence Permit",
+      name: "Finland Student Visa & Residence Permit: Complete Guide",
       description:
-        "Complete guide to Finland student visas, temporary residence permits, required documents, application process and work rights for international students.",
+        "Explore the Finland student visa process for Indian students. Learn about visa requirements, residence permits, required documents, financial proof and application steps.",
       isPartOf: {
         "@id": "https://www.studyinfinland.in/#website",
       },

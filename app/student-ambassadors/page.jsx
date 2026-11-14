@@ -4,19 +4,19 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Study in Finland Consultant | Student Success Stories",
-  description: "Connect with our expert for Study in Finland. Read real success stories and get visa help from our Finland student ambassadors. See how they did it",
+  title: "Indian Students in Finland: Student Success Stories & Experiences",
+  description: "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
   keywords: [
-      "Student Accommodation in Finland",
-      "Accommodation in Finland",
-      "Student Housing in Finland",
-      "Finland Student Dormitories",
-      "Private Accommodation in Finland",
-      "International Student Accommodation Finland",
-      "Rent Room in Finland",
-      "University Accommodation Finland",
-      "Student Apartments Finland",
-      "Study in Finland Consultant",
+      "Indian students in Finland",
+      "Indian students studying in Finland",
+      "student experiences in Finland",
+      "Indian students success stories",
+      "study in Finland",
+      "Finland student life",
+      "Finland university admissions",
+      "Finland study abroad",
+      "Indian students abroad",
+      "Finland education for Indians"
   ],
   alternates: {
     canonical: "https://www.studyinfinland.in/student-ambassadors/"
@@ -28,9 +28,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Finland Student Ambassador | Real Stories and Success",
+      "Indian Students in Finland: Student Success Stories & Experiences",
     description:
-      "Connect with our expert for Study in Finland. Read real success stories and get visa help from our Finland student ambassadors. See how they did it",
+      "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
     url:
       "https://www.studyinfinland.in/student-ambassadors/",
     siteName: "Study in Finland Centre",
@@ -47,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Finland Student Ambassador | Real Stories and Success",
+      "Indian Students in Finland: Student Success Stories & Experiences",
     description:
-      "Connect with our expert for Study in Finland. Read real success stories and get visa help from our Finland student ambassadors. See how they did it",
+      "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance.",
     images: [
       "https://www.studyinfinland.in/images/student-ambassadors/student-01.webp",
     ],
@@ -176,9 +176,9 @@ const page = () => {
           "https://www.studyinfinland.in/student-ambassadors/",
         "url":
           "https://www.studyinfinland.in/student-ambassadors/",
-        "name": "Student Experiences in Finland",
+        "name": "Indian Students in Finland: Student Success Stories & Experiences",
         "description":
-          "Read real experiences and success stories from international students studying in Finland."
+          "Explore inspiring experiences of Indian students in Finland. Discover their university journeys, courses, admission experiences and student life with expert guidance."
       },
           {
       "@type": "BreadcrumbList",
