@@ -56,7 +56,7 @@ const LivingClient = () => {
                 </p>
             </div>
             <div className="flex justify-end items-end">
-               <Link href={'/living/accommodation'} className="text-blue-500 font-roboto hover:underline">Read Accommodation <FaArrowRightLong className="inline-block"/></Link>
+               <Link href="/living/accommodation" className="text-blue-500 font-roboto hover:underline">Read Accommodation <FaArrowRightLong className="inline-block"/></Link>
             </div>
         </div>
     </>

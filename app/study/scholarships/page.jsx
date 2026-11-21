@@ -220,7 +220,7 @@ const page = () => {
             </div>
           </div>
           <div className="flex justify-end items-end mt-5">
-              <Link href={'/living'} className="text-blue-500 font-roboto hover:underline">Read about living in finland <FaArrowRightLong className="inline-block"/></Link>
+              <Link href="/living" className="text-blue-500 font-roboto hover:underline">Read about living in finland <FaArrowRightLong className="inline-block"/></Link>
           </div>
          </div>
       <script

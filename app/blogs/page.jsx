@@ -154,7 +154,7 @@ const schema = {
         ))}
       </div>}
       <div className="flex justify-end items-end mt-5">
-          <Link href={'/gallery'} className="text-blue-500 font-roboto hover:underline">Check our gallery <FaArrowRightLong className="inline-block"/></Link>
+          <Link href="/gallery" className="text-blue-500 font-roboto hover:underline">Check our gallery <FaArrowRightLong className="inline-block"/></Link>
        </div>
     </div>
     <script

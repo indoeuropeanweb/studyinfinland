@@ -294,7 +294,7 @@ const page = () => {
            <p className='text-md lg:text-base font-roboto mt-2'>Planning to study in Finland? Explore universities, compare English-taught programmes, understand admission requirements, and take an informed step towards your international education journey.</p>
         </div>
         <div className="flex justify-end items-end">
-            <Link href={'/finland/culture'} className="text-blue-500 font-roboto hover:underline">Read about culture <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/finland/culture" className="text-blue-500 font-roboto hover:underline">Read about culture <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

@@ -163,7 +163,7 @@ const page = () => {
            <p className='text-md lg:text-base font-roboto mt-2'>If you are planning to pursue higher education in Finland, our experienced study abroad consultants for Finland can guide you through university selection, admission applications, scholarship opportunities and student residence permit documentation.</p>
         </div>
         <div className="flex justify-end items-end mt-5">
-            <Link href={'/finland/language'} className="text-blue-500 font-roboto hover:underline">Read about Language <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/finland/language" className="text-blue-500 font-roboto hover:underline">Read about Language <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
     </div>

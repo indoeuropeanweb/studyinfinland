@@ -219,7 +219,7 @@ const page = () => {
               <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Planning to study in Finland? Connect with Indo-European Study Abroad Consultancy for guidance on university admissions, course selection, student visa assistance and your international education journey.</p>
             </div>
             <div className="flex justify-end items-end mt-5">
-               <Link href={'/student-ambassadors'} className="text-blue-500 font-roboto hover:underline">Read about student ambassadors<FaArrowRightLong className="inline-block"/></Link>
+               <Link href="/student-ambassadors" className="text-blue-500 font-roboto hover:underline">Read about student ambassadors<FaArrowRightLong className="inline-block"/></Link>
             </div>
         </div>
         <script

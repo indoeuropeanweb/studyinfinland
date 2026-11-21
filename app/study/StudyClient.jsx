@@ -69,7 +69,7 @@ const StudyClient = () => {
                     <p className='font-semibold text-md lg:text-base font-roboto mt-2'>Explore Your Options. Choose Your Programme. Begin Your Finland Journey.</p>
                </div>
                 <div className="flex justify-end items-end">
-                  <Link href={'/study/universities'} className="text-blue-500 font-roboto hover:underline">Read about Universities <FaArrowRightLong className="inline-block"/></Link>
+                  <Link href="/study/universities" className="text-blue-500 font-roboto hover:underline">Read about Universities <FaArrowRightLong className="inline-block"/></Link>
                </div>
          </div>
       </>

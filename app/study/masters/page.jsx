@@ -230,7 +230,7 @@ const page = () => {
            <p className='mt-3 text-justify text-roboto text-md lg:text-base font-semibold'>Book Your Free Study in Finland Consultation with Indo European Today!</p>
         </div>
         <div className="flex justify-end items-end">
-            <Link href={'/study/phd'} className="text-blue-500 font-roboto hover:underline">Read about PhD programme <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/study/phd" className="text-blue-500 font-roboto hover:underline">Read about PhD programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <Script

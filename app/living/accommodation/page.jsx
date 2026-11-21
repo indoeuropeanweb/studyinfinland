@@ -188,7 +188,7 @@ const page = () => {
               <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Planning to study in Finland? Get expert guidance on university admissions, accommodation, student visas and your study abroad journey.</p>
             </div>
           <div className="flex justify-end items-end mt-5">
-               <Link href={'/living/living-costs'} className="text-blue-500 font-roboto hover:underline">Read about living costs <FaArrowRightLong className="inline-block"/></Link>
+               <Link href="/living/living-costs" className="text-blue-500 font-roboto hover:underline">Read about living costs <FaArrowRightLong className="inline-block"/></Link>
           </div>
         </div>
         <script

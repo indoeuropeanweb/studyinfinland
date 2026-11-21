@@ -193,7 +193,7 @@ const page = () => {
               <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Planning to study in Finland? Indo-European Study Abroad Consultancy helps students explore universities, understand admission requirements and receive guidance on applications, IELTS preparation and student visa procedures. Connect with our Finland study consultants and take the next step towards your European education journey.</p>
             </div>
             <div className="flex justify-end items-end mt-5">
-               <Link href={'/living/visa-and-residence-permit'} className="text-blue-500 font-roboto hover:underline">Read about visa and residence permit <FaArrowRightLong className="inline-block"/></Link>
+               <Link href="/living/visa-and-residence-permit" className="text-blue-500 font-roboto hover:underline">Read about visa and residence permit <FaArrowRightLong className="inline-block"/></Link>
             </div>
         </div>
         <script

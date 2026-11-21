@@ -257,7 +257,7 @@ const page = () => {
                    <p className="text-md lg:text-base font-roboto mt-2 font-semibold">Plan Your Application. Choose Your Course. Take the First Step Towards Studying in Finland.</p>
                 </div>
         <div className="flex justify-end items-end">
-            <Link href={'/study/scholarships'} className="text-blue-500 font-roboto hover:underline">Read about scholarships <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/study/scholarships" className="text-blue-500 font-roboto hover:underline">Read about scholarships <FaArrowRightLong className="inline-block"/></Link>
         </div>
          </div>
          <script

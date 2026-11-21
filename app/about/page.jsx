@@ -274,7 +274,7 @@ const page = () => {
                 </div>
          </div>
           <div className="flex justify-end items-end">
-               <Link href={'/contact'} className="text-blue-500 font-roboto hover:underline">Contact Us<FaArrowRightLong className="inline-block"/></Link>
+               <Link href="/contact" className="text-blue-500 font-roboto hover:underline">Contact Us<FaArrowRightLong className="inline-block"/></Link>
           </div>
          </div>
         <script

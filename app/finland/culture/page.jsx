@@ -309,7 +309,7 @@ const page = () => {
                 landscapes, or building friendships across cultures, life in Finland</p>
         </div>
         <div className="flex justify-end items-end">
-            <Link href={'/finland/life-style-and-character'} className="text-blue-500 font-roboto hover:underline">Read about life style and character <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/finland/life-style-and-character" className="text-blue-500 font-roboto hover:underline">Read about life style and character <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

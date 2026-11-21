@@ -205,7 +205,7 @@ should check the individual programme criteria.</p>
           <p className="my-2 text-md lg:text-base text-justify text-roboto font-semibold">Book Your Free Study in Finland Consultation with Indo European Today!</p>
         </div>
         <div className="flex justify-end items-end mt-5">
-            <Link href={'/study/masters'} className="text-blue-500 font-roboto hover:underline">Read about masters programme <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/study/masters" className="text-blue-500 font-roboto hover:underline">Read about masters programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <Script

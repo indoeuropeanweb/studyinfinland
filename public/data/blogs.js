@@ -1,284 +1,204 @@
 export const blogs = [
-// {
-//   id: 1,
-//   title: "Step-by-Step Guide to Study in Lithuania for Indian Students in 2027",
-//   slug: "step-by-step-guide-to-study-in-lithuania-for-indian-students",
-//   metaTitle: "Study in Lithuania for Indian Students 2027: Complete Guide",
-//   metaDescription: "Want to study in Lithuania? Explore universities, admission, visa, scholarships, costs, courses and work options for Indian students in 2027.",
-//   image: "/images/blogs/study-in-lithuania-guide-2026.webp",
-//   keywords: [
-//       "Study in Lithuania for Indian Students",
-//       "Study in Lithuania 2027",
-//       "Lithuania Study Guide",
-//       "Lithuania Universities for Indian Students",
-//       "Lithuania Student Visa",
-//       "Study in Lithuania",
-//       "Lithuania Admission Process",
-//       "Lithuania Scholarships"
-//   ],
-//   category: "Lithuania",
-//   publishDate: "2026-06-06",
-//   readingTime: "12 min read",
-//   sections: [
-//     {
-//       type: "paragraph",
-//       content:
-//         "Choosing the right country for higher education is one of the most important decisions for any student. In recent years, Europe has become a top destination, and among European countries, Lithuania is gaining strong attention among Indian students."
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "More students are now planning to study in Lithuania because of its affordable tuition fees, quality education system, English-taught programs, and safe environment."
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Why Lithuania is Becoming Popular Among Indian Students"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Lithuania has become an affordable and high-quality education destination in Europe. Many students now prefer Lithuania over expensive countries like the UK, Canada, and Australia."
-//     },
-//     {
-//       type: "list",
-//       items: [
-//         "Lower tuition fees than Western Europe",
-//         "English-taught degree programs",
-//         "Affordable cost of living",
-//         "Safe and peaceful environment",
-//         "Simple admission process",
-//         "Globally recognised EU degrees"
-//       ]
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Top Lithuania Universities for Indian Students"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Lithuania has several internationally recognised universities offering modern academic programs and practical learning opportunities."
-//     },
-//     {
-//       type: "subheading",
-//       content: "Vilnius University"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Vilnius University is one of the oldest and most respected universities in Eastern Europe. It is well known for medicine, economics, sciences, and law programs."
-//     },
-//     {
-//       type: "subheading",
-//       content: "Kaunas University of Technology"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Kaunas University of Technology is highly popular for engineering, information technology, and innovation-focused education."
-//     },
-//     {
-//       type: "subheading",
-//       content: "Vytautas Magnus University"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Vytautas Magnus University offers flexible academic programs, student exchange opportunities, and international exposure."
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Popular Courses in Lithuania for Indian Students"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Lithuanian universities offer a wide range of English-taught programs suitable for international students."
-//     },
-//     {
-//       type: "list",
-//       items: [
-//         "Data Science",
-//         "Engineering",
-//         "Healthcare and Medicine",
-//         "Business Administration",
-//         "Finance and Economics",
-//         "International Relations"
-//       ]
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Scholarships in Lithuania for Indian Students"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Several universities and government organisations offer scholarships to international students to reduce educational expenses."
-//     },
-//     {
-//       type: "list",
-//       items: [
-//         "Merit-based scholarships",
-//         "Partial tuition fee waivers",
-//         "Erasmus+ funding",
-//         "Full scholarships for selected students"
-//       ]
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Lithuanian Student Visa Process"
-//     },
-//     {
-//       type: "paragraph",
-//       content: [
-//         {
-//           type: "text",
-//           text: "Indian students must apply for a "
-//         },
-//         {
-//           type: "link",
-//           text: "Lithuanian student visa",
-//           href: "/living/visa-and-residence-permit"
-//         },
-//         {
-//           type: "text",
-//           text: "  after receiving their admission letter."
-//         }
-//       ]
-//     },
-//     {
-//       type: "list",
-//       items: [
-//         "Valid passport",
-//         "University admission letter",
-//         "Proof of financial support",
-//         "Accommodation details",
-//         "Health insurance",
-//         "Academic documents"
-//       ]
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Cost of Living in Lithuania"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Lithuania offers affordable living expenses compared to other European countries, making it ideal for international students."
-//     },
-//     {
-//       type: "list",
-//       items: [
-//         "Accommodation: €150–€350 per month",
-//         "Food: €100–€200 per month",
-//         "Transport: €20–€50 per month",
-//         "Miscellaneous expenses: €100–€150 per month"
-//       ]
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Work Opportunities After Studying in Lithuania"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Students graduating from Lithuanian universities can explore career opportunities across Europe in industries such as IT, engineering, finance, healthcare, and business management."
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Part-time work opportunities are also available during studies, helping students manage living expenses."
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Student Life in Lithuania"
-//     },
-//     {
-//       type: "paragraph",
-//       content:
-//         "Cities like Vilnius and Kaunas provide a modern, safe, and student-friendly environment with affordable transportation, student discounts, and active student communities."
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "How to Apply for Lithuanian Universities"
-//     },
-//     {
-//       type: "list",
-//       items: [
-//         "Choose your university and course",
-//         "Submit the online application form",
-//         "Upload academic documents",
-//         "Receive admission letter",
-//         "Apply for Lithuanian student visa"
-//       ]
-//     },
-//     {
-//       type: "heading",
-//       content:
-//         "Final Thoughts"
-//     },
-//     {
-//       type: "paragraph",
-//       content: [
-//         {
-//           type: "text",
-//           text: "Lithuania is becoming one of the best affordable "
-//         },
-//         {
-//           type: "link",
-//           text: "study destinations in Europe",
-//           href: "https://indoeuropean.in"
-//         },
-//         {
-//           type: "text",
-//           text: " for Indian students. With globally recognised universities, scholarships, low living costs, and excellent career opportunities, studying in Lithuania can be a life-changing opportunity for students planning their international education journey in 2027."
-//         }
-//       ]
-//     }
-//   ],
-
-//   faqs: [
-//     {
-//       question:
-//         "Is Lithuania good for Indian students?",
-//       answer:
-//         "Yes, Lithuania offers affordable education, globally recognised degrees, English-taught courses, and a safe environment for Indian students."
-//     },
-//     {
-//       question:
-//         "What is the average cost of studying in Lithuania?",
-//       answer:
-//         "Tuition fees usually range between €2,000 and €6,000 per year depending on the university and program."
-//     },
-//     {
-//       question:
-//         "Can Indian students work while studying in Lithuania?",
-//       answer:
-//         "Yes, international students can work part-time during their studies in Lithuania."
-//     },
-//     {
-//       question:
-//         "Are scholarships available in Lithuania for Indian students?",
-//       answer:
-//         "Yes, universities and government programs offer merit-based scholarships and tuition fee waivers for international students."
-//     },
-//     {
-//       question:
-//         "Which are the top universities in Lithuania?",
-//       answer:
-//         "Some top universities include Vilnius University, Kaunas University of Technology, and Vytautas Magnus University."
-//     }
-//   ]
-// },
+{
+  id: 1,
+  title: "Finland vs Sweden: Which Country Is Better for International Students in 2027?",
+  slug: "finland-vs-sweden-which-country-is-better-for-international-students",
+  metaTitle: "Finland vs Sweden 2027: Which Is the Smarter Study Destination?",
+  metaDescription: "Finland vs Sweden: Compare universities, tuition fees, scholarships, living costs, part-time jobs and student life to choose the best study destination in 2027.",
+  image: "/images/blogs/finland-vs-sweden-2027.webp",
+  keywords: [
+    "finland vs sweden",
+    "Finland vs Sweden for international students",
+    "Study in Finland vs Sweden",
+    "Finland or Sweden for Indian students",
+    "Finland vs Sweden education",
+    "cost of studying in Finland and Sweden",
+    "Finland vs Sweden universities",
+    "Finland vs Sweden tuition fees",
+    "student life in Finland vs Sweden",
+    "Bstudy abroad in Finland",
+    "study abroad in Sweden"
+  ],
+  category: "Finland",
+  publishDate: "2026-11-21",
+  readingTime: "8 min read",
+  sections: [
+    {
+      type: "paragraph",
+      content:
+        "When thinking about studying abroad, it always brings one important question to mind: which country is the right choice? Today, we will compare two popular European study destinations, Finland and Sweden, to find out which one is better for international students in 2027."
+    },
+    {
+      type: "paragraph",
+      content:
+        "When comparing Finland vs. Sweden, there are several factors to consider, which include education quality, infrastructure, living expenses, student lifestyle, and career opportunities. Both countries have their own advantages and drawbacks, so let's explore these differences and find out which country could be the better choice for your higher education journey in 2027."
+    },
+    {
+      type: "heading",
+      content: "1. Infrastructure and Natural Beauty"
+    },
+    {
+      type: "paragraph",
+      content:
+        "When it comes to comparing infrastructure and natural beauty, both Finland and Sweden have well-developed cities, modern transportation systems, and excellent public facilities."
+    },
+    {
+      type: "paragraph",
+      content:
+        "But Sweden stands out more for its vibrant cities such as Stockholm, Gothenburg, and Malmö; impressive architecture such as the colorful buildings in Gamla Stan; and coastal attractions, particularly around Stockholm and Gothenburg. Meanwhile, Finland is known for its peaceful surroundings, beautiful lakes, forests, and clean urban spaces."
+    },
+    {
+      type: "paragraph",
+      content:
+        "So in terms of city development and famous landmarks, Sweden comes out on top, while Finland is still a great choice for students who prefer a quieter lifestyle."
+    },
+    {
+      type: "heading",
+      content: "2. Education Quality and University Experience"
+    },
+    {
+      type: "paragraph",
+      content:
+        "One of the most important factors when choosing between countries is their education quality. In terms of quality education, both Finland and Sweden offer internationally recognised degrees and English-taught programs. Sweden also offers strong academic opportunities, particularly in research and independent thinking. However, Finland takes the lead in this comparison thanks to its student-centered teaching approach, practical learning methods, and strong focus on innovation."
+    },
+    {
+      type: "paragraph",
+      content: [
+        {
+          type: "text",
+          text: "So overall, Finland has an upper hand with its student-centered learning, while Sweden stands out more in research. Comparing the "
+        },
+        {
+          type: "text",
+          text: "Finland vs. Sweden education systems",
+        },
+        {
+          type: "text",
+          text: " with an experienced education consultant can help you choose the right destination for your academic goals."
+        }
+      ]
+    },
+    {
+      type: "heading",
+      content: "3. Living Expenses"
+    },
+    {
+      type: "paragraph",
+      content:
+        "When it comes to living expenses, both Finland and Sweden are more expensive than other European countries. However, Sweden can be slightly more costly depending on the city you live in. In Finland, students generally need around €900–€1,200 per month for accommodation, food, transportation, and other expenses. Sweden also requires a similar monthly budget, but it can feel slightly more expensive depending on lifestyle and location. So, based on living expenses, Finland may be a slightly more affordable option for students."
+    },
+    {
+      type: "paragraph",
+      content:
+        "An experienced overseas education consultant can also help you estimate your overall study expenses and plan your budget accordingly."
+    },
+    {
+      type: "heading",
+      content: "4. Tuition Fees: Finland vs. Sweden"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Now comes the comparison of tuition fees. In Finland, tuition fees for non-EU/EEA students generally range from €8,000 to €20,000 per year. In Sweden, they typically range from SEK 80,000 to SEK 295,000 per year. However, it also depends on the university and program you have chosen. Both countries also offer scholarship opportunities to eligible international students, which can help reduce education expenses."
+    },
+    {
+      type: "paragraph",
+      content:
+        "So in this area of comparison, Finland may be a more budget-friendly option for students looking for lower tuition fees. However, the overall cost will ultimately depend on your chosen university, study program, available scholarships, and personal budget. A reliable education consultancy can guide students in exploring available scholarships, understanding tuition fees, and identifying suitable universities within their budget."
+    },
+    {
+      type: "heading",
+      content: "5. Quality of Life"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Both Finland and Sweden are popular for their high living standards, safe environments, and excellent public services. Finland offers peaceful surroundings, clean cities, student-friendly facilities, and a supportive learning environment, making everyday student life more comfortable and less stressful. Sweden mainly attracts students with its multicultural cities, lively social scene, and urban lifestyle."
+    },
+    {
+      type: "paragraph",
+      content:
+        "As a result, Finland holds a small advantage for international students seeking a comfortable and peaceful lifestyle, while Sweden is a great choice for those who prefer an active urban experience."
+    },
+    {
+      type: "heading",
+      content: "6. Career and Employment Opportunities"
+    },
+    {
+      type: "paragraph",
+      content:
+        "When it comes to career and employment opportunities, both countries offer opportunities to explore internships, practical training, and employment in different industries."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Finland offers many opportunities in technology, engineering, business, healthcare, and research. Sweden has a strong presence in technology, manufacturing, finance, engineering, and innovation."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Overall, both countries offer diverse career pathways, but your employment prospects will largely depend on your qualifications, skills, and language abilities. A career consultant can guide students in exploring relevant industries and understanding the importance of internships, networking, and local language skills."
+    },
+    {
+      type: "heading",
+      content: "Finland vs Sweden: Which One Should You Choose in 2027?"
+    },
+    {
+      type: "paragraph",
+      content:
+        "So, when comparing Sweden vs. Finland, we learned that there is no single suitable answer that applies to every student. However, Finland does have a slight edge over Sweden for students who prefer student-centered education, affordable living, and a peaceful lifestyle."
+    },
+    {
+      type: "paragraph",
+      content:
+        "For students planning to study abroad in 2027, it is important to stay updated on university admission deadlines, scholarship opportunities, tuition fees, and student residence permit requirements. Since these requirements can change, checking the latest information through official university and immigration websites can help you plan your application more effectively."
+    },
+    {
+      type: "paragraph",
+      content: [
+        {
+          type: "text",
+          text: "Indo European Study Abroad Consultancy can also help you explore study options in Finland, understand admission requirements, and navigate the application process with expertise. Visit "
+        },
+        {
+          type: "link",
+          text: "Indo European",
+          href: "https://indoeuropean.in"
+        },
+        {
+          type: "text",
+          text: " to get expert guidance for your study abroad journey."
+        }
+      ]
+    }
+  ],
+  faqs: [
+    {
+      question:
+        "Is Finland better than Sweden for international students?",
+      answer:
+        "Yes, Finland may be a better choice for students seeking student-centered education, a peaceful lifestyle, and a supportive learning environment. Sweden, however, is ideal for those who prefer vibrant cities, research opportunities, and a more active urban lifestyle."
+    },
+    {
+      question:
+        "Which country is more affordable, Finland or Sweden?",
+      answer:
+        "Finland is slightly more affordable than Sweden, particularly in terms of everyday living expenses. However, your actual costs will depend on your city, accommodation, and lifestyle."
+    },
+    {
+      question:
+        "Can international students work while studying in Finland and Sweden?",
+      answer:
+        "Yes, international students can explore employment opportunities in both countries, subject to applicable regulations and residence conditions."
+    },
+    {
+      question:
+        "Which country has better career opportunities?",
+      answer:
+        "Both Finland and Sweden offer strong career opportunities across technology, engineering, healthcare, and business. However, Sweden has a broader presence in certain industries, while your job prospects in either country depend on your qualifications, skills, and language abilities."
+    }
+  ]
+},
 // {
 //   id: 2,
 //   title: "Part-Time Jobs & Work Opportunities in Lithuania for Students",

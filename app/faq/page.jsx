@@ -70,12 +70,12 @@ const faqData = [
   {
     "id": 2,
     "question": "2. Can Indian students study in Finland in English?",
-    "answer": "Yes, Indian students can pursue bachelor&#39;s and master&#39;s degrees in English at Finnish universities and Universities of Applied Sciences (UAS). Finland offers around 600 English-taught degree programmes across various academic fields."
+    "answer": "Yes, Indian students can pursue bachelor's and master's degrees in English at Finnish universities and Universities of Applied Sciences (UAS). Finland offers around 600 English-taught degree programmes across various academic fields."
   },
   {
     "id": 3,
     "question": "3. What are the admission requirements to study in Finland?",
-    "answer": "For bachelor&#39;s programmes, students generally need a recognised Class 12 qualification. For master's programmes, a relevant bachelor's degree is required. Depending on the course and university, students may also need English proficiency test scores, entrance examination results or work experience."
+    "answer": "For bachelor's programmes, students generally need a recognised Class 12 qualification. For master's programmes, a relevant bachelor's degree is required. Depending on the course and university, students may also need English proficiency test scores, entrance examination results or work experience."
   },
   {
     "id": 4,
@@ -95,12 +95,12 @@ const faqData = [
   {
     "id": 7,
     "question": "7. How much does it cost to study in Finland for Indian students?",
-    "answer": "For Indian students, tuition fees for English-taught bachelor&#39;s and master&#39;s programmes generally range from €9,000 to €20,000 per year. Living expenses are approximately €900–€1,200 per month, depending on the city and lifestyle."
+    "answer": "For Indian students, tuition fees for English-taught bachelor's and master's programmes generally range from €9,000 to €20,000 per year. Living expenses are approximately €900–€1,200 per month, depending on the city and lifestyle."
   },
   {
     "id": 8,
     "question": "8. Can Indian students study in Finland for free?",
-    "answer": "Most Indian students applying for English-taught bachelor&#39;s and master&#39;s programmes need to pay tuition fees. However, some universities offer scholarships and tuition fee waivers. Doctoral programmes generally do not charge tuition fees."
+    "answer": "Most Indian students applying for English-taught bachelor's and master's programmes need to pay tuition fees. However, some universities offer scholarships and tuition fee waivers. Doctoral programmes generally do not charge tuition fees."
   },
   {
     "id": 9,
@@ -271,7 +271,7 @@ const faqData = [
                })}
             </div>
             <div className="flex justify-end items-end mt-5">
-               <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read about us<FaArrowRightLong className="inline-block"/></Link>
+               <Link href="/about" className="text-blue-500 font-roboto hover:underline">Read about us<FaArrowRightLong className="inline-block"/></Link>
             </div>
          </div>
         <script

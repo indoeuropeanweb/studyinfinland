@@ -74,9 +74,9 @@ const page = () => {
       "@type": "WebPage",
       "@id": "https://www.studyinfinland.in/finland/state/#webpage",
       "url": "https://www.studyinfinland.in/finland/state/",
-      "name": "Study in finland",
+      "name": "Finland States: Explore Regions, Cities & Student Life",
       "description":
-        "Discover Finland, one of Europe's fastest-growing study destinations offering affordable education, globally recognized universities, scholarships, and excellent career opportunities.",
+        "Explore Finland states, regions and major cities. Discover student life, education opportunities, lifestyle and popular destinations for international students.",
       "isPartOf": {
         "@id": "https://www.studyinfinland.in/#website"
       },
@@ -196,7 +196,7 @@ const page = () => {
             </div>
           </div>
         <div className="flex justify-end items-end mt-5">
-            <Link href={'/finland/nature-and-climate'} className="text-blue-500 font-roboto hover:underline">Read about nature and climate <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/finland/nature-and-climate" className="text-blue-500 font-roboto hover:underline">Read about nature and climate <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

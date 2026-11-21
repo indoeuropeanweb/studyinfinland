@@ -109,7 +109,7 @@ const LithuaniaClient = () => {
                         </p>
                </div>
                <div className="flex justify-end items-end">
-                  <Link href={'/finland/state'} className="text-blue-500 font-roboto hover:underline">Read about state <FaArrowRightLong className="inline-block"/></Link>
+                  <Link href="/finland/state" className="text-blue-500 font-roboto hover:underline">Read about state <FaArrowRightLong className="inline-block"/></Link>
                </div>
          </div>
       </>

@@ -271,7 +271,7 @@ export default async function BlogPage({ params }) {
           {blog.faqs.map((faq, index) => (
             <div key={index} className="mt-4">
               <h3 className="font-semibold font-roboto">
-                {faq.question}
+                {`Q${index + 1}.`} {faq.question}
               </h3>
 
               <p className="font-inter text-justify">

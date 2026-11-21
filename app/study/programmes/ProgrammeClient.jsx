@@ -201,7 +201,7 @@ const ProgrammeClient = () => {
           </div>: <div className="text-center w-full font-medium text-base lg:text-xl text-gray-500">No courses found</div>}
         </div>
         <div className="flex justify-end items-end mt-5">
-            <Link href={'/study/bachelors'} className="text-blue-500 font-roboto hover:underline">Read bachelors programme <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/study/bachelors" className="text-blue-500 font-roboto hover:underline">Read bachelors programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </section>
     </>

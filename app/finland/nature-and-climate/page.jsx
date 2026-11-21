@@ -208,7 +208,7 @@ const page = () => {
           </p>
         </div>
         <div className="flex justify-end items-end mt-5">
-            <Link href={'/finland/economy'} className="text-blue-500 font-roboto hover:underline">Read about economy <FaArrowRightLong className="inline-block"/></Link>
+            <Link href="/finland/economy" className="text-blue-500 font-roboto hover:underline">Read about economy <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

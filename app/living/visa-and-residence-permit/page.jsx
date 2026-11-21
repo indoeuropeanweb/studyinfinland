@@ -16,7 +16,7 @@ export const metadata = {
         "Finland student visa process",
         "Finland visa documents",
         "Finland study permit"
-  ],
+  ], 
   alternates: {
     canonical: "https://www.studyinfinland.in/living/visa-and-residence-permit"
   },
@@ -248,7 +248,7 @@ const page = () => {
               <p className='font-roboto text-md lg:text-base mt-3 text-justify'>Connect with finland Consultancy for guidance on studying in Finland and take the next step towards your international education goals.</p>
             </div>
             <div className="flex justify-end items-end mt-5">
-               <Link href={'/living/working'} className="text-blue-500 font-roboto hover:underline">Read about working in finland<FaArrowRightLong className="inline-block"/></Link>
+               <Link href="/living/working" className="text-blue-500 font-roboto hover:underline">Read about working in finland<FaArrowRightLong className="inline-block"/></Link>
             </div>
         </div>
         <script
