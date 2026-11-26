@@ -238,6 +238,45 @@ export default async function BlogPage({ params }) {
           );
         }
 
+      if (section.type === "table") {
+        return (
+          <div key={index} className="mt-8 w-full overflow-x-auto rounded-xl border border-gray-200">
+
+            <table className="w-full border-collapse text-left">
+
+              <tbody>
+                {section.content.map((row, rowIndex) => (
+                  <tr
+                    key={rowIndex}
+                    className={
+                      rowIndex === 0
+                        ? "bg-primary text-white font-semibold"
+                        : rowIndex % 2 === 0
+                        ? "bg-gray-50"
+                        : "bg-white"
+                    }
+                  >
+                    {row.items.map((item, itemIndex) => (
+                      <td
+                        key={itemIndex}
+                        className="px-5 py-4 border border-gray-200 text-gray-700"
+                      >
+                        {rowIndex === 0 ? (
+                          <strong className="text-white">{item}</strong>
+                        ) : (
+                          item
+                        )}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+
+            </table>
+          </div>
+        );
+      }
+
       if (section.type === "list") {
         return (
           <ul
@@ -259,7 +298,6 @@ export default async function BlogPage({ params }) {
           </ul>
         );
       }
-
       return null;
     })}
 

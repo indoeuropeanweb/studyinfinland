@@ -88,7 +88,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.webp'} alt="bachelors in finland" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.webp'} alt="Masters in finland" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-primary text-lg md:text-2xl font-aino">Master's</h4>
                <p className="text-primary text-sm md:text-md text-center">Gain specialised knowledge through advanced postgraduate programmes focused on research, innovation, and professional development.</p>
@@ -99,18 +99,18 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/doctoral.webp'} alt="bachelors in finland" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/phd.webp'} alt="PhD in finland" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
-               <h4 className="text-white text-lg md:text-2xl font-aino">PhD</h4>
-               <p className="text-white text-sm md:text-md text-center">Explore doctoral research opportunities at Finnish universities with expert supervision, advanced research facilities, and academic development.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href="/study/phd">Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <h4 className="text-white text-lg md:text-2xl font-aino">Universities</h4>
+               <p className="text-white text-sm md:text-md text-center">Finland is home to internationally recognised universities offering quality education, modern learning facilities, and globally valued degrees.</p>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href="/study/universities">Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
           </div>
           <div className="relative">
             <div>
-               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.webp'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/programmes.webp'} alt="programmes in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-primary text-lg md:text-2xl font-aino">All Programmes</h4>
                <p className="text-primary text-sm md:text-md text-center">Discover English-taught degree programmes in Business, Engineering, IT, Healthcare, and other fields aligned with your career goals.</p>

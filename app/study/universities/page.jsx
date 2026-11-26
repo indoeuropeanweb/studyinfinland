@@ -290,9 +290,6 @@ const schema = {
             Finnish universities focus on research, innovation, and practical learning, providing Bachelor's,
             Master's, and PhD programmes. Many institutions also offer English-taught programmes,
             making Finland an attractive destination for Indian and international students.
-          <br />
-          <br />
-          Students may opt for one of many types of <Link className="font-semibold hover:underline" href="/study/programmes">study programmes</Link>, which in Lithuania offer bachelor’s, master’s, and PhD degrees. A lot of them are lectured in English, mixing the academic with the hands-on. Areas like computer science, engineering, business, healthcare, finance, and social sciences are quite popular among international students since they make it easier for foreigners to find good jobs in Europe after  ‍ ‌‍ ‍‌graduation.
           </p>
           <div className="mt-12">
           <h2 className="font-aino text-2xl md:text-4xl">Discover Leading Universities in Finland</h2>

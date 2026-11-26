@@ -19,10 +19,10 @@ const menuItems = [
      heading: "Master's",
      href: "/study/masters"
   },
-  {
-     heading: "PhD",
-     href: "/study/phd"
-  },
+  // {
+  //    heading: "PhD",
+  //    href: "/study/phd"
+  // },
   {
     heading: "Admission",
     href: "/study/admission"

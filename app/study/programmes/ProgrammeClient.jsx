@@ -36,7 +36,7 @@ const ProgrammeClient = () => {
     const fetchCourses = async () => {
       try {
         setLoading(true);
-        const url = `https://crm.indoeuropean.in/WebService/CourseFinder/Programs_api.asmx/ProgramsAPI?countryid=111&univid=${filters.university || ""}&levelid=${filters.level || ""}&intakeid=&searchtext=${filters.searchText || ""}`;
+        const url = `https://crm.indoeuropean.in/WebService/CourseFinder/Programs_api.asmx/ProgramsAPI?countryid=62&univid=${filters.university || ""}&levelid=${filters.level || ""}&intakeid=&searchtext=${filters.searchText || ""}`;
         const response = await axios.get(url);
 
         setCourseData(response?.data);
@@ -70,7 +70,7 @@ const ProgrammeClient = () => {
 
   const { data: universityData } = useFetch(
     "https://crm.indoeuropean.in/WebService/CourseFinder/Programs_api.asmx",
-    "UniversityAPI?countryid=111",
+    "UniversityAPI?countryid=62",
     ""
   );
 

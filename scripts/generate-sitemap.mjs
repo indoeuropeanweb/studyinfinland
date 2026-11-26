@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const SITE_URL = "https://www.studyinlithuania.in";
+const SITE_URL = "https://www.studyinfinland.in";
 const OUTPUT_DIR = path.resolve("out");
 const SITEMAP_PATH = path.join(OUTPUT_DIR, "sitemap.xml");
 
